@@ -1,7 +1,11 @@
+// container 相關
 .container {
-    max-width: 1600px;
+    max-width: 1800px;
     margin: 0 auto;
+    padding: 0 15px;
 }
+
+// flex 相關
 .d-flex {
     display: flex;
 }
@@ -13,6 +17,17 @@
 }
 .justify-content-between {
     justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+
+// margin 相關
+.mr-20 {
+    margin-right: 20px;
+}
+.ml-20 {
+    margin-left: 20px;
 }
 .mb-20 {
     margin-bottom: 20px;

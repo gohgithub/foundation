@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.5;
+	font-family: 'Noto Sans TC', sans-serif;
+	background-image: url('./assets/image/front/background.svg');
+    height: 100vh;
 }
 ol, ul {
 	list-style: none;
