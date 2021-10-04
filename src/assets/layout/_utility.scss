@@ -9,6 +9,9 @@
 .d-flex {
     display: flex;
 }
+.justify-content-center {
+    justify-content: center;
+}
 .justify-content-around {
     justify-content: space-around;
 }
@@ -28,6 +31,9 @@
 }
 .ml-20 {
     margin-left: 20px;
+}
+.mx-20 {
+    margin: 0 20px;
 }
 .mb-20 {
     margin-bottom: 20px;
