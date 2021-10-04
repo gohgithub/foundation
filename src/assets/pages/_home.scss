@@ -1,7 +1,7 @@
 .banner {
     background-color: #F4F5F6;
     padding: 50px 0 120px 0;
-    margin-bottom: 108px;
+    margin-bottom: 160px;
     position: relative;
     &-container {
         max-width: 1500px;
@@ -10,8 +10,6 @@
     }
     &-inner {
         position: relative;
-        max-width: 1060px;
-        margin: 0 auto;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         opacity: .9;
         border: 2px solid #232425;
@@ -87,8 +85,8 @@
 }
 
 .service {
-    max-width: 1060px;
-    margin: 0 auto;
+    margin-bottom: 240px;
+    position: relative;
     // 對話框
     &-bubble {
         width: 765px;
@@ -98,10 +96,11 @@
         font-size: 20px;
         text-align: center;
         border: 1px solid black;
-        p {
+        h2 {
             margin: 25px 0;
             font-size: 26px;
             letter-spacing: 2px;
+            z-index: 2;
         }
         span {
             display: inline-block;
@@ -113,8 +112,8 @@
         }
     }
     &-pointer {
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 50px;
         background: white;
         border: 1px solid black;
         border-top: none;
@@ -122,7 +121,47 @@
         margin: 0 auto;
         transform: rotate(45deg);
         border-radius: 0 0 2px 0;
-        margin-top: -16px;
+        margin-top: -26.5px;
         position: relative;
+    }
+    &-image1 {
+        position: absolute;
+        top: -10%;
+        z-index: -1;
+    }
+    &-image2 {
+        position: absolute;
+        top: -52%;
+        right: 12%;
+        z-index: -1;
+    }
+    &-image3 {
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        z-index: -1;
+    }
+}
+
+.choose {
+    .sub-title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: $purple;
+    }
+    h2 {
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .title-line {
+        display: block;
+        margin: 20px auto 30px auto;
+    }
+    .content {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 2px;
     }
 }

@@ -3,7 +3,9 @@
     <header class="container">
       <section class="header">
         <div class="header-logo">
-          <img src="../assets/image/front/logo.svg">
+          <a href="#">
+              <img src="../assets/image/front/logo.svg">
+          </a>
           <hr class="header-line">
           <h1>小媽媽資源整合平台</h1>
         </div>
