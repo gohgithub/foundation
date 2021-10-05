@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-undef */
 <template>
   <div>
     <!-- banner 區塊 -->
@@ -44,6 +42,7 @@
         <p class="content">生命的重量不應該只有自己來承擔，有時候簡單的一些行動也能為自己帶來不一樣未來。<br>
         不必覺得自己會成為負擔或是問題，讓我們一起幫妳撐起那生命的重量。</p>
       </section>
+
   </div>
 </template>
 <script>
@@ -51,9 +50,6 @@ export default {
   data () {
     return {
     }
-  },
-  methods: {
-
   }
 }
 </script>

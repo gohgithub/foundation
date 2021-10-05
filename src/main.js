@@ -13,4 +13,5 @@ import '@fortawesome/fontawesome-free/js/all.js'
 const app = createApp(App)
 app.use(VueAxios, axios)
 app.use(router)
+
 app.mount('#app')
