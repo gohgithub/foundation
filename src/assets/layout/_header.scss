@@ -62,6 +62,7 @@
     cursor: pointer;
     display: flex;
     padding: 0;
+    z-index: 1056;
     .line {
         fill: none;
         stroke: black;
@@ -98,3 +99,71 @@
     stroke-width: 2;
   }
   
+  // modal 相關
+  .modal.right .modal-dialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transform: translate3d(0%, 0, 0);
+  }
+  
+  .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    border: none;
+    border-radius: 0%;
+  }
+
+  .modal.right .modal-body {
+    display: flex;
+    align-items: center;
+    background-color: #FBB5B5;
+  }
+
+  .modal.right .modal-box {
+    max-width: 630px;
+    margin: 0 auto;
+  }
+
+  .modal-list {
+    margin-top: 102px;
+    p {
+      color: black;
+      margin: 0;
+    }
+    a {
+      display: flex;
+      padding: 25px 0;
+    }
+    h3 {
+      font-size: 26px;
+      letter-spacing: 2px;
+      margin: 0 50px;
+    }
+    span {
+      color: black;
+      margin-top: 15px;
+      display: inline-block;
+    }
+    li {
+      display: flex;
+    }
+    img {
+      object-fit: none;
+      margin-right: 30px;
+      margin-bottom: 15px;
+      visibility: hidden;
+    }
+  }
+
+  .modal-social {
+    border-top: 1px solid black;
+    a {
+      border-right: 1px solid black;
+      padding: 0px 35px;
+      margin-top: 40px;
+    }
+  }

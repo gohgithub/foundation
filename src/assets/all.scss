@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap'); // 載入 Noto 字型
+ // 載入 Noto 字型
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap');
 
-@import './layout/base'; // 載入 reset.css
-@import './layout/utility'; // 載入自訂通用類別
-@import './layout/mixin'; // 載入 mixin 
+// 載入 Bootstrap 5
+@import "~bootstrap/scss/functions";
+@import "./layout/variables";
+@import "~bootstrap/scss/bootstrap";
 
+// 載入 reset.css
+@import './layout/base';
+
+// 載入自訂通用類別 + 變數
+@import './layout/utility'; 
+@import './layout/mixin';
 @import './layout/layout';
+
+// 畫面 SCSS
 @import './layout/header';
 @import './pages/home';

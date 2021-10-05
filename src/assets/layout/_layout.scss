@@ -1,0 +1,35 @@
+// 畫面四條粉色 border
+.topOutline {
+	width: 100%;
+	height: 20px;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	background-color: #FBB5B5;
+}
+.rightOutline {
+	width: 20px;
+	height: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+    right: 0;
+	background-color: #FBB5B5;
+}
+.bottomOutline {
+	width: 100%;
+	height: 20px;
+	z-index: 10;
+	position: fixed;
+	bottom: 0;
+	background-color: #FBB5B5;
+}
+.leftOutline {
+	width: 20px;
+	height: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+    left: 0;
+	background-color: #FBB5B5;
+}

@@ -2,32 +2,12 @@
 .container {
     max-width: 1800px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 35px;
 }
 
 .container-inner {
     max-width: 1060px;
     margin: 0 auto;
-}
-
-// flex 相關
-.d-flex {
-    display: flex;
-}
-.justify-content-center {
-    justify-content: center;
-}
-.justify-content-around {
-    justify-content: space-around;
-}
-.justify-content-end {
-    justify-content: flex-end;
-}
-.justify-content-between {
-    justify-content: space-between;
-}
-.align-items-center {
-    align-items: center;
 }
 
 // margin 相關
@@ -45,4 +25,9 @@
 }
 .mb-36 {
     margin-bottom: 36px;
+}
+
+// width 相關
+.w-33 {
+    width: 33% !important;
 }
