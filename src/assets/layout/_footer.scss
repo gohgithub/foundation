@@ -1,0 +1,38 @@
+.footer {
+    background-color: black;
+    &-item {
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+    }
+    &-line {
+        opacity: 1;
+        color: white;
+        background-color: white;
+    }
+    &-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 50px;
+        li {
+            padding: 0;
+            width: 25%;
+        }
+        a {
+            color: white;
+            font-size: 20px;
+            letter-spacing: 6px;
+        }
+    }
+    img {
+        padding-left: 15px;
+    }
+    h2 {
+        color: white;
+        letter-spacing: 20px;
+        font-size: 21px;
+        padding-left: 25px;
+        padding-bottom: 45px;
+    }
+}

@@ -1,6 +1,7 @@
 .banner {
     background-color: #F4F5F6;
     padding: 50px 0 120px 0;
+    margin-top: 220px;
     margin-bottom: 160px;
     position: relative;
     &-container {
@@ -29,7 +30,7 @@
         position: absolute;
         top: -12%;
         right: -4%;
-        animation:turn 3s linear infinite;
+        animation:turn 30s linear infinite;
     }
     img {
         display: block;
@@ -183,31 +184,47 @@
         letter-spacing: 2px;
         margin-bottom: 36px;
     }
+    .circle-1 {
+        background-color: #F6DBDB;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 15px auto;
+    }
+    .circle-2 {
+        background-color: #FCE364;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 15px auto;
+    }
+    .circle-3 {
+        background-color: #9D4CFF;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 15px auto;
+    }
 }
 
-.chooseSwiper {
-    height: 1450px;
+.choose-inner {
     background-color: #F8F6EF;
     border-radius: 30px;
-    .swiper-slide {
-        padding-top: 100px;
-        ul {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        li {
-            width: 50%;
-        }
-        .bg-banana {
-            background-color: #F0DDBD;
-        }
+    padding-top: 100px;
+    margin-bottom: 180px;
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    .swiper-outside-top {
+    li {
+        width: 50%;
+    }
+    .choose-outside-top {
         display: flex;
         justify-content: center;
     }
-    .swiper-box {
+    .choose-box {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -216,15 +233,21 @@
         padding: 0 30px 30px 30px;
         border-radius: 30px;
         margin: 0 auto;
-        box-shadow: 10px 10px 20px #A233334D;
-        height: 100%
+        height: 100%;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) box-shadow 1s;
+        &:hover {
+            box-shadow: 10px 10px 20px #A233334D;
+        }
     }
-    .swiper-card {
+    .choose-card {
         margin: 50px 40px 100px 40px;
         img {
             display: block;
             margin: 15px auto 0 auto;
             border-radius: 30px;
+        }
+        .bg-banana {
+            background-color: #F0DDBD;
         }
         h2 {
             transform: translateY(-22px);
@@ -261,19 +284,5 @@
             color: black;
             opacity: 1;
         }
-    }
-}
-
-.choose-swiper-pagination {
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: static;
-    padding: 0;
-    .swiper-pagination-bullet {
-        background-color: $purple;
-        transform: scale(1.5);
-        margin: 10px 0 !important;
     }
 }
