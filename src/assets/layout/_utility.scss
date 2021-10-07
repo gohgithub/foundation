@@ -14,17 +14,24 @@
 .mr-20 {
     margin-right: 20px;
 }
+
 .ml-20 {
     margin-left: 20px;
 }
+
 .mx-20 {
     margin: 0 20px;
 }
+
 .mb-20 {
     margin-bottom: 20px;
 }
 .mb-36 {
     margin-bottom: 36px;
+}
+
+.mt-48 {
+    margin-top: 48px;
 }
 
 // width 相關
@@ -34,4 +41,8 @@
 
 .background-none {
     background: none !important
+}
+
+.custom-visible {
+	visibility: hidden !important;
 }

@@ -1,6 +1,9 @@
 <template>
   <div>
     <section class="footer">
+      <a class="goTop" href="#" v-scroll-to="'#header'">
+        <p>TOP</p>
+      </a>
       <div class="container footer-item">
         <div class="w-50">
           <a href="#">

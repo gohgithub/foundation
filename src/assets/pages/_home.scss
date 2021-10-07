@@ -65,33 +65,17 @@
         color: $purple;
     }
     .line {
-        width: 2px;
+        width: 0px;
         border: none;
-        height: 150px;
         background-color: $purple;
         position: absolute;
         top: -9%;
         z-index: 1;
         left: 50%;
-    }
-}
-
-// 旋轉動畫
-@keyframes turn{
-    0% {
-        -webkit-transform:rotate(0deg);
-    }
-    25% {
-        -webkit-transform:rotate(90deg);
-    }
-    50% {
-        -webkit-transform:rotate(180deg);
-    }
-    75% {
-        -webkit-transform:rotate(270deg);
-    }
-    100% { 
-        -webkit-transform:rotate(360deg);
+        animation: line 2s ease-in-out;
+        animation-fill-mode:forwards;
+        animation-delay: 1s;
+        opacity: .5;
     }
 }
 
@@ -184,26 +168,41 @@
         letter-spacing: 2px;
         margin-bottom: 36px;
     }
+.circle-box {
+    position: relative;
+    margin: 200px 0;
     .circle-1 {
         background-color: #F6DBDB;
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        margin: 15px auto;
+        position: absolute;
+        left: 50%;
+        top: 0;
     }
     .circle-2 {
         background-color: #FCE364;
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        margin: 15px auto;
+        position: absolute;
+        left: 50%;
+        top: 0px;
     }
     .circle-3 {
         background-color: #9D4CFF;
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        margin: 15px auto;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+    }
+}
+    .scroll-word {
+        position: absolute;
+        top: -3.5%;
+        right: -60%;
     }
 }
 
@@ -284,5 +283,67 @@
             color: black;
             opacity: 1;
         }
+    }
+}
+
+// 旋轉動畫
+@keyframes turn{
+    0% {
+        -webkit-transform:rotate(0deg);
+    }
+    25% {
+        -webkit-transform:rotate(90deg);
+    }
+    50% {
+        -webkit-transform:rotate(180deg);
+    }
+    75% {
+        -webkit-transform:rotate(270deg);
+    }
+    100% { 
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+.circle-2-an {
+    animation: circle2-animate 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.circle-3-an {
+    animation: circle3-animate 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+// 線條動畫
+@keyframes line {
+    0% {
+        width: 2px;
+        height: 0%;
+    }
+    100% {
+        width: 2px;
+        height: 150px;
+    }
+}
+
+// 圓圈動畫
+@keyframes circle2-animate {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 30px;
+    }
+}
+@keyframes circle3-animate {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 30px;
+    }
+    100% {
+        top: 60px;
     }
 }

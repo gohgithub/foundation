@@ -28,7 +28,7 @@
     </div>
 
     <!-- fixed-header -->
-    <header class="container header-fixed fixed-top">
+    <header class="container header-fixed fixed-top" id="header">
       <section class="header" data-aos="fade-down" data-aos-duration="2000">
         <div class="header-logo">
           <a href="#">
