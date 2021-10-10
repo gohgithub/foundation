@@ -116,7 +116,7 @@
         margin: 0 auto;
         transform: rotate(45deg);
         border-radius: 0 0 2px 0;
-        margin-top: -26.5px;
+        margin-top: -25px;
         position: relative;
     }
     &-image1 {
@@ -141,19 +141,35 @@
 .choose {
     position: relative;
     margin-bottom: 150px;
+    h2 {
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 2px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        span {
+            color: $purple;
+        }
+    }
     .pic2 {
         position: absolute;
         top: 120px;
         right: 0px;
         z-index: 2;
     }
-    .sub-title {
+    .step-text {
         font-size: 18px;
         letter-spacing: 2px;
         text-align: center;
         color: $purple;
     }
-    h2 {
+    .sub-title {
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 2px;
+        padding: 5px 0;
+    }
+    h3 {
         font-size: 30px;
         letter-spacing: 2px;
         text-align: center;
@@ -168,6 +184,13 @@
         letter-spacing: 2px;
         margin-bottom: 36px;
     }
+    .scroll-word {
+        position: absolute;
+        top: -3.5%;
+        right: -60%;
+    }
+}
+
 .circle-box {
     position: relative;
     margin: 200px 0;
@@ -199,17 +222,10 @@
         top: 0px;
     }
 }
-    .scroll-word {
-        position: absolute;
-        top: -3.5%;
-        right: -60%;
-    }
-}
 
 .choose-inner {
     background-color: #F8F6EF;
     border-radius: 30px;
-    padding-top: 100px;
     margin-bottom: 180px;
     ul {
         display: flex;
@@ -248,7 +264,7 @@
         .bg-banana {
             background-color: #F0DDBD;
         }
-        h2 {
+        h3 {
             transform: translateY(-22px);
         }
         p {

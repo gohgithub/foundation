@@ -36,29 +36,30 @@
       </section>
 
     <!-- choose 區塊 -->
-      <section class="choose container" id="section">
+      <section class="choose container">
         <img class="scroll-word" src="../../assets/image/front/scroll_word.svg">
         <img class="pic2" data-aos="fade-up" data-aos-duration="1500" src="../../assets/image/front/choose_image2.svg">
-        <p class="sub-title" data-aos="fade-up" data-aos-duration="1500">STEP 01</p>
-        <h2 data-aos="fade-up" data-aos-duration="1500">問・題·選·擇</h2>
+        <p class="step-text" data-aos="fade-up" data-aos-duration="1500">STEP 01</p>
+        <h2 class="sub-title" data-aos="fade-up" data-aos-duration="1500">問・題·選·擇</h2>
         <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" data-aos-duration="1500">
-        <p class="content" data-aos="fade-up" data-aos-duration="1500">生命的重量不應該只有自己來承擔，有時候簡單的一些行動也能為自己帶來不一樣未來。<br>
+        <p class="content" data-aos="fade-up" data-aos-duration="1500" id="section">生命的重量不應該只有自己來承擔，有時候簡單的一些行動也能為自己帶來不一樣未來。<br>
         不必覺得自己會成為負擔或是問題，讓我們一起幫妳撐起那生命的重量。</p>
         <div class="choose-inner">
+          <h2 data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400">- 我們提供專屬的<span>匿名</span>個人化智慧服務 -</h2>
           <!-- 上層 -->
           <div class="choose-outside-top">
-            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="400">
               <div class="choose-box">
-                <h2>我懷孕了</h2>
+                <h3>我非預期懷孕了</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic1.jpg">
                 <p>在這條道路上，<br>你從來不是獨自一人。</p>
                 <a href="#/page">了解更多</a>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-offset="400">
               <div class="choose-box bg-banana">
-                <h2>女友懷孕了</h2>
+                <h3>女友懷孕了</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic2.jpg">
                 <p>支持與陪伴，<br>勝過千言萬語。</p>
@@ -68,27 +69,27 @@
           </div>
           <!-- 下層 -->
           <div class="d-flex justify-content-center">
-            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="400">
               <div class="choose-box bg-banana">
-                <h2>女兒懷孕了</h2>
+                <h3>女兒懷孕了</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic3.jpg">
                 <p>其實很多所謂的大人，<br>在面對這種狀況時，顯得更無助。</p>
                 <a href="#">了解更多</a>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-offset="400">
               <div class="choose-box">
-                <h2>我是親友</h2>
+                <h3>我是親友</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic4.jpg">
                 <p>人生中的每場際遇，從來不會太快<br>或太慢，生命中的一切都準時到來。</p>
                 <a href="#">了解更多</a>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900" data-aos-offset="400">
               <div class="choose-box bg-banana">
-                <h2>我想支持</h2>
+                <h3>我想支持</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic5.jpg">
                 <p>邀請您把手借給我，<br>讓暖光持續照亮。</p>
@@ -97,21 +98,20 @@
             </div>
           </div>
         </div>
-
-        <!-- 三個圓點 -->
-        <div class="circle-box">
-          <div class="circle-1"></div>
-          <div class="circle-2"></div>
-          <div class="circle-3"></div>
-          <div class="invisible">no element</div>
-        </div>
       </section>
+      <Circle></Circle>
     </main>
   </div>
 </template>
 <script>
-import $ from 'jquery'
+// 載入 PointCircle 元件
+import Circle from '../../components/PointCircle.vue'
+
+// 載入 gsap 套件
 import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+
+// 載入 animate 套件
 import 'animate.css'
 
 export default {
@@ -121,10 +121,9 @@ export default {
     }
   },
   mounted () {
-    const vm = this
     // eslint-disable-next-line no-undef
     gsap.registerPlugin(ScrollTrigger)
-    // 文字動化
+    // 文字動畫
     gsap.to('.scroll-word', {
       scrollTrigger: {
         trigger: '.scroll-word',
@@ -133,23 +132,9 @@ export default {
       x: -600,
       duration: 10
     })
-    // 圓點滾動動畫
-    gsap.to('.circle-1', {
-      scrollTrigger: {
-        trigger: '.circle-1',
-        start: 'top center',
-        onEnter: function () {
-          vm.circleAnimate()
-        }
-      }
-    })
   },
-  methods: {
-    // 圓圈動畫
-    circleAnimate () {
-      $('.circle-2').addClass('circle-2-an')
-      $('.circle-3').addClass('circle-3-an')
-    }
+  components: {
+    Circle
   }
 }
 </script>

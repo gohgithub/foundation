@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="footer">
-      <a class="goTop" href="#" v-scroll-to="'#header'">
+      <a class="goTop" href="#" v-scroll-to="'#header'" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
         <p>TOP</p>
       </a>
       <div class="container footer-item">
