@@ -37,8 +37,15 @@
 
     <!-- choose 區塊 -->
       <section class="choose container">
+        <!-- 邊框小樣式 -->
         <img class="scroll-word" src="../../assets/image/front/scroll_word.svg">
-        <img class="pic2" data-aos="fade-up" data-aos-duration="1500" src="../../assets/image/front/choose_image2.svg">
+        <img class="pic1" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400" src="../../assets/image/front/choose_image3.svg">
+        <img class="pic2" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400" src="../../assets/image/front/choose_image2.svg">
+        <img class="pic3" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400" src="../../assets/image/front/choose_image4.svg">
+        <img class="pic4" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400" src="../../assets/image/front/choose_image5.svg">
+        <img class="pic5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400" src="../../assets/image/front/choose_image6.svg">
+        <img class="pic6" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="400" src="../../assets/image/front/choose_image7.svg">
+        <!-- 結束 -->
         <p class="step-text" data-aos="fade-up" data-aos-duration="1500">STEP 01</p>
         <h2 class="sub-title" data-aos="fade-up" data-aos-duration="1500">問・題·選·擇</h2>
         <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" data-aos-duration="1500">
@@ -54,7 +61,8 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic1.jpg">
                 <p>在這條道路上，<br>你從來不是獨自一人。</p>
-                <a href="#/page">了解更多</a>
+                <router-link to="page" @click="toTop">了解更多</router-link>
+                <!-- <a href="#/page" @click="test">了解更多</a> -->
               </div>
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-offset="400">
@@ -68,9 +76,9 @@
             </div>
           </div>
           <!-- 下層 -->
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center pb-64">
             <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="400">
-              <div class="choose-box bg-banana">
+              <div class="choose-box">
                 <h3>女兒懷孕了</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic3.jpg">
@@ -79,7 +87,7 @@
               </div>
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-offset="400">
-              <div class="choose-box">
+              <div class="choose-box bg-banana">
                 <h3>我是親友</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic4.jpg">
@@ -88,7 +96,7 @@
               </div>
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900" data-aos-offset="400">
-              <div class="choose-box bg-banana">
+              <div class="choose-box">
                 <h3>我想支持</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic5.jpg">
@@ -121,7 +129,6 @@ export default {
     }
   },
   mounted () {
-    // eslint-disable-next-line no-undef
     gsap.registerPlugin(ScrollTrigger)
     // 文字動畫
     gsap.to('.scroll-word', {
@@ -132,6 +139,9 @@ export default {
       x: -600,
       duration: 10
     })
+  },
+  methods: {
+
   },
   components: {
     Circle

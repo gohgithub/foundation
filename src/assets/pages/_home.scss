@@ -151,11 +151,38 @@
             color: $purple;
         }
     }
+    .pic1 {
+        position: absolute;
+        bottom: -50px;
+        left: 210px;
+    }
     .pic2 {
         position: absolute;
         top: 120px;
         right: 0px;
         z-index: 2;
+    }
+    .pic3 {
+        position: absolute;
+        bottom: -140px;
+        right: -10px;
+        z-index: -1;
+    }
+    .pic4 {
+        position: absolute;
+        top: 370px;
+        left: -15px;
+    }
+    .pic5 {
+        position: absolute;
+        top: 140px;
+        left: 120px;
+    }
+    .pic6 {
+        position: absolute;
+        bottom: -90px;
+        z-index: -1;
+        left: -145px;
     }
     .step-text {
         font-size: 18px;
@@ -263,6 +290,9 @@
         }
         .bg-banana {
             background-color: #F0DDBD;
+            &:hover {
+                box-shadow: 10px 10px 20px #523A0E4D;
+            }
         }
         h3 {
             transform: translateY(-22px);
@@ -285,9 +315,11 @@
             color: color;
             letter-spacing: 2px;
             font-size: 20px;
+            outline: 1px solid black;
             &:hover {
                 background-color: #C08C7E;
                 color: white;
+                outline: none;
                 transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
             }
         }

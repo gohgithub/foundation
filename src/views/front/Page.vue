@@ -4,7 +4,7 @@
       <section class="container" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">首頁</a></li>
+            <li class="breadcrumb-item"><a href="/">首頁</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">中止・生下</a></li>
           </ol>
         </nav>
@@ -20,7 +20,7 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <p class="step-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">STEP 02</p>
-          <h2 class="sub-title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">中止・生下</h2>
+          <h2 class="step-title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">中止・生下</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
           <p class="content" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">為自己所想，為自己所選。</p>
           <div class="container step-box">
@@ -36,12 +36,12 @@
                 </li>
                 <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <a href="#">我不想要生下來</a>
+                  <router-link to="/">我不想要生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <a href="#">我想要生下來</a>
+                  <router-link to="select">我想要生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>
@@ -54,7 +54,6 @@
 </template>
 <script>
 import Circle from '../../components/PointCircle.vue'
-import gsap from 'gsap'
 
 export default {
   data () {
@@ -63,17 +62,7 @@ export default {
     }
   },
   mounted () {
-    // eslint-disable-next-line no-undef
-    gsap.registerPlugin(ScrollTrigger)
-    // 文字動畫
-    gsap.to('.scroll-word', {
-      scrollTrigger: {
-        trigger: '.scroll-word',
-        scrub: true
-      },
-      x: -600,
-      duration: 10
-    })
+
   },
   components: {
     Circle
