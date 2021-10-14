@@ -56,7 +56,7 @@ export default {
   data () {
     return {
       isLoading: false,
-      iscomplate: false
+      iscomplate: true
     }
   },
   components: {
@@ -64,12 +64,12 @@ export default {
     Footer
   },
   created () {
-    const vm = this
-    vm.isLoading = true
-    setTimeout(() => {
-      vm.isLoading = false
-      vm.iscomplate = true
-    }, 2000)
+    // const vm = this
+    // vm.isLoading = true
+    // setTimeout(() => {
+    //   vm.isLoading = false
+    //   vm.iscomplate = true
+    // }, 2000)
   }
 }
 </script>

@@ -20,10 +20,10 @@
           <img class="image2" src="../../assets/image/front/page02_image2.svg">
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
-          <p class="select-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">ANSEWR</p>
-          <h2 class="select-title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">選擇・答案</h2>
-          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
-          <p class="select-sologan" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">為自己所想，為自己所選。</p>
+          <p class="select-text" data-aos="fade-up" data-aos-duration="1500">ANSEWR</p>
+          <h2 class="select-title" data-aos="fade-up" data-aos-duration="1500">選擇・答案</h2>
+          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" data-aos-duration="1500">
+          <p class="select-sologan" data-aos="fade-up" data-aos-duration="1500">為自己所想，為自己所選。</p>
           <div class="container select-box">
             <div class="select-box-inner">
               <div class="box-title" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="600">
@@ -32,16 +32,27 @@
               <div class="select-menu">
                 <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。（呼應前一頁此項目的簡短文案）</p>
+                  <p>承擔起一個重要的責任。<br>
+                  或許辛苦，但是人們總說這是一個甜蜜的負擔。<br>
+                  我們一起看看，能夠從哪裡做起吧!</p>
                   <hr>
-                  <p>個笑嗎沒會人在為遠看香根大力流通適然美環用他小愛久。<br>
-                  年常和關歷？不北自日德出。未價你一，班本級一西需，沒人文大他式神價出；不的？<br>
-                  越期取年思、沒須果素多科驗候是化腳法管樣學在底進後樣會像明。戲學功……成言城、灣第強出由育<br>
-                  顯條求為？等令起備和性，作市市人、人常總出服防活說畫腦對眼福真人河車分，月他人長雖內節麼的<br>
-                  舉林。評物以地兒下飛為這導通自出母。連意然師離賽特運地點萬黨皮地雖克提語打數樂出了好金友王<br>
-                  石。南維容自備，管心用式因。<br>
-                  電備指絕客阿了眾到黃著所經黑是試因，主自同腦大想兩玩。還聯越都我代。統加是他腳。重所兒劇死<br>
-                  亮紙黨新；著盡拿南四高大物愛家立家導河兩農。去情孩賽有物，水雲如提了如己造一服望。</p>
+                    <ul class="step-menu">
+                      <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="400">
+                        <img src='../../assets/image/front/page02_pic1.jpg'>
+                        <a href="#">我需要有人一起討論</a>
+                        <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                      </li>
+                      <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" data-aos-offset="400">
+                        <img src='../../assets/image/front/page02_pic2.jpg'>
+                        <router-link to="/">我不想要生下來</router-link>
+                        <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                      </li>
+                      <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900" data-aos-offset="400">
+                        <img src='../../assets/image/front/page02_pic3.jpg'>
+                        <router-link to="select">我想要生下來</router-link>
+                        <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                      </li>
+                    </ul>
                 </div>
               </div>
             </div>
