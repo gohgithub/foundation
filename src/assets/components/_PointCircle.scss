@@ -1,0 +1,31 @@
+.circle-box {
+    position: relative;
+    margin: 200px 0;
+    .circle-1 {
+        background-color: #F6DBDB;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 8px);
+        top: 0;
+    }
+    .circle-2 {
+        background-color: #FCE364;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 8px);
+        top: 0px;
+    }
+    .circle-3 {
+        background-color: #9D4CFF;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 8px);
+        top: 0px;
+    }
+}

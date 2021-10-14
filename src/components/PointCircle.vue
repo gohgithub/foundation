@@ -1,12 +1,12 @@
 <template>
-    <div>
-      <section class="circle-box">
-        <div class="circle-1"></div>
-        <div class="circle-2"></div>
-        <div class="circle-3"></div>
-        <div class="invisible">no element</div>
-      </section>
-    </div>
+  <div>
+    <section class="circle-box">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="invisible">no element</div>
+    </section>
+  </div>
 </template>
 <script>
 import $ from 'jquery'

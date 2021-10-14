@@ -218,38 +218,6 @@
     }
 }
 
-.circle-box {
-    position: relative;
-    margin: 200px 0;
-    .circle-1 {
-        background-color: #F6DBDB;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        top: 0;
-    }
-    .circle-2 {
-        background-color: #FCE364;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        top: 0px;
-    }
-    .circle-3 {
-        background-color: #9D4CFF;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        top: 0px;
-    }
-}
-
 .choose-inner {
     background-color: #F8F6EF;
     border-radius: 30px;

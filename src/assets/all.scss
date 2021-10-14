@@ -14,9 +14,13 @@
 @import './layout/mixin';
 @import './layout/layout';
 
+// 載入元件 SCSS
+@import './components/header';
+@import './components/footer';
+@import './components/PointCircle';
+@import './components/consult';
+
 // 載入畫面 SCSS
-@import './layout/header';
-@import './layout/footer';
 @import './pages/home';
 @import './pages/page';
 @import './pages/select'

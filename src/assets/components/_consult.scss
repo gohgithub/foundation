@@ -1,0 +1,49 @@
+.consult {
+    margin: 180px 0;
+    &-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 35px;
+    }
+    h2 {
+        font-size: 34px;
+        text-align: center;
+        letter-spacing: 6px;
+        margin-bottom: 12px;
+    }
+    &-subTitle {
+        font-size: 20px;
+        letter-spacing: 2px;
+        color:#BEBEBE;
+        text-align: center;
+    }
+    li {
+        width: 50%;
+        margin-top: 50px;
+        border-right: 1px solid black;
+    }
+    &-box {
+        width: 66%;
+        background-color: #F4F5F6;
+        padding-top: 45px;
+        margin: 0 auto;
+        border-radius: 30px;
+        &:hover {
+            border: 1px $purple solid;
+        }
+        img {
+            display: block;
+            margin: 0 auto
+        }
+        a {
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: 3.5px;
+            text-decoration: underline;
+            padding: 35px 0 25px 0;
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
