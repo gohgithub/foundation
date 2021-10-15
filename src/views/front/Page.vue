@@ -20,10 +20,10 @@
           <img class="image2" src="../../assets/image/front/page02_image2.svg">
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
-          <p class="step-text" data-aos="fade-up" data-aos-delay="500">STEP 02</p>
-          <h2 class="step-title" data-aos="fade-up" data-aos-delay="500">中止・生下</h2>
-          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" data-aos-delay="500">
-          <p class="step-sologan" data-aos="fade-up" data-aos-delay="500">為自己所想，為自己所選。</p>
+          <p class="step-text" data-aos="fade-up">STEP 02</p>
+          <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
+          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
+          <p class="step-sologan" data-aos="fade-up">為自己所想，為自己所選。</p>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up" data-aos-offset="600">

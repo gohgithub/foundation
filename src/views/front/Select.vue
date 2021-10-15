@@ -43,12 +43,12 @@
                         <a href="#">家庭狀態</a>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up"  data-aos-delay="600" data-aos-offset="400">
+                      <li data-aos="fade-up"  data-aos-delay="500" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic2.jpg'>
                         <router-link to="/">相關法規</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic3.jpg'>
                         <router-link to="select">心理狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
@@ -58,20 +58,20 @@
                         <a href="#">校園支持</a>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="500" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic2.jpg'>
                         <router-link to="/">經濟狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic3.jpg'>
                         <router-link to="select">社福資源</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
-                    <hr data-aos="fade-up" data-aos-offset="500">
-                    <div data-aos="fade-up" data-aos-offset="500">>
+                    <hr data-aos="fade-up" data-aos-offset="400">
+                    <div data-aos="fade-up" data-aos-offset="400">
                       <a class="goBack" href="#">返回首頁</a>
                     </div>
                 </div>
@@ -80,6 +80,7 @@
           </div>
         </section>
         <Consult></Consult>
+        <Article></Article>
         <Circle></Circle>
       </main>
     </div>
@@ -87,6 +88,7 @@
 <script>
 import Circle from '../../components/PointCircle.vue'
 import Consult from '../../components/Consult.vue'
+import Article from '../../components/Article.vue'
 
 export default {
   data () {
@@ -99,7 +101,8 @@ export default {
   },
   components: {
     Circle,
-    Consult
+    Consult,
+    Article
   }
 }
 </script>
