@@ -2,7 +2,7 @@
     background-color: #F4F5F6;
     padding: 50px 0 120px 0;
     margin-top: 220px;
-    margin-bottom: 160px;
+    margin-bottom: 140px;
     position: relative;
     &-container {
         max-width: 1500px;
@@ -80,7 +80,7 @@
 }
 
 .service {
-    margin-bottom: 240px;
+    margin-bottom: 140px;
     position: relative;
     // 對話框
     &-bubble {
@@ -92,7 +92,7 @@
         text-align: center;
         border: 1px solid black;
         h2 {
-            margin: 25px 0;
+            margin: 15px 0;
             font-size: 26px;
             letter-spacing: 2px;
             z-index: 2;
