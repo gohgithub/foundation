@@ -37,13 +37,14 @@
         margin: 0 auto;
         border-radius: 30px;
         &:hover {
-            border: 1px $purple solid;
+            outline: 1px $purple solid;
+            color: black;
         }
         img {
             display: block;
             margin: 0 auto
         }
-        a {
+        p {
             text-align: center;
             font-size: 24px;
             letter-spacing: 3.5px;

@@ -55,7 +55,6 @@
   </div>
 </template>
 <script>
-import Circle from '../../components/PointCircle.vue'
 
 export default {
   data () {
@@ -67,7 +66,6 @@ export default {
 
   },
   components: {
-    Circle
   }
 }
 </script>

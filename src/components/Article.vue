@@ -6,9 +6,13 @@
             <p class="article-subTitle" data-aos="fade-up">相關文章推薦</p>
             <ul class="d-flex">
                 <li data-aos="fade-up">
-                    <img src="../assets/image/front/sample_pic1.jpg">
-                    <small>2021.10.03</small>
-                    <p>這裡打文章大標這裡打文章大標這裡打文章大標</p>
+                    <a href="#">
+                        <img src="../assets/image/front/sample_pic1.jpg">
+                    </a>
+                    <a href="#">
+                        <small>2021.10.03</small>
+                        <p>這裡打文章大標這裡打文章大標這裡打文章大標</p>
+                    </a>
                 </li>
                 <li data-aos="fade-up">
                     <img src="../assets/image/front/sample_pic2.jpg">

@@ -107,13 +107,10 @@
           </div>
         </div>
       </section>
-      <Circle></Circle>
     </main>
   </div>
 </template>
 <script>
-// 載入 PointCircle 元件
-import Circle from '../../components/PointCircle.vue'
 
 // 載入 gsap 套件
 import gsap from 'gsap'
@@ -144,7 +141,6 @@ export default {
 
   },
   components: {
-    Circle
   }
 }
 </script>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Circle></Circle>
     <section class="footer">
       <a class="goTop" href="#" v-scroll-to="'#header'" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
         <p>TOP</p>
@@ -28,3 +29,21 @@
     </section>
   </div>
 </template>
+<script>
+import Circle from './PointCircle.vue'
+
+export default {
+  data () {
+    return {
+      isLoading: false,
+      iscomplate: true
+    }
+  },
+  components: {
+    Circle
+  },
+  created () {
+
+  }
+}
+</script>

@@ -27,15 +27,15 @@
             <p class="select-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
             <div class="container select-box">
               <div class="select-box-inner">
-                <div class="box-title" data-aos="fade-up" data-aos-offset="400">
+                <div class="box-title" data-aos="fade-up">
                   <h2>｜我想要生下來了｜</h2>
                 </div>
                 <div class="select-menu">
-                  <img data-aos="fade-up" data-aos-offset="400" src='../../assets/image/front/page02_pic3.jpg'>
-                  <p data-aos="fade-up" data-aos-offset="400">承擔起一個重要的責任。<br>
+                  <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
+                  <p data-aos="fade-up">承擔起一個重要的責任。<br>
                   或許辛苦，但是人們總說這是一個甜蜜的負擔。<br>
                   我們一起看看，能夠從哪裡做起吧!</p>
-                  <hr data-aos="fade-up" data-aos-offset="400">
+                  <hr data-aos="fade-up">
                     <!-- 選項開始 -->
                     <ul class="select-list">
                       <li data-aos="fade-up"  data-aos-delay="300" data-aos-offset="400">
@@ -86,7 +86,6 @@
     </div>
 </template>
 <script>
-import Circle from '../../components/PointCircle.vue'
 import Consult from '../../components/Consult.vue'
 import Article from '../../components/Article.vue'
 
@@ -100,7 +99,6 @@ export default {
 
   },
   components: {
-    Circle,
     Consult,
     Article
   }
