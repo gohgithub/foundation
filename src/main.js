@@ -6,6 +6,10 @@ import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
+// 載入 fontawesome
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+
 // 載入 VueLoaders
 import VueLoaders from 'vue-loaders'
 
@@ -20,10 +24,6 @@ import { localize, setLocale } from '@vee-validate/i18n'
 
 // 匯入繁體中文語系檔案
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json'
-
-// 載入 fontawesome
-import '@fortawesome/fontawesome-free/css/all.css'
-import '@fortawesome/fontawesome-free/js/all.js'
 
 var VueScrollTo = require('vue-scrollto')
 

@@ -61,6 +61,11 @@ a {
 	text-decoration: none;
 	color: black;
 }
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
 ::-webkit-scrollbar {
 	width: 0;
 	height: 0;

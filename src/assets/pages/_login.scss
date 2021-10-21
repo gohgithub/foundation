@@ -28,8 +28,10 @@
     }
     // 左側登入欄位
     &-left {
-        width: 40%;
-        padding: 50px 50px 50px 0;
+        width: 45%;
+        padding: 0px 100px 0px 0;
+        margin: 50px 0;
+        border-right: 1px solid black;
         .form-box {
             border-radius: 30px;
             background-color: white;
@@ -42,7 +44,7 @@
                 font-size: 20px;
             }
             &:focus {
-                outline: none;
+                outline: 1px solid $purple
             }
         }
         label {
@@ -105,7 +107,7 @@
             font-size: 18px;
         }
     }
-    .login-btn {
+    .login-btn, .signUp-btn {
         width: 200px;
         margin: 0 auto;
         padding: 10px 0px;
@@ -149,8 +151,9 @@
 
     // 右側註冊欄
     &-right {
-        width: 40%;
-        padding: 50px 0 50px 50px;
+        width: 45%;
+        margin: 50px 0;
+        padding: 0px 0 0px 100px;
         .form-box {
             border-radius: 30px;
             background-color: white;
@@ -163,24 +166,24 @@
                 font-size: 20px;
             }
             &:focus {
-                outline: none;
+                outline: 1px solid $purple
             }
         }
         label {
             display: block;
         }
     }
-    .signUp-account-label {
+    .signUp-label {
         position: relative;
         padding: 50px; 
     }
-    .signUp-account-input {
+    .signUp-input {
         border-radius: 10px;
         width: 100%;
         padding: 25px 0 20px 30px;
         border: 1px solid #c8c8c8;
     }
-    .signUp-account-span {
+    .signUp-span {
         position: absolute;
         background-image: linear-gradient(transparent,transparent 10px,#fff 0,#fff);
         z-index: 1;
@@ -189,5 +192,53 @@
         font-size: 20px;
         letter-spacing: 2px;
         padding: 0 10px;
+    }
+    .signUp-span-item {
+        position: absolute;
+        background-image: linear-gradient(transparent,transparent 10px,#fff 0,#fff);
+        z-index: 1;
+        left: 70px;
+        top: -15px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 0 10px;
+    }
+    select {
+        &:focus {
+            outline: 1px solid $purple
+        }
+    }
+    .select-down {
+        position: absolute;
+        top: 20px;
+        right: 75px;
+    }
+    .select-gender {
+        border-radius: 10px;
+        width: 100%;
+        padding: 25px 0 20px 30px;
+        border: 1px solid #c8c8c8;
+        letter-spacing: 2px;
+        color: #c7c7c7;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .singUp-box {
+        h4 {
+            color: red;
+            letter-spacing: 2px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .agree-text {
+            padding: 50px 0;
+            font-size: 18px;
+            color: #c7c7c7;
+        }
+        a {
+            display: inline-block;
+            color: #72A4D6;
+            text-decoration: underline;
+        }
     }
 }
