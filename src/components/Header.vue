@@ -56,7 +56,7 @@
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">
-            <a href="#"><img src="../assets/image/front/icon_member.svg"></a>
+            <a href="#/login"><img src="../assets/image/front/icon_member.svg"></a>
 
             <!-- 漢堡選單 -->
             <button class="header-hamburger header-fixed-hamburger mx-20" data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="toggleBtn()">
@@ -117,7 +117,8 @@ export default {
       $('.header-hamburger').toggleClass('opened')
       $('.header-fixed-hamburger').toggleClass('visible')
     }
-  }
+  },
+  created () {}
 }
 
 </script>

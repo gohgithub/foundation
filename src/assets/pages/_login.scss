@@ -118,19 +118,24 @@
         font-size: 20px;
         display: block;
         background-color: white;
-        border: 1px solid black;
+        border: none;
         &:hover {
             background-color: #C08C7E;
             color: white;
             transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
-            border: none;
+        }
+        &:focus {
+            outline: 1px solid black;
         }
     }
-    .account-error, .password-error {
+    .error-text {
         color: red;
         font-size: 18px;
         letter-spacing: 2px;
     }
+    .activeClass {
+        border: 10px solid red;
+    } 
     .fastLogin {
         display: flex;
         align-items: center;
@@ -219,7 +224,6 @@
         padding: 25px 0 20px 30px;
         border: 1px solid #c8c8c8;
         letter-spacing: 2px;
-        color: #c7c7c7;
         font-weight: 300;
         font-size: 20px;
     }

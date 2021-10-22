@@ -25,13 +25,15 @@ import { localize, setLocale } from '@vee-validate/i18n'
 // 匯入繁體中文語系檔案
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json'
 
-var VueScrollTo = require('vue-scrollto')
+// 載入 datePicker
+import Vue3PersianDatetimePicker from 'vue3-persian-datetime-picker'
+
+const VueScrollTo = require('vue-scrollto')
 
 const app = createApp(App)
 app.use(VueAxios, axios)
 app.use(router)
 app.use(VueLoaders)
-
 app.use(VueScrollTo, {
   container: 'body',
   duration: 100,
@@ -45,6 +47,7 @@ app.use(VueScrollTo, {
   x: false,
   y: true
 })
+app.component('DatePicker', Vue3PersianDatetimePicker)
 
 // 定義驗證規則
 defineRule('required', required)
