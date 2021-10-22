@@ -111,14 +111,17 @@
                 <!-- 出生 -->
                 <label class="signUp-label py-0 pb-50">
                   <span class="signUp-span-item"><span class="text-danger">*</span>出生</span>
-                  <flat-pickr v-model="signUpData.born" class="signUp-input mb-15" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr>
+                  <Field name="出生日期" rules="required">
+                    <flat-pickr v-model="signUpData.born" class="signUp-input mb-15" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr>
+                  </Field>
+                  <error-message name="出生日期" class="error-text"></error-message>
                 </label>
-
                 <!-- 所在縣市 -->
                 <label class="signUp-label py-0 pb-25">
                   <span class="signUp-span-item"><span class="text-danger">*</span>所在縣市</span>
                   <i class="fas fa-caret-down select-down fa-2x"></i>
-                  <select v-model="signUpData.city" class="select-gender" :class="[isActive ? activeClass : '']">
+                  <!-- <select v-model="signUpData.city" class="select-gender" :class="[isActive ? errorClass : '']"> -->
+                <Field name="選擇地區" as="select" v-model="signUpData.city" class="select-gender" rules="required">
                     <option selected disabled value="" >請選擇所在地區</option>
                     <option value="基隆市">基隆市</option>
                     <option value="台北市">台北市</option>
@@ -142,7 +145,8 @@
                     <option value="澎湖縣">澎湖縣</option>
                     <option value="金門縣">金門縣</option>
                     <option value="連江縣">連江縣</option>
-                  </select>
+                </Field>
+                <error-message name="選擇地區" class="error-text"></error-message>
                 </label>
                 <!-- 註冊按鈕 -->
                 <div class="singUp-box">
@@ -199,8 +203,8 @@ defineRule('selectLocal', (value, [target]) => {
 export default {
   data () {
     return {
-      isActive: true,
-      activeClass: 'activeClass',
+      isActive: false,
+      errorClass: 'errorClass',
       signUpData: {
         email: '',
         confirmEmail: '',
@@ -230,12 +234,14 @@ export default {
     },
     onSubmit (values) {
       const vm = this
-      const data = vm.signUpData
-      if (data.city === '') {
-        console.log('沒有選取城市')
-        return
-      }
       console.log(vm.signUpData)
+    }
+  },
+  watch: {
+    'signUpData.city' (value) {
+      if (value === '') {
+        this.isActive = false
+      }
     }
   },
   created () {

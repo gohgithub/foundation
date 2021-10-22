@@ -133,9 +133,17 @@
         font-size: 18px;
         letter-spacing: 2px;
     }
-    .activeClass {
-        border: 10px solid red;
+    .errorClass {
+        outline: 1px solid red !important;
     } 
+    .form-check-input:checked {
+        background-color: $purple;
+        border: none;
+    }
+    .form-check-input:focus {
+        box-shadow: none;
+        border: none;
+    }
     .fastLogin {
         display: flex;
         align-items: center;
@@ -185,6 +193,7 @@
     .signUp-input {
         border-radius: 10px;
         width: 100%;
+        letter-spacing: 2px;
         padding: 25px 0 20px 30px;
         border: 1px solid #c8c8c8;
     }
