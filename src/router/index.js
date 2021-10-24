@@ -30,7 +30,19 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    component: () => import('../views/front/Login.vue')
+    component: () => import('../views/front/LoginLayout.vue'),
+    children: [
+      {
+        path: '/login',
+        name: 'login',
+        component: () => import('../views/front/Login.vue')
+      },
+      {
+        path: '/forget',
+        name: 'forget',
+        component: () => import('../views/front/ForgetPassword.vue')
+      }
+    ]
   }
 ]
 
