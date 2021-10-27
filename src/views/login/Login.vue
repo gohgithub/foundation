@@ -7,18 +7,18 @@
           <h3 data-aos="fade-up">會員登入</h3>
           <p data-aos="fade-up">-Log In-</p>
           <div class="form-box">
-            <Form v-slot="{ errors }" @submit="onSubmit" autocomplete="off">
+            <Form v-slot="{ errors }" @submit="login" autocomplete="off">
               <!-- ID/手機/Email -->
               <label data-aos="fade-up" for="登入信箱" class="login-account-label">
                   <span class="login-account-span">ID/手機/Email</span>
-                  <Field class="login-account-input mb-15" rules="email|required" :class="{ 'outline-danger': errors['登入信箱'] }" name="登入信箱" type="email" placeholder="請輸入 ID 或手機或 Email" />
+                  <Field v-model="loginData.email" class="login-account-input mb-15" rules="email|required" :class="{ 'outline-danger': errors['登入信箱'] }" name="登入信箱" type="email" placeholder="請輸入 ID 或手機或 Email" />
                   <error-message name="登入信箱" class="error-text "></error-message>
               </label>
 
               <!-- 密碼 -->
               <label data-aos="fade-up" for="登入密碼" class="login-password-label">
                   <span class="login-password-span">密碼</span>
-                  <Field class="login-password-input" maxlength="13" rules="required|min:8" :class="{ 'outline-danger': errors['登入密碼'] }" id="login-password" name="登入密碼" type="password" placeholder="請輸入密碼"/>
+                  <Field v-model="loginData.password" class="login-password-input" maxlength="13" rules="required|min:8" :class="{ 'outline-danger': errors['登入密碼'] }" id="login-password" name="登入密碼" type="password" placeholder="請輸入密碼"/>
               </label>
 
               <!-- 顯示密碼 -->
@@ -257,7 +257,7 @@ export default {
     return {
       isActive: false,
       errorClass: 'errorClass',
-      token: ' lQqcl4DTYsjCRBGWSM2WX35HvR7Br8AKp46Uln8g',
+      token: '',
       loginData: {
         email: '',
         password: ''
@@ -298,15 +298,20 @@ export default {
         signUpConPassword.type = 'password'
       }
     },
-    onSubmit (values) {
+    onSubmit () {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
-        alert('註冊成功')
         vm.token = res.token
         console.log(res)
-        console.log('這是取的的 token 值')
+        console.log(`這是一個 token${res.token}值`)
       })
       console.log(vm.signUpData)
+    },
+    login () {
+      const vm = this
+      vm.$http.post('https://iecosystem-api.tomyue.cc/api/login', vm.loginData).then((response) => {
+        console.log(response)
+      })
     },
     hideHeader (e) {
       $('.header').hide()
@@ -324,10 +329,10 @@ export default {
     }
   },
   created () {
-    this.$http.defaults.headers.common.Authorization = `Bearer${this.token}`
-    this.$http.get('https://iecosystem-api.tomyue.cc/api/user').then((response) => {
-      console.log(response)
-    })
+    // this.$http.defaults.headers.common.Authorization = `Bearer${this.token}`
+    // this.$http.get('https://iecosystem-api.tomyue.cc/api/user').then((response) => {
+    //   console.log(response)
+    // })
   }
 }
 </script>

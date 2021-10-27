@@ -23,24 +23,24 @@ const routes = [
       {
         path: 'select',
         name: 'select',
-        component: () => import('../views/front/Select.vue')
+        component: () => import('../views/secondStage/UnintendedSelect.vue')
       }
     ]
   },
   {
     path: '/login',
     name: 'login',
-    component: () => import('../views/front/LoginLayout.vue'),
+    component: () => import('../views/login/LoginLayout.vue'),
     children: [
       {
         path: '/login',
         name: 'login',
-        component: () => import('../views/front/Login.vue')
+        component: () => import('../views/login/Login.vue')
       },
       {
         path: '/forget',
         name: 'forget',
-        component: () => import('../views/front/ForgetPassword.vue')
+        component: () => import('../views/login/ForgetPassword.vue')
       }
     ]
   }
