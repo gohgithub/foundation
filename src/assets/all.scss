@@ -26,3 +26,6 @@
 @import './pages/page';
 @import './pages/select';
 @import './pages/login';
+
+// 載入後台畫面 SCSS
+@import './backed/backedLayout.scss';

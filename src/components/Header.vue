@@ -36,7 +36,7 @@
               <img src="../assets/image/front/logo.svg">
           </a>
           <hr class="header-line">
-          <h1>小媽媽資源整合平台</h1>
+          <h1>小蝴蝶資源整合平台</h1>
         </div>
         <div class="header-menu">
           <p>OUR MEDIA</p>

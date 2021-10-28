@@ -43,6 +43,12 @@ const routes = [
         component: () => import('../views/login/ForgetPassword.vue')
       }
     ]
+  },
+  {
+    path: '/backed',
+    name: 'backed',
+    component: () => import('../views/backed/BackedLayout.vue'),
+    meta: { requiresAuth: true }
   }
 ]
 

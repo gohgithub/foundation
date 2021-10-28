@@ -68,4 +68,21 @@ app.component('Form', Form)
 app.component('Field', Field)
 app.component('ErrorMessage', ErrorMessage)
 
+// 導航守衛
+router.beforeEach((to, from, next) => {
+  if (to.meta.requiresAuth) {
+    const token = localStorage.getItem('token')
+    if (token === localStorage.getItem('token') && token !== null) {
+      next()
+    } else {
+      next({
+        path: '/login'
+      })
+      console.log('這裡要驗證')
+    }
+  } else {
+    next()
+    console.log('不需要驗證')
+  }
+})
 app.mount('#app')

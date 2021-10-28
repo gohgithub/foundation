@@ -156,7 +156,6 @@
               <label data-aos="fade-up" class="signUp-label py-0 pb-25">
                 <span class="signUp-span-item"><span class="text-danger">*</span>所在縣市</span>
                 <i class="fas fa-caret-down select-down fa-2x"></i>
-                <!-- <select v-model="signUpData.city" class="select-gender" :class="[isActive ? errorClass : '']"> -->
                 <Field data-aos="fade-up" name="選擇地區" as="select" v-model="signUpData.city" :class="{ 'outline-danger': errors['選擇地區'] }" class="select-gender mb-15" rules="required">
                   <option selected disabled value="" >請選擇所在地區</option>
                   <option value="基隆市">基隆市</option>
@@ -302,15 +301,15 @@ export default {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
         vm.token = res.token
-        console.log(res)
-        console.log(`這是一個 token${res.token}值`)
       })
       console.log(vm.signUpData)
     },
     login () {
       const vm = this
-      vm.$http.post('https://iecosystem-api.tomyue.cc/api/login', vm.loginData).then((response) => {
-        console.log(response)
+      vm.$http.post('https://iecosystem-api.tomyue.cc/api/login', vm.loginData).then((res) => {
+        vm.token = res.data.token
+        vm.$router.push('/backed')
+        localStorage.setItem('token', vm.token)
       })
     },
     hideHeader (e) {
@@ -329,10 +328,9 @@ export default {
     }
   },
   created () {
+    // const aba = localStorage.getItem('token')
+    // console.log(aba)
     // this.$http.defaults.headers.common.Authorization = `Bearer${this.token}`
-    // this.$http.get('https://iecosystem-api.tomyue.cc/api/user').then((response) => {
-    //   console.log(response)
-    // })
   }
 }
 </script>

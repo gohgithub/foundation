@@ -1,0 +1,139 @@
+.backed-box {
+    display: flex;
+    margin: 150px 100px 0 100px
+}
+
+.sidebar {
+    background-color: #F4F5F6;
+    width: 25%;
+    padding: 0 30px 100px 30px;
+    border-radius: 20px;
+    &-inner {
+        padding-top: 50px;
+        img {
+            margin: 0 auto;
+            border-radius: 50%;
+            display: block;
+        }
+    }
+    &-menu {
+        width: 200px;
+        margin: 30px auto 0 auto;
+        h4 {
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        img {
+            padding-right: 5px;
+        }
+        ul {
+            padding-left: 60px;
+        }
+        li {
+            padding: 5px 0;
+        }
+        a {
+            font-size: 20px;
+            letter-spacing: 2px;
+            color: $gray;
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+    h3 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 15px 0;
+        border-bottom: 2px solid #c8c8c8;
+    }
+}
+
+.personal {
+    width: 75%;
+    margin-left: 80px;
+    padding-top: 60px;
+    h2 {
+        font-size: 30px;
+        letter-spacing: 2px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #c8c8c8;
+    }
+}
+.personal-box {
+    padding: 0 70px;
+    margin-top: 15px;
+    h3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        width: 20%;
+    }
+    span {
+        width: 70%;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    select {
+        width: 100%;
+        padding: 5px;
+        border-radius: 10px;
+        padding: 15px 0 15px 30px;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    p {
+        width: 10%;
+        font-size: 20px;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .form-check {
+        display: flex;
+        align-items: center;
+    }
+    .form-check-input:checked {
+        background-color: $purple;
+        border: none;
+    }
+    .form-check-input:focus {
+        box-shadow: none;
+    }
+    label {
+        padding-left: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .select-item {
+        position: relative;
+        width: 70%;
+    }
+    .select-down {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    button {
+        width: 200px;
+        margin: 50px auto;
+        padding: 10px 0px;
+        border-radius: 30px;
+        outline: 1px solid black;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 20px;
+        display: block;
+        background-color: white;
+        border: none;
+        &:hover {
+            background-color: #C08C7E;
+            color: white;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
+        }
+        &:focus {
+            outline: 1px solid black;
+        }
+    }
+}
