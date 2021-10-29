@@ -118,7 +118,8 @@ export default {
       $('.header-fixed-hamburger').toggleClass('visible')
     }
   },
-  created () {}
+  created () {
+  }
 }
 
 </script>

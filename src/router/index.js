@@ -38,7 +38,7 @@ const routes = [
         component: () => import('../views/login/Login.vue')
       },
       {
-        path: '/forget',
+        path: 'forget',
         name: 'forget',
         component: () => import('../views/login/ForgetPassword.vue')
       }
@@ -48,7 +48,24 @@ const routes = [
     path: '/backed',
     name: 'backed',
     component: () => import('../views/backed/BackedLayout.vue'),
-    meta: { requiresAuth: true }
+    meta: { requiresAuth: true },
+    children: [
+      {
+        path: '/backed',
+        name: 'personal',
+        component: () => import('../views/backed/Personal.vue')
+      },
+      {
+        path: 'course',
+        name: 'course',
+        component: () => import('../views/backed/Course.vue')
+      },
+      {
+        path: 'chatonline',
+        name: 'chatonline',
+        component: () => import('../views/backed/ChatOnline.vue')
+      }
+    ]
   }
 ]
 

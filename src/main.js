@@ -2,6 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
+// 載入 Vuex
+import store from './store'
+
 // 載入 axios
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -32,8 +35,10 @@ const VueScrollTo = require('vue-scrollto')
 
 const app = createApp(App)
 app.use(VueAxios, axios)
+app.use(store)
 app.use(router)
 app.use(VueLoaders)
+app.use(require('moment'))
 app.use(VueScrollTo, {
   container: 'body',
   duration: 100,

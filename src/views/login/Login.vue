@@ -261,6 +261,7 @@ export default {
         email: '',
         password: ''
       },
+      ajaxData: '',
       signUpData: {
         email: '',
         email_confirmation: '',
@@ -307,9 +308,12 @@ export default {
     login () {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/login', vm.loginData).then((res) => {
+        // 儲存 資料 + token
         vm.token = res.data.token
-        vm.$router.push('/backed')
+        vm.ajaxData = res.data
         localStorage.setItem('token', vm.token)
+        vm.$router.push('/backed')
+        // 傳遞使用者資料
       })
     },
     hideHeader (e) {
@@ -328,8 +332,6 @@ export default {
     }
   },
   created () {
-    // const aba = localStorage.getItem('token')
-    // console.log(aba)
     // this.$http.defaults.headers.common.Authorization = `Bearer${this.token}`
   }
 }
