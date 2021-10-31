@@ -29,10 +29,10 @@
             </h4>
             <ul>
                 <li>
-                    <router-link to="#">歷程總覽</router-link>
+                    <router-link to="course">歷程總覽</router-link>
                 </li>
                 <li>
-                    <router-link to="#">申請進度查詢</router-link>
+                    <router-link to="chatonline">申請進度查詢</router-link>
                 </li>
             </ul>
 
@@ -42,7 +42,7 @@
             </h4>
             <ul>
                 <li>
-                    <router-link to="#">線上聊聊</router-link>
+                    <router-link to="/chatonline">線上聊聊</router-link>
                 </li>
             </ul>
           </div>
@@ -75,12 +75,12 @@ export default {
     Footer
   },
   created () {
-    // const vm = this
-    // vm.isLoading = true
-    // setTimeout(() => {
-    //   vm.isLoading = false
-    //   vm.iscomplate = true
-    // }, 2000)
+    // 取得 token 保持登入狀態用
+    const userInfo = localStorage.getItem('user')
+    if (userInfo) {
+      const userData = JSON.parse(userInfo)
+      this.$store.commit('setUserData', userData)
+    }
   }
 }
 </script>

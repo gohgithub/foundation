@@ -56,12 +56,12 @@ const routes = [
         component: () => import('../views/backed/Personal.vue')
       },
       {
-        path: 'course',
+        path: '/course',
         name: 'course',
         component: () => import('../views/backed/Course.vue')
       },
       {
-        path: 'chatonline',
+        path: '/chatonline',
         name: 'chatonline',
         component: () => import('../views/backed/ChatOnline.vue')
       }

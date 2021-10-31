@@ -75,19 +75,12 @@ app.component('ErrorMessage', ErrorMessage)
 
 // 導航守衛
 router.beforeEach((to, from, next) => {
-  if (to.meta.requiresAuth) {
-    const token = localStorage.getItem('token')
-    if (token === localStorage.getItem('token') && token !== null) {
-      next()
-    } else {
-      next({
-        path: '/login'
-      })
-      console.log('這裡要驗證')
-    }
-  } else {
-    next()
-    console.log('不需要驗證')
+  const loggedIn = localStorage.getItem('user')
+
+  if (to.matched.some(record => record.meta.requiresAuth) && !loggedIn) {
+    next('/login')
+    return
   }
+  next()
 })
 app.mount('#app')

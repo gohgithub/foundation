@@ -256,7 +256,6 @@ export default {
     return {
       isActive: false,
       errorClass: 'errorClass',
-      token: '',
       loginData: {
         email: '',
         password: ''
@@ -301,20 +300,16 @@ export default {
     onSubmit () {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
-        vm.token = res.token
+        console.log(res)
       })
-      console.log(vm.signUpData)
     },
     login () {
       const vm = this
-      vm.$http.post('https://iecosystem-api.tomyue.cc/api/login', vm.loginData).then((res) => {
-        // 儲存 資料 + token
-        vm.token = res.data.token
-        vm.ajaxData = res.data
-        localStorage.setItem('token', vm.token)
-        vm.$router.push('/backed')
-        // 傳遞使用者資料
+      vm.$store.dispatch('login', {
+        email: vm.loginData.email,
+        password: vm.loginData.password
       })
+      vm.$router.push('/backed')
     },
     hideHeader (e) {
       $('.header').hide()
