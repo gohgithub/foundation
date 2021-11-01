@@ -317,7 +317,6 @@ export default {
         $('.header').show()
       }
     }
-
   },
   watch: {
     'signUpData.city' (value) {

@@ -1,0 +1,21 @@
+.videoModal {
+    .modal-content {
+        width: 600px;
+        border-radius: 20px;
+    }
+    .modal-body {
+        padding: 50px;
+        margin: 0 auto;
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: $purple;
+        }
+        p {
+            text-align: center;
+            letter-spacing: 2px;
+            padding-bottom: 15px;
+        }
+    }
+}
