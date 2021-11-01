@@ -27,22 +27,22 @@
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up" data-aos-offset="600">
-                <h2>｜我懷孕了｜</h2>
+                <h2>｜我想支持｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <a href="#">我需要有人一起討論</a>
+                  <a href="#">支持，從你/妳開始</a>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="/">我不想要生下來</router-link>
+                  <router-link to="/">青少年父母如何翻轉？ </router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="select">我想要生下來</router-link>
+                  <router-link to="unintended-3">青少年父母的茁壯路</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>
@@ -54,18 +54,3 @@
     </main>
   </div>
 </template>
-<script>
-
-export default {
-  data () {
-    return {
-      isLoading: false
-    }
-  },
-  mounted () {
-
-  },
-  components: {
-  }
-}
-</script>

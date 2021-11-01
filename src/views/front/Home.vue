@@ -1,6 +1,7 @@
 <template>
   <div>
     <main>
+      <VideoModal></VideoModal>
       <!-- banner 區塊 -->
       <section class="banner">
         <hr class="line">
@@ -35,7 +36,6 @@
           <div class="service-pointer"></div>
         </div>
       </section>
-      <VideoModal></VideoModal>
 
     <!-- choose 區塊 -->
       <section class="choose container">
@@ -63,8 +63,7 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic1.jpg">
                 <p>在這條道路上，<br>你從來不是獨自一人。</p>
-                <router-link to="page" @click="toTop">了解更多</router-link>
-                <!-- <a href="#/page" @click="test">了解更多</a> -->
+                <router-link to="unintended-2">了解更多</router-link>
               </div>
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-delay="500" data-aos-offset="400">
@@ -73,7 +72,7 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic2.jpg">
                 <p>支持與陪伴，<br>勝過千言萬語。</p>
-                <a href="#">了解更多</a>
+                <router-link to="Youngdad-2">了解更多</router-link>
               </div>
             </div>
           </div>
@@ -85,7 +84,7 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic3.jpg">
                 <p>其實很多所謂的大人，<br>在面對這種狀況時，顯得更無助。</p>
-                <a href="#">了解更多</a>
+                <router-link to="daughter-2">了解更多</router-link>
               </div>
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-delay="500" data-aos-offset="400">
@@ -94,7 +93,7 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic4.jpg">
                 <p>人生中的每場際遇，從來不會太快<br>或太慢，生命中的一切都準時到來。</p>
-                <a href="#">了解更多</a>
+                <router-link to="family-2">了解更多</router-link>
               </div>
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
@@ -103,7 +102,7 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic5.jpg">
                 <p>邀請您把手借給我，<br>讓暖光持續照亮。</p>
-                <a href="#">了解更多</a>
+                <router-link to="support-2">了解更多</router-link>
               </div>
             </div>
           </div>

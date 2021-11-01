@@ -98,10 +98,12 @@
         right: -80px;
     }
     &-menu {
-        margin-top: 106px;
+        margin-top: 71px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         li {
+            margin: 35px 0;
             width: 33%;
         }
         img {
@@ -131,5 +133,22 @@
             letter-spacing: 2px;
             text-decoration: underline;
         }
+    }
+}
+
+// 女兒懷孕了
+.daughter3-1 {
+    h3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    li p {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+    .list {
+        letter-spacing: 2px;
+        font-size: 20px;
     }
 }

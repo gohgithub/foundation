@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+.m0-auto {
+    margin: 0 auto;
+}
+
 // margin 相關
 .mr-20 {
     margin-right: 20px;
@@ -28,11 +32,21 @@
 .mb-36 {
     margin-bottom: 36px;
 }
+.mb-60 {
+    margin-bottom: 60px !important;
+}
 .mt-20 {
     margin-top: 30px !important;
 }
 .mt-48 {
     margin-top: 48px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.my-60 {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 // padding 相關
