@@ -33,7 +33,7 @@
       <section class="header" data-aos="fade-down" data-aos-duration="2000">
         <div class="header-logo">
           <a href="#">
-              <img src="../assets/image/front/logo.svg">
+              <img src="../assets/image/front/new_header_logo.svg">
           </a>
           <hr class="header-line">
           <h1>小蝴蝶資源整合平台</h1>
@@ -110,7 +110,9 @@ export default {
   methods: {
     toggleBtn () {
       if ($('.header-fixed').hasClass('custom-visible')) {
-        $('.header-fixed').removeClass('custom-visible')
+        setTimeout(() => {
+          $('.header-fixed').removeClass('custom-visible')
+        }, 300)
       } else {
         $('.header-fixed').addClass('custom-visible')
       }

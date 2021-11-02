@@ -8,9 +8,13 @@
         <div class="banner-container banner-pic" data-aos="fade-up">
           <img class="banner-circle" src="../../assets/image/front/image_circleword.svg">
           <div class="banner-inner container-inner">
-            <img src="../../assets/image/front/home_page1_top_logo.svg">
-            <h2>《小蝴蝶資源整合平台》</h2>
-            <h2>守護勇敢 翩然起舞</h2>
+            <div class="banner-head">
+              <img src="../../assets/image/front/new_header_logo.svg">
+              <h2>守護勇敢 | 翩然起舞</h2>
+            </div>
+            <h2>讓我們用愛點燃燈火 <br>
+            使溫暖照亮你我
+            </h2>
             <hr>
             <p>懷孕在人生過程中原本是一件值得開心期待的事情。<br>
               然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無<br>
@@ -147,10 +151,6 @@ export default {
   },
   components: {
     VideoModal
-  },
-  // eslint-disable-next-line no-dupe-keys
-  mounted () {
-    // $('.header').hide()
   },
   created () {
     $('#videoModal').show()

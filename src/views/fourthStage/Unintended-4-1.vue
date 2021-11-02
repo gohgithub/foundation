@@ -28,7 +28,7 @@
             <div class="container select-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜我想要生下來了｜</h2>
+                  <h2>｜自行撫養｜</h2>
                 </div>
                 <div class="select-menu">
                   <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -38,40 +38,40 @@
                   <hr data-aos="fade-up">
                     <!-- 選項開始 -->
                     <ul class="select-list">
-                      <li data-aos="fade-up"  data-aos-delay="300" data-aos-offset="400">
+                      <li data-aos="fade-up"  data-aos-delay="300">
                         <img src='../../assets/image/front/page02_pic1.jpg'>
-                        <router-link to="unintended-4-1">家庭狀態</router-link>
+                        <router-link to="unintended-5-1" class="selectBtn">家庭狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up"  data-aos-delay="500" data-aos-offset="400">
+                      <li data-aos="fade-up"  data-aos-delay="500">
                         <img src='../../assets/image/front/page02_pic2.jpg'>
-                        <router-link to="unintended-4-2">相關法規</router-link>
+                        <router-link to="unintended-5-3" class="selectBtn">相關法規</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="700">
                         <img src='../../assets/image/front/page02_pic3.jpg'>
-                        <router-link to="unintended-4-3">心理狀態</router-link>
+                        <router-link to="unintended-5-2" class="selectBtn">心理狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="300">
                         <img src='../../assets/image/front/page02_pic1.jpg'>
-                        <a href="#">校園支持</a>
+                        <router-link to="unintended-5-4" class="selectBtn">校園支持</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="500" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="500">
                         <img src='../../assets/image/front/page02_pic2.jpg'>
-                        <router-link to="/">經濟狀態</router-link>
+                        <router-link to="unintended-5-5" class="selectBtn">經濟狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
-                      <li data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
+                      <li data-aos="fade-up" data-aos-delay="700">
                         <img src='../../assets/image/front/page02_pic3.jpg'>
-                        <router-link to="select">社福資源</router-link>
+                        <router-link to="unintended-5-6" class="selectBtn">社福資源</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
-                    <hr data-aos="fade-up" data-aos-offset="400">
-                    <div data-aos="fade-up" data-aos-offset="400">
+                    <hr data-aos="fade-up">
+                    <div data-aos="fade-up">
                       <a class="goBack" href="#">返回首頁</a>
                     </div>
                 </div>
@@ -79,15 +79,10 @@
             </div>
           </div>
         </section>
-        <Consult></Consult>
-        <Article></Article>
-        <Circle></Circle>
       </main>
     </div>
 </template>
 <script>
-import Consult from '../../components/Consult.vue'
-import Article from '../../components/Article.vue'
 
 export default {
   data () {
@@ -98,8 +93,6 @@ export default {
 
   },
   components: {
-    Consult,
-    Article
   }
 }
 </script>

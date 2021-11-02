@@ -78,6 +78,160 @@
             margin: 0 auto;
             border-radius: 50%;
         }
+        p {
+            text-align: center;
+            font-size: 20px;
+            margin: 35px 0;
+            letter-spacing: 2px;
+        }
+        .goBack, .selectBtn {
+            text-align: center;
+            background-color: white;
+            border-radius: 30px;
+            max-width: 200px;
+            margin: 36px auto 40px auto;
+            padding: 7px 0;
+            font-size: 22px;
+            border: 1px solid black;
+            letter-spacing: 2px;
+            &:hover {
+                background-color: #C08C7E;
+                color: white;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
+            }
+        }
+    }
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        li {
+            width: 33%;
+            margin: 35px 0;
+        }
+        p {
+            text-decoration: underline;
+        }
+    }
+    hr {
+        height: 1px;
+        margin: 16px 108px;
+    }
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    margin: 170px 30px 100px 30px;
+    background-color: #F4F5F6;
+    padding: 14px 23px;
+    border-radius: 30px;
+    .breadcrumb {
+        margin-bottom: 0px;
+    }
+    a {
+        font-size: 20px;
+        font-weight: normal;
+        color: $purple;
+        display: inline;
+        letter-spacing: 2px;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .active a {
+        color: black;
+    }
+}
+
+.step {
+    position: relative;
+    margin: 0 30px;
+    &-text {
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: $purple;
+    }
+    &-title {
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 2px;
+        padding: 5px 0;
+    }
+    .title-line {
+        display: block;
+        margin: 20px auto 30px auto;
+    }
+    &-sologan {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 36px;
+    }
+    &-box {
+        margin-top: 36px;
+        background-color: #F7D5D5;
+        border-radius: 50px;
+        padding: 74px 68px;
+    }
+    &-box-inner {
+        border-radius: 50px;
+        background-color: #F8F6EF;
+        border: 2px solid black;
+        padding: 48px 0 96px 0;
+    }
+    .box-title {
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 25px 0px;
+        background-color: white;
+        border-radius: 58px;
+        h2 {
+            letter-spacing: 3.5px;
+            font-size: 36px;   
+        }
+    }
+    &-circle {
+        position: absolute;
+        top: 120px;
+        right: -50px;
+        animation:turn 30s linear infinite;
+    }
+    .image1 {
+        position: absolute;
+        top: 105px;
+        left: -80px;
+        z-index: -1;
+    }
+    .image2 {
+        position: absolute;
+        left: -100px;
+        bottom: -100px;
+        z-index: -1;
+    }
+    .image3 {
+        position: absolute;
+        bottom: -170px;
+        right: -80px;
+    }
+    &-menu {
+        margin-top: 71px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+            margin: 35px 0;
+            width: 33%;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
         a {
             text-align: center;
             background-color: white;
@@ -97,27 +251,27 @@
         p {
             text-align: center;
             font-size: 20px;
-            margin: 35px 0;
             letter-spacing: 2px;
-        }
-        .goBack {
-            max-width: 200px;
-        }
-    }
-    &-list {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 60px;
-        li {
-            width: 33%;
-            margin: 35px 0;
-        }
-        p {
             text-decoration: underline;
         }
     }
-    hr {
-        height: 1px;
-        margin: 16px 108px;
+}
+
+.select-item {
+    h3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    li p {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+    .list {
+        letter-spacing: 2px;
+        font-size: 20px;
+        li {
+            padding: 10px 0;
+        }
     }
 }

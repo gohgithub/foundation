@@ -30,32 +30,32 @@
                 <h2>｜我女友懷孕了｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <a href="#">我的社會責任</a>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="/">要迎接新生命嗎？</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="select">自己撫養</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="select">心理狀態</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="select">社福資源</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="select">我需要協助建議</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>

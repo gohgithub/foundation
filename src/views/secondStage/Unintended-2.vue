@@ -26,18 +26,23 @@
           <p class="step-sologan" data-aos="fade-up">為自己所想，為自己所選。</p>
           <div class="container step-box">
             <div class="step-box-inner">
-              <div class="box-title" data-aos="fade-up" data-aos-offset="600">
-                <h2>｜我懷孕了｜</h2>
+              <div class="box-title" data-aos="fade-up">
+                <h2>｜我非預期懷孕了｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-3-1">自行撫養</router-link>
+                  <router-link to="chat">我需要有人一起討論</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="/">其他因素無法自行撫養</router-link>
+                  <router-link to="unintended-3-2">我不想要生下來</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="unintended-3-1">我想要生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

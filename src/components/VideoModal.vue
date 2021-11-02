@@ -1,7 +1,7 @@
 <template>
     <div>
     <!-- Modal -->
-    <div class="modal fade videoModal" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal fade videoModal" data-bs-backdrop="static"  id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body border-0">
@@ -18,8 +18,8 @@
   </div>
 </template>
 <script>
-
 import $ from 'jquery'
+
 export default {
   data () {
     return {
@@ -35,7 +35,9 @@ export default {
   },
   methods: {
     closeModal () {
-      $('.fixed-top').addClass('header-fixed')
+      setTimeout(() => {
+        $('.fixed-top').addClass('header-fixed')
+      }, 500)
     }
   },
   created () {

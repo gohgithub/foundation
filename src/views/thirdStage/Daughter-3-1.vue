@@ -21,7 +21,7 @@
             <img class="image2" src="../../assets/image/front/page02_image2.svg">
             <img class="image3" src="../../assets/image/front/page02_image3.svg">
             <!-- 結束 -->
-            <p class="select-text" data-aos="fade-up" >ANSEWR</p>
+            <p class="select-text" data-aos="fade-up">ANSEWR</p>
             <h2 class="select-title" data-aos="fade-up" >選擇・答案</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
             <p class="select-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
@@ -34,7 +34,7 @@
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
                   <hr data-aos="fade-up">
                     <!-- 選項開始 -->
-                     <ul class="daughter3-1 container-inner mt-60">
+                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
                         <h3>2.何謂兩小無猜條款？</h3>
                         <p>未滿十八歲之人對未滿十六歲之男女性交者，可以減輕或免除其刑，而且屬於告訴乃論罪，也就是必須要向法院提告才審理，若無提告，法院、警局等相關機關得知此情況也不會偵辦。</p>

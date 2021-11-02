@@ -26,16 +26,16 @@
           <p class="step-sologan" data-aos="fade-up">為兩人所想，為自己所選。</p>
           <div class="container step-box">
             <div class="step-box-inner">
-              <div class="box-title" data-aos="fade-up" data-aos-offset="600">
+              <div class="box-title" data-aos="fade-up">
                 <h2>｜親友懷孕了｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <a href="#">因為有你們，蝴蝶不孤單 </a>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
+                <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="/">如何協助?</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
