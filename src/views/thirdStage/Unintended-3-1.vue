@@ -32,12 +32,17 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-3-1">自行撫養</router-link>
+                  <a href="#">我需要有人一起討論</a>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600" data-aos-offset="400">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="/">其他因素無法自行撫養</router-link>
+                  <router-link to="/">我不想要生下來</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="400">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="unintended-4-1">我想要生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

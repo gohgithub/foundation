@@ -22,14 +22,29 @@ const routes = [
         component: () => import('../views/secondStage/Unintended-2.vue')
       },
       {
-        path: 'unintended-3',
-        name: 'unintended-3',
-        component: () => import('../views/thirdStage/Unintended-3.vue')
+        path: 'unintended-3-1',
+        name: 'unintended-3-1',
+        component: () => import('../views/thirdStage/Unintended-3-1.vue')
       },
       {
         path: 'unintended-4-1',
         name: 'unintended-4-1',
         component: () => import('../views/fourthStage/Unintended-4-1.vue')
+      },
+      {
+        path: 'unintended-5-1',
+        name: 'unintended-5-1',
+        component: () => import('../views/fifthStage/Unintended-5-1.vue')
+      },
+      {
+        path: 'unintended-5-2',
+        name: 'unintended-5-2',
+        component: () => import('../views/fifthStage/Unintended-5-2.vue')
+      },
+      {
+        path: 'unintended-5-3',
+        name: 'unintended-5-3',
+        component: () => import('../views/fifthStage/Unintended-5-3.vue')
       },
       // 我女兒懷孕了
       {

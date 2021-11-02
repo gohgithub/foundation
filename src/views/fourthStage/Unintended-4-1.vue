@@ -40,17 +40,17 @@
                     <ul class="select-list">
                       <li data-aos="fade-up"  data-aos-delay="300" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic1.jpg'>
-                        <a href="#">家庭狀態</a>
+                        <router-link to="unintended-4-1">家庭狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
                       <li data-aos="fade-up"  data-aos-delay="500" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic2.jpg'>
-                        <router-link to="/">相關法規</router-link>
+                        <router-link to="unintended-4-2">相關法規</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
                       <li data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
                         <img src='../../assets/image/front/page02_pic3.jpg'>
-                        <router-link to="select">心理狀態</router-link>
+                        <router-link to="unintended-4-3">心理狀態</router-link>
                         <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                       </li>
                       <li data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
@@ -92,7 +92,6 @@ import Article from '../../components/Article.vue'
 export default {
   data () {
     return {
-      isLoading: false
     }
   },
   mounted () {

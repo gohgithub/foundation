@@ -11,7 +11,7 @@
             <img src="../assets/image/front/footer_logo.svg">
           </a>
           <hr class="footer-line">
-          <h2>小媽媽資源整合平台</h2>
+          <h2>小蝴蝶資源整合平台</h2>
         </div>
         <div class="w-50">
           <ul class="footer-list">
