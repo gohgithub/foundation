@@ -12,7 +12,7 @@
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>03</p><h3>我要求助</h3><span>Information</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>04</p><h3>最新消息</h3><span>News</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>05</p><h3>社群留言</h3><span>Message Board</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>06</p><h3>個案分享</h3><span>Successful</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>06</p><h3>經驗分享</h3><span>Successful</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>07</p><h3>相關單位</h3><span>Links</span></a></li>
                 <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
