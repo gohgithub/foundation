@@ -8,13 +8,13 @@
       <div class="rightOutline"></div>
       <div class="bottomOutline"></div>
       <div class="leftOutline"></div>
-      <div class="leftText d-flex" data-aos="fade-right" data-aos-duration="1500">
+      <div class="leftText d-flex phone-none" data-aos="fade-right" data-aos-duration="1500">
         <div class="line"></div>
         <p>Copyright ©2021 馨援結醫. All rights reserved.</p>
       </div>
       <Header></Header>
       <router-view></router-view>
-      <Footer></Footer>
+      <!-- <Footer></Footer> -->
     </div>
   </div>
 </template>
@@ -22,7 +22,7 @@
 <script>
 // 載入 Header 跟 Footer 元件
 import Header from '../../components/Header.vue'
-import Footer from '../../components/Footer.vue'
+// import Footer from '../../components/Footer.vue'
 
 // 載入 vue-loaders
 import 'vue-loaders/dist/vue-loaders.css'
@@ -35,8 +35,8 @@ export default {
     }
   },
   components: {
-    Header,
-    Footer
+    Header
+    // Footer
   },
   created () {
     // const vm = this

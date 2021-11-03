@@ -1,12 +1,12 @@
 <template>
   <div>
     <main>
-      <VideoModal></VideoModal>
+      <!-- <VideoModal></VideoModal> -->
       <!-- banner 區塊 -->
       <section class="banner">
         <hr class="line">
         <div class="banner-container banner-pic" data-aos="fade-up">
-          <img class="banner-circle" src="../../assets/image/front/image_circleword.svg">
+          <img class="banner-circle phone-none" src="../../assets/image/front/image_circleword.svg">
           <div class="banner-inner container-inner">
             <div class="banner-head">
               <img src="../../assets/image/front/new_header_logo.svg">
@@ -16,8 +16,11 @@
             使溫暖照亮你我
             </h2>
             <hr>
-            <p>懷孕在人生過程中原本是一件值得開心期待的事情。<br>
+            <p class="phone-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
               然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無<br>
+              助找不到方向時，這個網站能夠陪伴妳一起面對妳正面臨的問題。</p>
+            <p class="pc-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
+              然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無
               助找不到方向時，這個網站能夠陪伴妳一起面對妳正面臨的問題。</p>
             <a href="#" v-scroll-to="'#section'" class="d-flex justify-content-center mt-48">
               <span>了解</span>
@@ -29,7 +32,7 @@
       </section>
 
     <!-- service 區塊 -->
-      <section class="service container-inner">
+      <!-- <section class="service container-inner">
         <img class="service-image1" data-aos="fade-up" data-aos-delay="500" src="../../assets/image/front/service_image1.svg">
         <img class="service-image2" data-aos="fade-up" data-aos-delay="500" src="../../assets/image/front/service_image2.svg">
         <img class="service-image3" data-aos="fade-up" data-aos-delay="500" src="../../assets/image/front/service_image3.svg">
@@ -39,11 +42,10 @@
           </div>
           <div class="service-pointer"></div>
         </div>
-      </section>
+      </section> -->
 
     <!-- choose 區塊 -->
-      <section class="choose container">
-        <!-- 邊框小樣式 -->
+      <!-- <section class="choose container">
         <img class="scroll-word" src="../../assets/image/front/scroll_word.svg">
         <img class="pic1" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image3.svg">
         <img class="pic2" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image2.svg">
@@ -51,7 +53,6 @@
         <img class="pic4" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image5.svg">
         <img class="pic5" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image6.svg">
         <img class="pic6" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image7.svg">
-        <!-- 結束 -->
         <p class="step-text" data-aos="fade-up">STEP 01</p>
         <h2 class="sub-title" data-aos="fade-up">問・題·選·擇</h2>
         <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
@@ -59,7 +60,6 @@
         不必覺得自己會成為負擔或是問題，讓我們一起幫妳撐起那生命的重量。</p>
         <div class="choose-inner">
           <h2 data-aos="fade-up" data-aos-offset="400">- 我們提供專屬的<span>匿名</span>個人化智慧服務 -</h2>
-          <!-- 上層 -->
           <div class="choose-outside-top">
             <div class="choose-card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
               <div class="choose-box">
@@ -80,7 +80,6 @@
               </div>
             </div>
           </div>
-          <!-- 下層 -->
           <div class="d-flex justify-content-center pb-64">
             <div class="choose-card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
               <div class="choose-box">
@@ -111,15 +110,15 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
   </div>
 </template>
 <script>
-import $ from 'jquery'
+// import $ from 'jquery'
 
 // 載入影片 modal
-import VideoModal from '../../components/VideoModal.vue'
+// import VideoModal from '../../components/VideoModal.vue'
 
 // 載入 gsap 套件
 import gsap from 'gsap'
@@ -150,11 +149,10 @@ export default {
 
   },
   components: {
-    VideoModal
+    // VideoModal
   },
   created () {
-    $('#videoModal').show()
-    console.log($)
+
   }
 }
 </script>

@@ -39,9 +39,9 @@
           <h1>小蝴蝶資源整合平台</h1>
         </div>
         <div class="header-menu">
-          <p>OUR MEDIA</p>
+          <p class="phone-none">OUR MEDIA</p>
           <!-- 社群 icon -->
-          <ul class="header-menu-social d-flex align-items-center">
+          <ul class="header-menu-social d-flex align-items-center phone-none">
             <li>
                 <a href="#"><img src="../assets/image/front/icon_fb.svg"></a>
             </li>
@@ -56,7 +56,7 @@
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">
-            <a href="#/login"><img src="../assets/image/front/icon_member.svg"></a>
+            <router-link to="login"><img class="member-icon" src="../assets/image/front/icon_member.svg"></router-link>
 
             <!-- 漢堡選單 -->
             <button class="header-hamburger header-fixed-hamburger mx-20" data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="toggleBtn()">

@@ -10,8 +10,8 @@
 @import './layout/base';
 
 // 載入自訂通用類別 + 變數
-@import './layout/utility'; 
 @import './layout/mixin';
+@import './layout/utility'; 
 @import './layout/layout';
 
 // 載入元件 SCSS

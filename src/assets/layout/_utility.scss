@@ -103,3 +103,22 @@
 .outline-danger {
     outline: 1px solid red;
 }
+
+.pc-none {
+    display: none;
+}
+
+// 手機 rwd 相關
+
+@include phone () {
+    .container {
+        max-width: 540px;
+        padding: 0 25px;
+    }
+    .phone-none {
+        display: none !important;
+    }
+    .pc-none {
+        display: block;
+    }
+}
