@@ -5,34 +5,36 @@
       <!-- banner 區塊 -->
       <section class="banner">
         <hr class="line">
-        <div class="banner-container banner-pic" data-aos="fade-up">
-          <img class="banner-circle phone-none" src="../../assets/image/front/image_circleword.svg">
-          <div class="banner-inner container-inner">
-            <div class="banner-head">
-              <img src="../../assets/image/front/new_header_logo.svg">
-              <h2>守護勇敢 | 翩然起舞</h2>
+        <div>
+          <div class="banner-container banner-pic" data-aos="fade-up">
+            <img class="banner-circle phone-none" src="../../assets/image/front/image_circleword.svg">
+            <div class="banner-inner container-inner">
+              <div class="banner-head">
+                <img src="../../assets/image/front/new_header_logo.svg">
+                <h2>守護勇敢 | 翩然起舞</h2>
+              </div>
+              <h2>讓我們用愛點燃燈火 <br>
+              使溫暖照亮你我
+              </h2>
+              <hr>
+              <p class="phone-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
+                然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無<br>
+                助找不到方向時，這個網站能夠陪伴妳一起面對妳正面臨的問題。</p>
+              <p class="pc-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
+                然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無
+                助找不到方向時，這個網站能夠陪伴妳一起面對妳正面臨的問題。</p>
+              <a href="#" v-scroll-to="'#section'" class="d-flex justify-content-center mt-48 learn">
+                <span>了解</span>
+                <i class="fas fa-arrow-down icon animate__animated animate__bounce animate__infinite"></i>
+                <span>更多</span>
+              </a>
             </div>
-            <h2>讓我們用愛點燃燈火 <br>
-            使溫暖照亮你我
-            </h2>
-            <hr>
-            <p class="phone-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
-              然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無<br>
-              助找不到方向時，這個網站能夠陪伴妳一起面對妳正面臨的問題。</p>
-            <p class="pc-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
-              然而對於還未有心理準備的妳來說這是最令人慌張與不知所措的問題。在妳最慌亂無
-              助找不到方向時，這個網站能夠陪伴妳一起面對妳正面臨的問題。</p>
-            <a href="#" v-scroll-to="'#section'" class="d-flex justify-content-center mt-48">
-              <span>了解</span>
-              <i class="fas fa-arrow-down icon animate__animated animate__bounce animate__infinite"></i>
-              <span>更多</span>
-            </a>
           </div>
         </div>
       </section>
 
     <!-- service 區塊 -->
-      <!-- <section class="service container-inner">
+      <section class="service container-inner">
         <img class="service-image1" data-aos="fade-up" data-aos-delay="500" src="../../assets/image/front/service_image1.svg">
         <img class="service-image2" data-aos="fade-up" data-aos-delay="500" src="../../assets/image/front/service_image2.svg">
         <img class="service-image3" data-aos="fade-up" data-aos-delay="500" src="../../assets/image/front/service_image3.svg">
@@ -42,17 +44,17 @@
           </div>
           <div class="service-pointer"></div>
         </div>
-      </section> -->
+      </section>
 
     <!-- choose 區塊 -->
-      <!-- <section class="choose container">
+      <section class="choose container">
         <img class="scroll-word" src="../../assets/image/front/scroll_word.svg">
-        <img class="pic1" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image3.svg">
-        <img class="pic2" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image2.svg">
-        <img class="pic3" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image4.svg">
-        <img class="pic4" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image5.svg">
-        <img class="pic5" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image6.svg">
-        <img class="pic6" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image7.svg">
+        <img class="pic1 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image3.svg">
+        <img class="pic2 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image2.svg">
+        <img class="pic3 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image4.svg">
+        <img class="pic4 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image5.svg">
+        <img class="pic5 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image6.svg">
+        <img class="pic6 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image7.svg">
         <p class="step-text" data-aos="fade-up">STEP 01</p>
         <h2 class="sub-title" data-aos="fade-up">問・題·選·擇</h2>
         <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
@@ -80,7 +82,7 @@
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center pb-64">
+          <!-- <div class="d-flex justify-content-center pb-64">
             <div class="choose-card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
               <div class="choose-box">
                 <h3>女兒懷孕了</h3>
@@ -108,9 +110,9 @@
                 <router-link to="support-2">了解更多</router-link>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
-      </section> -->
+      </section>
     </main>
   </div>
 </template>
@@ -141,7 +143,7 @@ export default {
         trigger: '.scroll-word',
         scrub: true
       },
-      x: -600,
+      x: -800,
       duration: 10
     })
   },

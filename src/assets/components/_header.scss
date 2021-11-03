@@ -188,7 +188,8 @@
     padding: 0px;
     h1 {
       font-size: 14px;
-      padding-left: 10px;
+      padding-left: 5px;
+      letter-spacing: 1.5px;
     }
     &-logo {
       margin-left: 0px;
@@ -210,11 +211,19 @@
 
   // header-open
   .modal-list {
+    margin-top: 80px;
     h3 {
       font-size: 18px;
+      margin: 0 30px;
     }
     a {
       padding: 10px 0;
     }
+    img {
+      margin-right: 0px;
+    }
+  }
+  .modal-social a {
+    padding: 0 25px;
   }
 }
