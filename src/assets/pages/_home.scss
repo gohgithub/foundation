@@ -88,7 +88,7 @@
     position: relative;
     // 對話框
     &-bubble {
-        width: 765px;
+        max-width: 765px;
         background: white;
         margin: 0 auto;
         border-radius: 50px;
@@ -382,7 +382,7 @@
 @include phone () {
     .banner {
         margin-top: 120px;
-        padding: 50px 0 170px 0;
+        padding: 50px 0 185px 0;
         &-container {
             max-width: 540px;
             margin: 30px 35px 108px 35px;
@@ -425,6 +425,55 @@
         }
         .icon {
             font-size: 20px;
+        }
+        .learn {
+            margin-top: 30px;
+        }
+    }
+    .service-bubble {
+        margin-left: 35px;
+        margin-right: 35px;
+        h2 {
+            font-size: 14px;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+        span {
+            font-size: 18px;
+        }
+    }
+    .service-pointer {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px
+    }
+    .service-image1 {
+        width: 120px;
+        top: 25px;
+        left: 25px;
+    }
+    .service-image2 {
+        width: 70px;
+    }
+
+    .choose {
+        .scroll-word {
+            transform: scale(2.5);
+        }
+        .sub-title {
+            font-size: 20px;
+        }
+        .step-text {
+            font-size: 12px;
+        }
+        .title-line {
+            margin: 10px auto;
+        }
+        .content {
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 14px;
         }
     }
 }
