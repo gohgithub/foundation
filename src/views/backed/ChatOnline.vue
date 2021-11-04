@@ -135,6 +135,7 @@ export default {
     this.axios.get('https://iecosystem-api.tomyue.cc/api/messages?page=1&perPage=100')
       .then((res) => {
         vm.messages = (res.data.data)
+        console.log(vm.messages)
       })
   }
 }

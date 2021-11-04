@@ -202,6 +202,7 @@
     }
     h3 {
         font-size: 30px;
+        transform: translateY(-22px);
         letter-spacing: 2px;
         text-align: center;
     }
@@ -265,9 +266,6 @@
             &:hover {
                 box-shadow: 10px 10px 20px #523A0E4D;
             }
-        }
-        h3 {
-            transform: translateY(-22px);
         }
         p {
             text-decoration: underline;
@@ -430,6 +428,9 @@
             margin-top: 30px;
         }
     }
+    .service {
+        margin-bottom: 160px;
+    }
     .service-bubble {
         margin-left: 35px;
         margin-right: 35px;
@@ -455,10 +456,17 @@
     .service-image2 {
         width: 70px;
     }
-
+    .phone-container {
+        padding: 0;
+    }
     .choose {
+        .text-box {
+            padding: 0 35px;
+        }
         .scroll-word {
             transform: scale(2.5);
+            top: -2.5%;
+            right: -140%;
         }
         .sub-title {
             font-size: 20px;
@@ -471,8 +479,32 @@
         }
         .content {
             font-size: 14px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
         }
         h2 {
+            font-size: 16px;
+            padding: 30px 0;
+        }
+        h3 {
+            transform: translateY(-13px);
+            font-size: 18px;
+        }
+        &-outside-top {
+            flex-wrap: wrap;
+        }
+        .choose-inner .choose-card {
+            margin: 30px 35px;
+        }
+        .choose-inner .choose-card .line {
+            transform: translateY(-10px);
+        }
+        .choose-inner .choose-card p {
+            font-size: 14px;
+            padding: 12px 0;
+        }
+        .choose-inner .choose-card a {
+            width: 150px;
             font-size: 14px;
         }
     }

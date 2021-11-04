@@ -6,14 +6,15 @@
         <p>TOP</p>
       </a>
       <div class="container footer-item">
-        <div class="w-50">
+        <div class="w-50 footer-title">
           <a href="#">
             <img src="../assets/image/front/footer_logo_PC.svg">
           </a>
+          <h2 class="pc-none">守護勇敢 | 翩然起舞</h2>
           <hr class="footer-line">
-          <h2>守護勇敢 | 翩然起舞</h2>
+          <h2 class="phone-none">守護勇敢 | 翩然起舞</h2>
         </div>
-        <div class="w-50">
+        <div class="w-50 footer-menu">
           <ul class="footer-list">
             <li><a class="mb-36" href="#">關於我們</a></li>
             <li><a class="mb-36" href="#">最新消息</a></li>
