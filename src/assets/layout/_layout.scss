@@ -70,3 +70,9 @@
 .rightOutline, .leftOutline {
 	width: 10px;
 }
+
+@include phone () {
+	.loader-icon {
+		left: calc(50% - 25px);
+	}
+}

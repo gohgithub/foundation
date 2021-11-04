@@ -403,8 +403,7 @@
             height: 200px;
         }
         img {
-            width: 50px;
-            height: 50px;
+            width: 55px;
         }
         hr {
             width: 60%;
@@ -506,6 +505,8 @@
         .choose-inner .choose-card a {
             width: 150px;
             font-size: 14px;
+            outline: none;
+            border: 1px solid black;
         }
     }
 }
