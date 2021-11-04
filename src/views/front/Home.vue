@@ -48,13 +48,13 @@
 
     <!-- choose 區塊 -->
       <section class="choose container phone-container">
-        <img class="scroll-word" src="../../assets/image/front/scroll_word.svg">
-        <img class="pic1 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image3.svg">
-        <img class="pic2 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image2.svg">
-        <img class="pic3 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image4.svg">
-        <img class="pic4 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image5.svg">
-        <img class="pic5 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image6.svg">
-        <img class="pic6 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image7.svg">
+        <img class="scroll-word phone-none" src="../../assets/image/front/scroll_word.svg">
+        <img class="pic1 phone-none" data-aos="fade-up" src="../../assets/image/front/choose_image3.svg">
+        <img class="pic2 phone-none" data-aos="fade-up" src="../../assets/image/front/choose_image2.svg">
+        <img class="pic3 phone-none" data-aos="fade-up" src="../../assets/image/front/choose_image4.svg">
+        <img class="pic4 phone-none" data-aos="fade-up" src="../../assets/image/front/choose_image5.svg">
+        <img class="pic5 phone-none" data-aos="fade-up" src="../../assets/image/front/choose_image6.svg">
+        <img class="pic6 phone-none" data-aos="fade-up" src="../../assets/image/front/choose_image7.svg">
         <div class="text-box">
           <p class="step-text" data-aos="fade-up">STEP 01</p>
           <h2 class="sub-title" data-aos="fade-up">問・題·選·擇</h2>
@@ -63,9 +63,9 @@
           不必覺得自己會成為負擔或是問題，讓我們一起幫妳撐起那生命的重量。</p>
         </div>
         <div class="choose-inner">
-          <h2 data-aos="fade-up" data-aos-offset="400">- 我們提供專屬的<span>匿名</span>個人化智慧服務 -</h2>
+          <h2 data-aos="fade-up">- 我們提供專屬的<span>匿名</span>個人化智慧服務 -</h2>
           <div class="choose-outside-top">
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-delay="300">
               <div class="choose-box">
                 <h3>我非預期懷孕了</h3>
                 <hr class="line">
@@ -74,7 +74,7 @@
                 <router-link to="unintended-2">了解更多</router-link>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="500" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
               <div class="choose-box bg-banana">
                 <h3>女友懷孕了</h3>
                 <hr class="line">
@@ -85,7 +85,7 @@
             </div>
           </div>
           <div class="d-flex justify-content-center pb-64 flex-wrap">
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-delay="300">
               <div class="choose-box">
                 <h3>女兒懷孕了</h3>
                 <hr class="line">
@@ -94,7 +94,7 @@
                 <router-link to="daughter-2">了解更多</router-link>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="500" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
               <div class="choose-box bg-banana">
                 <h3>我是親友</h3>
                 <hr class="line">
@@ -103,7 +103,7 @@
                 <router-link to="family-2">了解更多</router-link>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="700" data-aos-offset="400">
+            <div class="choose-card" data-aos="fade-up" data-aos-delay="700">
               <div class="choose-box">
                 <h3>我想支持</h3>
                 <hr class="line">

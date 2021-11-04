@@ -2,8 +2,8 @@
   <div>
     <Circle></Circle>
     <section class="footer">
-      <a class="goTop" href="#" v-scroll-to="'#header'" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
-        <p>TOP</p>
+      <a class="goTop" href="#" v-scroll-to="'#header'">
+        TOP
       </a>
       <div class="container footer-item">
         <div class="w-50 footer-title">
