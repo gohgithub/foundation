@@ -51,3 +51,34 @@
         letter-spacing: 6px;
     }
 }
+
+// 手機 rwd 相關
+@include phone () {
+    .footer {
+        h2 {
+            font-size: 16px;
+            text-align: center;
+            padding: 0;
+            margin-top: 30px;
+        }
+    }
+    .footer-list {
+        padding-left: 0px;
+        a {
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+    .footer-item {
+        flex-direction: column;
+    }
+    .footer-title, .footer-menu {
+        width: 100% !important;
+    }
+    .goTop {
+        top: -60px;
+        right: 50px;
+        padding: 20px 10px;
+    }
+}

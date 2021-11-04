@@ -7,7 +7,7 @@
         <hr class="line">
         <div>
           <div class="banner-container banner-pic" data-aos="fade-up">
-            <img class="banner-circle phone-none" src="../../assets/image/front/image_circleword.svg">
+            <img class="banner-circle" src="../../assets/image/front/image_circleword.svg">
             <div class="banner-inner container-inner">
               <div class="banner-head">
                 <img src="../../assets/image/front/new_header_logo.svg">
@@ -47,7 +47,7 @@
       </section>
 
     <!-- choose 區塊 -->
-      <section class="choose container">
+      <section class="choose container phone-container">
         <img class="scroll-word" src="../../assets/image/front/scroll_word.svg">
         <img class="pic1 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image3.svg">
         <img class="pic2 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image2.svg">
@@ -55,11 +55,13 @@
         <img class="pic4 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image5.svg">
         <img class="pic5 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image6.svg">
         <img class="pic6 phone-none" data-aos="fade-up" data-aos-offset="400" src="../../assets/image/front/choose_image7.svg">
-        <p class="step-text" data-aos="fade-up">STEP 01</p>
-        <h2 class="sub-title" data-aos="fade-up">問・題·選·擇</h2>
-        <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-        <p class="content" data-aos="fade-up" id="section">生命的重量不應該只有自己來承擔，有時候簡單的一些行動也能為自己帶來不一樣未來。<br>
-        不必覺得自己會成為負擔或是問題，讓我們一起幫妳撐起那生命的重量。</p>
+        <div class="text-box">
+          <p class="step-text" data-aos="fade-up">STEP 01</p>
+          <h2 class="sub-title" data-aos="fade-up">問・題·選·擇</h2>
+          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
+          <p class="content" data-aos="fade-up" id="section">生命的重量不應該只有自己來承擔，有時候簡單的一些行動也能為自己帶來不一樣未來。<br>
+          不必覺得自己會成為負擔或是問題，讓我們一起幫妳撐起那生命的重量。</p>
+        </div>
         <div class="choose-inner">
           <h2 data-aos="fade-up" data-aos-offset="400">- 我們提供專屬的<span>匿名</span>個人化智慧服務 -</h2>
           <div class="choose-outside-top">
@@ -82,7 +84,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="d-flex justify-content-center pb-64">
+          <div class="d-flex justify-content-center pb-64 flex-wrap">
             <div class="choose-card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="400">
               <div class="choose-box">
                 <h3>女兒懷孕了</h3>
@@ -110,7 +112,7 @@
                 <router-link to="support-2">了解更多</router-link>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </section>
     </main>
