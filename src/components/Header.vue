@@ -17,9 +17,13 @@
                 <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
               <ul class="d-flex justify-content-center modal-social">
+                <li>
+                  <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                    <p class="ml-10 me-0 modal-text">資源下載</p>
+                  </a>
+                </li>
                 <li><a href="#"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
                 <li><a href="#"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
-                <li><a href="#"><img src="../assets/image/front/icon_youtu_menu.svg"></a></li>
                 <li><a href="#"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
               </ul>
             </div>
@@ -39,20 +43,21 @@
           <h1>小蝴蝶資源整合平台</h1>
         </div>
         <div class="header-menu">
-          <p class="phone-none">OUR MEDIA</p>
           <!-- 社群 icon -->
           <ul class="header-menu-social d-flex align-items-center phone-none">
             <li>
-                <a href="#"><img src="../assets/image/front/icon_fb.svg"></a>
+                <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                  <p class="ml-10 me-0">資源下載</p>
+                </a>
             </li>
             <li>
-                <a href="#"><img src="../assets/image/front/icon_ig.svg"></a>
+                <a href="https://www.facebook.com/butterflysweethome"><img src="../assets/image/front/icon_fb.svg"></a>
             </li>
             <li>
-                <a href="#"><img src="../assets/image/front/icon_youtu.svg"></a>
+                <a href="https://www.instagram.com/protect.butterfly/"><img src="../assets/image/front/icon_ig.svg"></a>
             </li>
             <li>
-                <a href="#"><img src="../assets/image/front/icon_line.svg"></a>
+                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd"><img src="../assets/image/front/icon_line_header.svg"></a>
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">

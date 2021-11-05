@@ -154,3 +154,10 @@
         }
     }
 }
+
+// 手機 rwd
+@include phone() {
+    .badge {
+        margin: 120px 30px 100px 30px;
+    }
+}
