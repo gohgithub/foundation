@@ -12,7 +12,7 @@
       </section>
 
       <!-- 步驟選項 -->
-      <section class="container">
+      <section class="container step-rwd">
         <div class="step">
           <!-- 裝飾用圖片 -->
           <img class="step-circle" src="../../assets/image/front/image_circleword.svg">
