@@ -13,11 +13,12 @@
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>04</p><h3>最新消息</h3><span>News</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>05</p><h3>社群留言</h3><span>Message Board</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>06</p><h3>經驗分享</h3><span>Successful</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>07</p><h3>相關單位</h3><span>Links</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>07</p><h3>友善連結</h3><span>Links</span></a></li>
                 <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>
+                  <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
                   <a class="d-flex align-items-center rwd-item" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
@@ -40,7 +41,7 @@
               <img src="../assets/image/front/new_header_logo.svg">
           </a>
           <hr class="header-line">
-          <h1>小蝴蝶資源整合平台</h1>
+          <h1>小蝴蝶社會資源整合平台</h1>
         </div>
         <div class="header-menu">
           <!-- 社群 icon -->
@@ -51,6 +52,13 @@
                 </a>
             </li>
             <li>
+                <a href="https://www.facebook.com/butterflysweethome" target="_blank"><img src="../assets/image/front/icon_fb.svg"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/protect.butterfly/" target="_blank"><img src="../assets/image/front/icon_ig.svg"></a>
+            </li>
+            <li>
+                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_header.svg"></a>
                 <a href="https://www.facebook.com/butterflysweethome"><img src="../assets/image/front/icon_fb.svg"></a>
             </li>
             <li>
