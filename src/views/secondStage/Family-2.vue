@@ -6,7 +6,7 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">責任・承擔</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">親友懷孕了</a></li>
           </ol>
         </nav>
       </section>
