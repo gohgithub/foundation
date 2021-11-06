@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
@@ -111,6 +112,31 @@ const routes = [
         path: 'daughter-3-1',
         name: 'daughter-3-1',
         component: () => import('../views/thirdStage/Daughter-3-1.vue')
+      },
+      {
+        path: 'daughter-3-2',
+        name: 'daughter-3-2',
+        component: () => import('../views/thirdStage/Daughter-3-2.vue')
+      },
+      {
+        path: 'daughter-3-3',
+        name: 'daughter-3-3',
+        component: () => import('../views/thirdStage/Daughter-3-3.vue')
+      },
+      {
+        path: 'daughter-3-4',
+        name: 'daughter-3-4',
+        component: () => import('../views/thirdStage/Daughter-3-4.vue')
+      },
+      {
+        path: 'daughter-3-5',
+        name: 'daughter-3-5',
+        component: () => import('../views/thirdStage/Daughter-3-5.vue')
+      },
+      {
+        path: 'daughter-3-6',
+        name: 'daughter-3-6',
+        component: () => import('../views/thirdStage/Daughter-3-6.vue')
       },
       // 我女友懷孕了
       {
