@@ -66,21 +66,30 @@
     .consult {
         margin: 120px 0;
         .content {
-            margin: 0
+            margin: 0;
+        }
+        &-content {
+            font-size: 14px;
+            letter-spacing: 0px;
         }
         h2 {
             margin-top: 30px;
             font-size: 24px;
         }
         li {
-            margin-top: 20px;
+            margin-top: 25px;
             width: 100%;
         }
         .left-list {
             border: none !important;
+            border-bottom: 1px solid black !important;
+            padding-bottom: 25px;
         }
         &-box {
             width: 90%;
+            p {
+                font-size: 20px;
+            }
         }
     }
 }
