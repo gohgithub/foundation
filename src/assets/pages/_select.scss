@@ -84,6 +84,10 @@
             margin: 35px 0;
             letter-spacing: 2px;
         }
+        li a {
+            display: inline;
+            margin: 0;
+        }
     }
     &-list {
         display: flex;
@@ -109,7 +113,7 @@
     background-color: white;
     border-radius: 30px;
     max-width: 200px;
-    margin: 36px auto 40px auto;
+    margin: 36px auto 40px auto !important;
     padding: 7px 0;
     font-size: 22px;
     border: 1px solid black;
