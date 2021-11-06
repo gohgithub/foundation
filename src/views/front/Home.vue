@@ -15,6 +15,8 @@
               </div>
               <h2>用愛點燃燈火 <br>
               溫暖照亮你我
+              <h2>讓我們用愛點燃燈火 <br>
+              使溫暖照亮你我
               </h2>
               <hr>
               <p class="phone-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
@@ -73,6 +75,7 @@
                 <p>在這條道路上，<br>你從來不是獨自一人。</p>
                 <router-link to="unintended-2">了解更多</router-link>
               </div>
+
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
               <div class="choose-box bg-banana">
