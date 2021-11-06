@@ -40,7 +40,7 @@
               <img src="../assets/image/front/new_header_logo.svg">
           </a>
           <hr class="header-line">
-          <h1>小蝴蝶資源整合平台</h1>
+          <h1>小蝴蝶社會資源整合平台</h1>
         </div>
         <div class="header-menu">
           <!-- 社群 icon -->
@@ -51,13 +51,13 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.facebook.com/butterflysweethome"><img src="../assets/image/front/icon_fb.svg"></a>
+                <a href="https://www.facebook.com/butterflysweethome" target="_blank"><img src="../assets/image/front/icon_fb.svg"></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/protect.butterfly/"><img src="../assets/image/front/icon_ig.svg"></a>
+                <a href="https://www.instagram.com/protect.butterfly/" target="_blank"><img src="../assets/image/front/icon_ig.svg"></a>
             </li>
             <li>
-                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd"><img src="../assets/image/front/icon_line_header.svg"></a>
+                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_header.svg"></a>
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">

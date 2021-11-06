@@ -13,8 +13,8 @@
                 <img src="../../assets/image/front/new_header_logo.svg">
                 <h2>守護勇敢 | 翩然起舞</h2>
               </div>
-              <h2>讓我們用愛點燃燈火 <br>
-              使溫暖照亮你我
+              <h2>用愛點燃燈火 <br>
+              溫暖照亮你我
               </h2>
               <hr>
               <p class="phone-none">懷孕在人生過程中原本是一件值得開心期待的事情。<br>
@@ -67,7 +67,7 @@
           <div class="choose-outside-top">
             <div class="choose-card" data-aos="fade-up" data-aos-delay="300">
               <div class="choose-box">
-                <h3>我非預期懷孕了</h3>
+                <h3>我意外懷孕了</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic1.jpg">
                 <p>在這條道路上，<br>你從來不是獨自一人。</p>
