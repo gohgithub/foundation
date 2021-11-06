@@ -73,6 +73,7 @@
                 <p>在這條道路上，<br>你從來不是獨自一人。</p>
                 <router-link to="unintended-2">了解更多</router-link>
               </div>
+
             </div>
             <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
               <div class="choose-box bg-banana">

@@ -18,7 +18,7 @@
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>
-                  <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                  <a class="d-flex align-items-center rwd-item" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
                 </li>

@@ -62,3 +62,25 @@
         }
     }
 }
+@include phone() {
+    .consult {
+        margin: 120px 0;
+        .content {
+            margin: 0
+        }
+        h2 {
+            margin-top: 30px;
+            font-size: 24px;
+        }
+        li {
+            margin-top: 20px;
+            width: 100%;
+        }
+        .left-list {
+            border: none !important;
+        }
+        &-box {
+            width: 90%;
+        }
+    }
+}
