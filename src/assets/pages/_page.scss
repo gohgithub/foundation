@@ -105,6 +105,9 @@
         li {
             margin: 35px 0;
             width: 33%;
+            p {
+                display: none;
+            }
         }
         img {
             display: block;
@@ -136,6 +139,7 @@
     }
 }
 
+
 .select-item {
     h3 {
         font-size: 20px;
@@ -154,7 +158,9 @@
         }
     }
 }
-
+.select-list p {
+    display: none;
+}
 // 手機 rwd
 @include phone() {
     .badge {
