@@ -58,6 +58,7 @@
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
                     <div data-aos="fade-up">
+                      <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
                       <a class="goBack" href="#">返回首頁</a>
                     </div>
                 </div>
@@ -65,6 +66,8 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
+        <Article></Article>
         <Circle></Circle>
       </main>
     </div>

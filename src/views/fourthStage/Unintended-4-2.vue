@@ -43,6 +43,11 @@
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>
+              <hr data-aos="fade-up">
+              <div data-aos="fade-up">
+                <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
+                <a class="goBack" href="#">返回首頁</a>
+              </div>
             </div>
           </div>
         </div>
