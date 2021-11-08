@@ -22,9 +22,9 @@
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
                 </li>
-                <li><a href="#" target="_blank"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
-                <li><a href="#" target="_blank"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
-                <li><a href="#" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
+                <li><a href="https://www.facebook.com/butterflysweethome" target="_blank"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
+                <li><a href="https://www.instagram.com/protect.butterfly/" target="_blank"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
+                <li><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
               </ul>
             </div>
           </div>
