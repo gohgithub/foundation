@@ -14,20 +14,22 @@
         </section>
 
         <!-- 主要區塊 -->
-        <section class="container">
-          <div class="select">
+        <section class="container step-rwd">
+          <div class="step">
             <!-- 裝飾用圖片 -->
-            <img class="select-circle" src="../../assets/image/front/image_circleword.svg">
+            <img class="step-circle" src="../../assets/image/front/image_circleword.svg">
             <img class="image1" src="../../assets/image/front/page02_image1.svg">
             <img class="image2" src="../../assets/image/front/page02_image2.svg">
             <img class="image3" src="../../assets/image/front/page02_image3.svg">
             <!-- 結束 -->
-            <p class="select-text" data-aos="fade-up" >ANSEWR</p>
-            <h2 class="select-title" data-aos="fade-up" >選擇・答案</h2>
-            <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
-            <p class="select-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
-            <div class="container select-box">
-              <div class="select-box-inner">
+            <div class="title-box">
+              <p class="step-text" data-aos="fade-up" >ANSEWR</p>
+              <h2 class="step-title" data-aos="fade-up" >選擇・答案</h2>
+              <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
+              <p class="step-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
+            </div>
+            <div class="container step-box">
+              <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
                   <h2>｜中止懷孕｜</h2>
                 </div>
@@ -39,7 +41,7 @@
                       <li data-aos="fade-up">
                         <h3>什麼是終止懷孕？</h3>
                         <p>終止懷孕又可稱為墮胎、人工流產、終止妊娠。你可以透過手術或口服藥物的方式，將胎兒從子宮內清除。隨著懷孕時間的長短不同會有不同的執行療程和影響，以及法律規範。若透過合法管道進行醫療流程，會有醫師給予適時的檢查與手術，可以降低風險。反之，若沒有依循合法正常的途徑或太晚執行終止懷孕，很有可能會對身體留下永久的傷害。<br>
-                        <img src="https://www.taog.org.tw/img/ill/12.jpg" alt=""><br>《圖片來源：台灣婦產科醫學會》</p>
+                        <img class="rounded-0 w-100" src="https://www.taog.org.tw/img/ill/12.jpg" alt=""><br>《圖片來源：台灣婦產科醫學會》</p>
                       </li>
                       <li data-aos="fade-up">
                         <h3>執行終止懷孕的相關手術或療程有需要住院嗎？</h3>
@@ -71,6 +73,7 @@
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
                     <div data-aos="fade-up">
+                      <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
                       <a class="goBack" href="#">返回首頁</a>
                     </div>
                 </div>

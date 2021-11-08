@@ -5,6 +5,8 @@ import router from './router'
 // 載入 Vuex
 import store from './store'
 
+import 'bootstrap'
+
 // 載入 axios
 import axios from 'axios'
 import VueAxios from 'vue-axios'

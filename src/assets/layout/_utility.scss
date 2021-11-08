@@ -27,10 +27,10 @@
     margin: 0 20px;
 }
 .mb-15 {
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 .mb-20 {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 .mb-36 {
     margin-bottom: 36px;
@@ -109,6 +109,10 @@
 
 .pc-none {
     display: none;
+}
+
+.list-disc {
+    list-style: disc;
 }
 
 // 手機 rwd 相關

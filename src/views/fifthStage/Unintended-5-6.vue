@@ -15,20 +15,22 @@
         </section>
 
         <!-- 主要區塊 -->
-        <section class="container">
-          <div class="select">
+        <section class="container step-rwd">
+          <div class="step">
             <!-- 裝飾用圖片 -->
-            <img class="select-circle" src="../../assets/image/front/image_circleword.svg">
+            <img class="step-circle" src="../../assets/image/front/image_circleword.svg">
             <img class="image1" src="../../assets/image/front/page02_image1.svg">
             <img class="image2" src="../../assets/image/front/page02_image2.svg">
             <img class="image3" src="../../assets/image/front/page02_image3.svg">
             <!-- 結束 -->
-            <p class="select-text" data-aos="fade-up" >ANSEWR</p>
-            <h2 class="select-title" data-aos="fade-up" >選擇・答案</h2>
-            <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
-            <p class="select-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
-            <div class="container select-box">
-              <div class="select-box-inner">
+            <div class="text-box">
+              <p class="step-text" data-aos="fade-up" >ANSEWR</p>
+              <h2 class="step-title" data-aos="fade-up" >選擇・答案</h2>
+              <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
+              <p class="step-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
+            </div>
+            <div class="container step-box">
+              <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
                   <h2>｜社福資源｜</h2>
                 </div>
@@ -40,7 +42,7 @@
                       <li data-aos="fade-up">
                         <h3>社工服務</h3>
                         <p>當你決定生下寶寶，將會面臨經濟、就業、照顧與托育等問題，你可以向地方社會局尋求協助，因為每個縣市會有不同的福利或補助，社會局可根據你的情況，幫你找尋最好的方案。政府有統一規定育兒津貼與補助方案，而各個縣市也會根據情況提出不同的方案，
-                          你可以透過<a style="inline" href="https://257085.sfaa.gov.tw" target="_blank" title="未成年懷孕求助站">未成年懷孕求助網站| 257085.sfaa.gov.tw</a>的福利百寶箱，這個網站統整許多資源，例如經濟、育兒、就學、就業、醫療等資源，定期更新完整的資訊，方便你事先了解可以申請哪些資源與補助。</p>
+                          你可以透過<a href="https://257085.sfaa.gov.tw" target="_blank" title="未成年懷孕求助站">「未成年懷孕求助網站 | 257085.sfaa.gov.tw」</a>的福利百寶箱，這個網站統整許多資源，例如經濟、育兒、就學、就業、醫療等資源，定期更新完整的資訊，方便你事先了解可以申請哪些資源與補助。</p>
                       </li>
                       <li data-aos="fade-up">
                         <h3>中途之家</h3>
@@ -56,6 +58,7 @@
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
                     <div data-aos="fade-up">
+                      <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
                       <a class="goBack" href="#">返回首頁</a>
                     </div>
                 </div>
@@ -63,6 +66,8 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
+        <Article></Article>
         <Circle></Circle>
       </main>
     </div>

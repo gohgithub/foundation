@@ -61,26 +61,38 @@
             }
         }
     }
+    .left-item {
+        border-right: 1px solid black;
+    }
 }
 @include phone() {
     .consult {
         margin: 120px 0;
         .content {
-            margin: 0
+            margin: 0;
+        }
+        &-content {
+            font-size: 14px;
+            letter-spacing: 0px;
         }
         h2 {
             margin-top: 30px;
             font-size: 24px;
         }
         li {
-            margin-top: 20px;
+            margin-top: 25px;
             width: 100%;
         }
-        .left-list {
-            border: none !important;
+        .left-item {
+            border-right: none;
+            border-bottom: 1px solid black;
+            padding-bottom: 15px;
         }
         &-box {
             width: 90%;
+            p {
+                font-size: 20px;
+            }
         }
     }
 }

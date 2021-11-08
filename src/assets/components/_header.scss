@@ -194,6 +194,9 @@
       padding-left: 5px;
       letter-spacing: 1.5px;
     }
+    &-rwd {
+      padding: 10px;
+    }
     &-logo {
       margin-left: 0px;
       img {
@@ -231,7 +234,7 @@
   }
   .modal-text {
     letter-spacing: 0px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .modal-social .rwd-item {
     padding-left: 0px;

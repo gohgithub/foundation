@@ -18,14 +18,13 @@
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>
-                  <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
-                  <a class="d-flex align-items-center rwd-item" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                  <a class="d-flex align-items-center rwd-item ps-0" target="_blank" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
                 </li>
-                <li><a href="#"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
-                <li><a href="#"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
-                <li><a href="#"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
+                <li><a href="https://www.facebook.com/butterflysweethome" target="_blank"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
+                <li><a href="https://www.instagram.com/protect.butterfly/" target="_blank"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
+                <li><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
               </ul>
             </div>
           </div>
@@ -34,7 +33,7 @@
     </div>
 
     <!-- fixed-header -->
-    <header class="container header-fixed fixed-top" id="header">
+    <header class="container header-fixed fixed-top header-rwd" id="header">
       <section class="header" data-aos="fade-down" data-aos-duration="2000">
         <div class="header-logo">
           <a href="#">
@@ -47,7 +46,7 @@
           <!-- 社群 icon -->
           <ul class="header-menu-social d-flex align-items-center phone-none">
             <li>
-                <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0" target="_blank"><img src="../assets/image/front/icon_document_header.svg">
                   <p class="ml-10 me-0">資源下載</p>
                 </a>
             </li>
@@ -59,13 +58,6 @@
             </li>
             <li>
                 <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_header.svg"></a>
-                <a href="https://www.facebook.com/butterflysweethome"><img src="../assets/image/front/icon_fb.svg"></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/protect.butterfly/"><img src="../assets/image/front/icon_ig.svg"></a>
-            </li>
-            <li>
-                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd"><img src="../assets/image/front/icon_line_header.svg"></a>
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">

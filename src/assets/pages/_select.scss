@@ -33,7 +33,7 @@
         border-radius: 50px;
         background-color: #F8F6EF;
         border: 2px solid black;
-        padding: 48px 0 96px 0;
+        padding: 48px 0;
     }
     .box-title {
         max-width: 600px;
@@ -72,7 +72,7 @@
         right: -80px;
     }
     &-menu {
-        margin: 106px auto 0 auto;
+        margin: 106px 30px 0 30px;
         img {
             display: block;
             margin: 0 auto;
@@ -84,21 +84,9 @@
             margin: 35px 0;
             letter-spacing: 2px;
         }
-        .goBack, .selectBtn {
-            text-align: center;
-            background-color: white;
-            border-radius: 30px;
-            max-width: 200px;
-            margin: 36px auto 40px auto;
-            padding: 7px 0;
-            font-size: 22px;
-            border: 1px solid black;
-            letter-spacing: 2px;
-            &:hover {
-                background-color: #C08C7E;
-                color: white;
-                transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
-            }
+        li a {
+            display: inline;
+            margin: 0;
         }
     }
     &-list {
@@ -120,6 +108,24 @@
     }
 }
 
+.goBack {
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 200px;
+    cursor: pointer;
+    margin: 36px auto 40px auto !important;
+    padding: 7px 0;
+    font-size: 22px;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    &:hover {
+        background-color: #C08C7E;
+        color: white;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
+    }
+}
+
 .badge {
     display: flex;
     align-items: center;
@@ -129,12 +135,19 @@
     border-radius: 30px;
     .breadcrumb {
         margin-bottom: 0px;
+        align-items: center;
+        li {
+            padding: 5px 0;
+        }
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+        padding: 0 5px;
     }
     a {
         font-size: 20px;
         font-weight: normal;
         color: $purple;
-        display: inline;
+        display: inline-block;
         letter-spacing: 2px;
     }
     .breadcrumb-item + .breadcrumb-item::before {
@@ -280,6 +293,21 @@
     }
 }
 
+.step-header {
+    margin: 0 15px;
+    img {
+        border-radius: 50%;
+        margin: 50px auto 0 auto;
+        display: block;
+    }
+    p {
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 20px 0 40px 0
+    }
+}
+
 // 手機 rwd
 @include phone() {
     .badge {
@@ -291,31 +319,47 @@
     }
     .step {
         margin: 0;
-        &-box {
-            border-radius: 0;
-            padding: 45px 30px 80px 30px;
+        .box-title {
+            border: none;
+            background-color: #F8F6EF;
+            margin: 0 !important;
         }
-        &-text {
-            font-size: 14px;
+        .box-title h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            letter-spacing: 1.5px;
         }
         .image1, .image2, .image3 {
             display: none;
         }
         .title-line {
-            margin: 10px 0;
+            margin: 10px auto;
+        }
+        p {
+            font-size: 14px;
+            text-decoration: none;
+            letter-spacing: .8px;
+        }
+        &-box {
+            border-radius: 0;
+            margin-top: 0px;
+            padding: 45px 30px 80px 30px;
+        }
+        &-text {
+            font-size: 14px;
+        }
+        &-sologan {
+            margin-bottom: 10px;
         }
         &-circle {
             display: none;
         }
-        .box-title h2 {
-            font-size: 20px;
-        }
         &-menu {
+            margin-top: 0px;
             li {
                 width: 100%;
             }
         }
-            margin-top: 30px;
             li {
                 width: 100%;
             }
@@ -323,23 +367,49 @@
                 width: 200px;
             }
             a {
-                font-size: 20px;
-                margin: 36px 30px 40px 30px;
+                font-size: 14px;
+                margin: 30px 30px 40px 30px;
+            }
+            .box-title {
+                margin: 0 30px;
+                padding: 10px 5px
             }
         }
-        .box-title {
-            margin: 0 30px;
-            padding: 10px 5px
+        .step-box-inner {
+            padding: 48px 0 48px 0;
+            border: 1px solid black;
+        }
+        .step-rwd {
+            padding: 0
+        }
+        .step-header {
+            margin: 0 15px;
+            img {
+                border-radius: 50%;
+                margin: 0 auto;
+                display: block;
+            }
+            p {
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        .text-box {
+            padding: 0 35px;
+        }
+        .select-menu {
+            margin: 0 20px;
+        }
+        .select-box-inner {
+            padding: 48px 0 48px 0;
+        }
+        .select-item .list li {
+            font-size: 14px;
+        }
+        .select-item li p {
+            margin: 20px 0 60px 0;
+        }
+        .select-item h3 {
+            font-size: 16px;
         }
     }
-    .step-box-inner {
-        padding: 48px 0 48px 0;
-        border: 1px solid black;
-    }
-    .step-rwd {
-        padding: 0
-    }
-    .text-box {
-        padding: 0 35px;
-    }
-}
