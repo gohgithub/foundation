@@ -6,7 +6,9 @@
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="/">首頁</a></li>
-              <li class="breadcrumb-item"><a href="#">中止生下</a></li>
+              <li class="breadcrumb-item"><a href="#/unintended-2">我女兒懷孕了</a></li>
+              <li class="breadcrumb-item"><a href="#/unintended-3-1">我想要生下來</a></li>
+              <li class="breadcrumb-item"><a href="#/unintended-4-1">自行撫養</a></li>
               <li class="breadcrumb-item active" aria-current="page"><a href="#">選擇答案</a></li>
             </ol>
           </nav>
@@ -56,6 +58,7 @@
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
                     <div data-aos="fade-up">
+                      <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
                       <a class="goBack" href="#">返回首頁</a>
                     </div>
                 </div>
@@ -63,6 +66,8 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
+        <Article></Article>
         <Circle></Circle>
       </main>
     </div>

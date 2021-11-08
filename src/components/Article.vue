@@ -4,7 +4,7 @@
         <div class="article-container">
             <h2 data-aos="fade-up">-相關主題-</h2>
             <p class="article-subTitle" data-aos="fade-up">相關文章推薦</p>
-            <ul class="d-flex">
+            <ul class="d-flex flex-wrap">
                 <li data-aos="fade-up">
                     <a href="#">
                         <img src="../assets/image/front/sample_pic1.jpg">

@@ -9,22 +9,22 @@
               <ul class="modal-list">
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>01</p><h3>關於我們</h3><span>About Us</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>02</p><h3>服務流程</h3><span>Knowledge</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>03</p><h3>我要求助</h3><span>Information</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>04</p><h3>最新消息</h3><span>News</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>05</p><h3>社群留言</h3><span>Message Board</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>06</p><h3>經驗分享</h3><span>Successful</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>07</p><h3>友善連結</h3><span>Links</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/unintended-2"><p>03</p><h3>我意外懷孕了</h3><span>Teen Mom</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/youngdad-2"><p>04</p><h3>我女友懷孕了</h3><span>Teen Dad</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/daughter-2"><p>05</p><h3>我女兒懷孕了</h3><span>Parents</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/family-2"><p>06</p><h3>親友懷孕了</h3><span>Family</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/support-2"><p>07</p><h3>我想支持</h3><span>Support</span></a></li>
                 <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>
-                  <a class="d-flex align-items-center rwd-item ps-0" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                  <a class="d-flex align-items-center rwd-item ps-0" target="_blank" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
                 </li>
-                <li><a href="#"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
-                <li><a href="#"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
-                <li><a href="#"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
+                <li><a href="https://www.facebook.com/butterflysweethome" target="_blank"><img src="../assets/image/front/icon_fb_menu.svg"></a></li>
+                <li><a href="https://www.instagram.com/protect.butterfly/" target="_blank"><img src="../assets/image/front/icon_ig_menu.svg"></a></li>
+                <li><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
               </ul>
             </div>
           </div>
@@ -46,7 +46,7 @@
           <!-- 社群 icon -->
           <ul class="header-menu-social d-flex align-items-center phone-none">
             <li>
-                <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0" target="_blank"><img src="../assets/image/front/icon_document_header.svg">
                   <p class="ml-10 me-0">資源下載</p>
                 </a>
             </li>
@@ -57,7 +57,7 @@
                 <a href="https://www.instagram.com/protect.butterfly/" target="_blank"><img src="../assets/image/front/icon_ig.svg"></a>
             </li>
             <li>
-                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd"><img src="../assets/image/front/icon_line_header.svg"></a>
+                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_header.svg"></a>
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">

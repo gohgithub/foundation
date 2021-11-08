@@ -6,7 +6,7 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">支持・包容</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">我女兒懷孕了</a></li>
           </ol>
         </nav>
       </section>
@@ -37,30 +37,34 @@
                   </li>
                   <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
-                    <router-link to="/">如何面對外人眼光</router-link>
+                    <router-link to="daughter-3-2">如何面對外人眼光</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="700">
                     <img src='../../assets/image/front/page02_pic3.jpg'>
-                    <router-link to="select">週數多大無法中止懷孕</router-link>
+                    <router-link to="daughter-3-3">週數多大無法中止懷孕</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="300">
                     <img src='../../assets/image/front/page02_pic1.jpg'>
-                    <a href="#">小孩生下就會被帶走嗎</a>
+                    <router-link to="daughter-3-4">小孩生下就會被帶走嗎</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
-                    <router-link to="/">還能完成學業嗎</router-link>
+                    <router-link to="daughter-3-5">還能完成學業嗎</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="700">
                     <img src='../../assets/image/front/page02_pic3.jpg'>
-                    <router-link to="select">小孩怎麼養小孩</router-link>
+                    <router-link to="daughter-3-6">小孩怎麼養小孩</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                 </ul>
+                <hr data-aos="fade-up">
+                <div data-aos="fade-up">
+                  <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
+                </div>
             </div>
           </div>
         </div>

@@ -61,6 +61,9 @@
             }
         }
     }
+    .left-item {
+        border-right: 1px solid black;
+    }
 }
 @include phone() {
     .consult {
@@ -80,10 +83,10 @@
             margin-top: 25px;
             width: 100%;
         }
-        .left-list {
-            border: none !important;
-            border-bottom: 1px solid black !important;
-            padding-bottom: 25px;
+        .left-item {
+            border-right: none;
+            border-bottom: 1px solid black;
+            padding-bottom: 15px;
         }
         &-box {
             width: 90%;
