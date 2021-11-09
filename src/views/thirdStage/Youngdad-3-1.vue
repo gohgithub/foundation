@@ -29,7 +29,7 @@
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜為女兒所想，為家庭所選。｜</h2>
+                  <h2>｜我的社會責任｜</h2>
                 </div>
                 <div class="step-header">
                   <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>

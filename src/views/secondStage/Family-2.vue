@@ -23,7 +23,7 @@
           <p class="step-text" data-aos="fade-up">STEP 02</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">為兩人所想，為自己所選。</p>
+          <p class="step-sologan" data-aos="fade-up">為家人所想，為關係所選。</p>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
@@ -32,12 +32,12 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <a href="#">因為有你們，蝴蝶不孤單 </a>
+                  <router-link to="family-3-1">因為有你們，蝴蝶不孤單</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="/">如何協助?</router-link>
+                  <router-link to="family-3-2">如何協助?</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

@@ -32,17 +32,17 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <a href="#">支持，從你/妳開始</a>
+                  <router-link to="support-3-1">支持，從你/妳開始 </router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="/">青少年父母如何翻轉？ </router-link>
+                  <router-link to="support-3-2">青少年父母如何翻轉？ </router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="unintended-3">青少年父母的茁壯路</router-link>
+                  <router-link to="support-3-3">青少年父母的茁壯路</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

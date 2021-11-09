@@ -165,11 +165,36 @@ const routes = [
         name: 'family-2',
         component: () => import('../views/secondStage/Family-2.vue')
       },
+      {
+        path: 'family-3-1',
+        name: 'family-3-1',
+        component: () => import('../views/thirdStage/Family-3-1.vue')
+      },
+      {
+        path: 'family-3-2',
+        name: 'family-3-2',
+        component: () => import('../views/thirdStage/Family-3-2.vue')
+      },
       // 我想支持
       {
         path: 'support-2',
         name: 'support-2',
         component: () => import('../views/secondStage/Support-2.vue')
+      },
+      {
+        path: 'support-3-1',
+        name: 'support-3-1',
+        component: () => import('../views/thirdStage/Support-3-1.vue')
+      },
+      {
+        path: 'support-3-2',
+        name: 'support-3-2',
+        component: () => import('../views/thirdStage/Support-3-2.vue')
+      },
+      {
+        path: 'support-3-3',
+        name: 'support-3-3',
+        component: () => import('../views/thirdStage/Support-3-3.vue')
       }
     ]
   },
