@@ -23,7 +23,7 @@
           <p class="step-text" data-aos="fade-up">STEP 02</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">為兩人所想，為自己所選。</p>
+          <p class="step-sologan" data-aos="fade-up">為兩人所想，為兩人所選。</p>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up" data-aos-offset="600">
@@ -32,32 +32,32 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <a href="#">我的社會責任</a>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="youngdad-3-1">我的社會責任</router-link>
+                  <p>我是小爸爸，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="/">要迎接新生命嗎？</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="youngdad-3-2">要迎接新生命嗎？</router-link>
+                  <p>未成年懷孕，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="select">自己撫養</router-link>
+                  <router-link to="youngdad-3-3">自行撫養</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="select">心理狀態</router-link>
+                  <router-link to="unintended-5-2">心理狀態</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="select">社福資源</router-link>
+                  <router-link to="unintended-5-6">社福資源</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="select">我需要協助建議</router-link>
+                  <router-link to="chat">我需要協助建議</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

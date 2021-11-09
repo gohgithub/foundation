@@ -21,6 +21,12 @@ const routes = [
         name: 'chat',
         component: () => import('../views/front/Chat.vue')
       },
+      //關於我們
+      {
+        path: 'about',
+        name: 'about',
+        component: () => import('../views/secondStage/About.vue')
+      },
       // 我非預期懷孕了
       {
         path: 'unintended-2',
@@ -144,17 +150,57 @@ const routes = [
         name: 'youngdad-2',
         component: () => import('../views/secondStage/Youngdad-2.vue')
       },
+      {
+        path: 'youngdad-3-1',
+        name: 'youngdad-3-1',
+        component: () => import('../views/thirdStage/Youngdad-3-1.vue')
+      },
+      {
+        path: 'youngdad-3-2',
+        name: 'youngdad-3-2',
+        component: () => import('../views/thirdStage/Youngdad-3-2.vue')
+      },
+      {
+        path: 'youngdad-3-3',
+        name: 'youngdad-3-3',
+        component: () => import('../views/thirdStage/Youngdad-3-3.vue')
+      },
       // 我是親友
       {
         path: 'family-2',
         name: 'family-2',
         component: () => import('../views/secondStage/Family-2.vue')
       },
+      {
+        path: 'family-3-1',
+        name: 'family-3-1',
+        component: () => import('../views/thirdStage/Family-3-1.vue')
+      },
+      {
+        path: 'family-3-2',
+        name: 'family-3-2',
+        component: () => import('../views/thirdStage/Family-3-2.vue')
+      },
       // 我想支持
       {
         path: 'support-2',
         name: 'support-2',
         component: () => import('../views/secondStage/Support-2.vue')
+      },
+      {
+        path: 'support-3-1',
+        name: 'support-3-1',
+        component: () => import('../views/thirdStage/Support-3-1.vue')
+      },
+      {
+        path: 'support-3-2',
+        name: 'support-3-2',
+        component: () => import('../views/thirdStage/Support-3-2.vue')
+      },
+      {
+        path: 'support-3-3',
+        name: 'support-3-3',
+        component: () => import('../views/thirdStage/Support-3-3.vue')
       }
     ]
   },

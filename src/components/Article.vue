@@ -6,23 +6,31 @@
             <p class="article-subTitle" data-aos="fade-up">相關文章推薦</p>
             <ul class="d-flex flex-wrap">
                 <li data-aos="fade-up">
-                    <a href="#">
-                        <img src="../assets/image/front/sample_pic1.jpg">
+                   <a href="http://www.8181.org.tw/contraception-guide/know-cont.asp?id=204" target="_blank">
+                        <img src="http://www.8181.org.tw/2020EDM/06.jpg">
                     </a>
-                    <a href="#">
-                        <small>2021.10.03</small>
-                        <p>這裡打文章大標這裡打文章大標這裡打文章大標</p>
+                    <a href="http://www.8181.org.tw/contraception-guide/know-cont.asp?id=204" target="_blank">
+                        <small>2020-12-01</small>
+                        <p>避子小姐衛教保健室：排卵後吃事後避孕藥...無效！</p>
                     </a>
                 </li>
                 <li data-aos="fade-up">
-                    <img src="../assets/image/front/sample_pic2.jpg">
-                    <small>2021.10.03</small>
-                    <p>這裡打文章大標這裡打文章大標這裡打文章大標</p>
+                    <a href="https://www.health.taichung.gov.tw/1547981/post" target="_blank">
+                       <img src="https://www.health.taichung.gov.tw/media/566938/%E5%AA%BD%E5%AA%BD%E5%8D%A1-%E6%AD%A3%E9%9D%A2.jpg">
+                    </a>
+                    <a href="https://www.health.taichung.gov.tw/1547981/post" target="_blank">
+                      <small>2020-11-05</small>
+                      <p>【健康小衛星 - 好孕包】</p>
+                    </a>
                 </li>
                 <li data-aos="fade-up">
-                    <img src="../assets/image/front/sample_pic3.jpg">
-                    <small>2021.10.03</small>
-                    <p>這裡打文章大標這裡打文章大標這裡打文章大標</p>
+                    <a href="http://www.8181.org.tw/contraception-guide/know-cont.asp?id=203" target="_blank">
+                       <img src="http://www.8181.org.tw/2020EDM/combo.jpg">
+                    </a>
+                    <a href="http://www.8181.org.tw/contraception-guide/know-cont.asp?id=203" target="_blank">
+                      <small>2020-11-27</small>
+                      <p>避子小姐衛教保健室：超實用避孕小辭典</p>
+                    </a>
                 </li>
             </ul>
         </div>

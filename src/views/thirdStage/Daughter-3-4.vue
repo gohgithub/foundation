@@ -79,7 +79,7 @@
                             6. 全國未成年懷孕諮詢專線：<a href="tel:0800257085">0800-257-085</a>
                           </li>
                           <li>
-                            7. 參考報導：<a href="https://vita.tw/%E9%99%AA%E4%BC%B4%E6%87%B7%E5%AD%95%E9%9D%92%E5%B0%91%E5%A5%B3-%E5%8B%B5%E9%A6%A8%E4%B8%89%E9%9A%8E%E6%AE%B5%E6%9C%8D%E5%8B%99-4a256ec00c77 " target="_blank">陪伴懷孕青少女–勵馨三階段服務</a>
+                            7. 參考報導：<a href="https://vita.tw/%E9%99%AA%E4%BC%B4%E6%87%B7%E5%AD%95%E9%9D%92%E5%B0%91%E5%A5%B3-%E5%8B%B5%E9%A6%A8%E4%B8%89%E9%9A%8E%E6%AE%B5%E6%9C%8D%E5%8B%99-4a256ec00c77" target="_blank">陪伴懷孕青少女–勵馨三階段服務</a>
                           </li>
                         </ul>
                       </li>
