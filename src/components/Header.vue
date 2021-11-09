@@ -14,7 +14,7 @@
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/daughter-2"><p>05</p><h3>我女兒懷孕了</h3><span>Parents</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/family-2"><p>06</p><h3>親友懷孕了</h3><span>Family</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/support-2"><p>07</p><h3>我想支持</h3><span>Support</span></a></li>
-                <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
+                <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="https://www.instagram.com/protect.butterfly/" target="_blank"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>

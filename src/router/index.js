@@ -144,6 +144,21 @@ const routes = [
         name: 'youngdad-2',
         component: () => import('../views/secondStage/Youngdad-2.vue')
       },
+      {
+        path: 'youngdad-3-1',
+        name: 'youngdad-3-1',
+        component: () => import('../views/thirdStage/Youngdad-3-1.vue')
+      },
+      {
+        path: 'youngdad-3-2',
+        name: 'youngdad-3-2',
+        component: () => import('../views/thirdStage/Youngdad-3-2.vue')
+      },
+      {
+        path: 'youngdad-3-3',
+        name: 'youngdad-3-3',
+        component: () => import('../views/thirdStage/Youngdad-3-3.vue')
+      },
       // 我是親友
       {
         path: 'family-2',
