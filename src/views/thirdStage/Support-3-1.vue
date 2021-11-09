@@ -33,7 +33,7 @@
                 </div>
                 <div class="step-header">
                   <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
-                    <p data-aos="fade-up">當了父母之後才知道怎麼當父母」，<br>
+                    <p data-aos="fade-up">「當了父母之後才知道怎麼當父母」，<br>
                       這不只是一句廣告台詞，同時也是每個身為父母的人很真實的感受，懷孕、生產、育兒，<br>
                       對於父母來說從來不是件容易的事，對這群小蝴蝶來說，負擔與壓力更是沉重，<br>
                       不僅是身心靈的疲憊，更多時候是社會價值與期待強加而來的壓迫感。</p>

@@ -7,7 +7,7 @@
           <div class="modal-body">
             <div class="modal-box">
               <ul class="modal-list">
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>01</p><h3>關於我們</h3><span>About Us</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/about"><p>01</p><h3>關於我們</h3><span>About Us</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>02</p><h3>服務流程</h3><span>Knowledge</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/unintended-2"><p>03</p><h3>我意外懷孕了</h3><span>Teen Mom</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/youngdad-2"><p>04</p><h3>我女友懷孕了</h3><span>Teen Dad</span></a></li>

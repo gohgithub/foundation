@@ -21,6 +21,12 @@ const routes = [
         name: 'chat',
         component: () => import('../views/front/Chat.vue')
       },
+      //關於我們
+      {
+        path: 'about',
+        name: 'about',
+        component: () => import('../views/secondStage/About.vue')
+      },
       // 我非預期懷孕了
       {
         path: 'unintended-2',
