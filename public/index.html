@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
+     <!-- 載入 GA GOOGLE -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24Z4YZP3Q0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+   
+      gtag('config', 'G-01Q57WP49W');
+    </script>
+
     <meta charset="utf-8">
     <title>小蝴蝶資源整合平台</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/3t5g8tJ.png" />
+  </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -14,16 +25,9 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
-  <!-- 載入 GA GOOGLE -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-24Z4YZP3Q0"></script>
+ 
   <!-- 載入 moment.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/zh-tw.min.js" integrity="sha512-teZ6dd0iHPCs4aUqFGC1OSUiT+pY6eqk5Jaa2sE7wqExKu3Tscsn1RYbEJWPWsqKYroeJ6jlkR2YdY3Em8eVRQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-01Q57WP49W');
-  </script>
+ 
 </html>
