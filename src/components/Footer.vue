@@ -16,14 +16,14 @@
         </div>
         <div class="w-50 footer-menu">
           <ul class="footer-list">
-            <li><a class="mb-36" href="#">關於我們</a></li>
-            <li><a class="mb-36" href="#">最新消息</a></li>
-            <li><a class="mb-36" href="#">服務流程</a></li>
-            <li><a class="mb-36" href="#">我要求助</a></li>
-            <li><a href="#">留言社群</a></li>
-            <li><a href="#">個案分享</a></li>
-            <li><a href="#">相關單位</a></li>
-            <li><a href="#">聯絡我們</a></li>
+               <li><a class="mb-36" href="#/about">關於我們</a></li>
+                <li><a class="mb-36" href="#">經驗分享</a></li>
+                <li><a class="mb-36" href="#/unintended-2">我意外懷孕了</a></li>
+                <li><a class="mb-36" href="#/youngdad-2">我女友懷孕了</a></li>
+                <li><a class="mb-36" href="#/daughter-2">我女兒懷孕了</a></li>
+                <li><a class="mb-36" href="#/family-2">親友懷孕了</a></li>
+                <li><a class="mb-36" href="#/support-2">我想支持</a></li>
+                <li><a class="mb-36" href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank">聯絡我們</a></li>
           </ul>
         </div>
       </div>
