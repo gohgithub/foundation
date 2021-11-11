@@ -33,10 +33,7 @@
                 </div>
                 <div class="step-header">
                   <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
-                    <p data-aos="fade-up">可以想像在得知您女友遭遇到這樣狀況時，或許也會有些自責與愧咎！<br>
-                       這想法、感受都是真實也很自然的，只是在決定做什麼前，<br>
-                       或許也鼓勵您多參照在選擇各種方式前，先想想這樣方式對雙方的影響及會面臨的處境與感受。<br>
-                       以下是屬於您可行使的相關權利，供您作參考與了解：
+                    <p data-aos="fade-up">
                     </p>
                   <hr data-aos="fade-up">
                 </div>

@@ -4,7 +4,7 @@
     <main class="login">
       <section class="login-top">
         <img data-aos="fade-up" src="../../assets/image/front/new_header_logo.svg">
-        <h2 data-aos="fade-up" data-aos-delay="300">| 我們提供個人專屬的匿名個人化專屬服務 |</h2>
+        <h2 data-aos="fade-up" data-aos-delay="300">| 我們提供專屬的匿名個人化服務 |</h2>
       </section>
       <router-view></router-view>
     </main>

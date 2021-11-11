@@ -8,13 +8,13 @@
             <div class="modal-box">
               <ul class="modal-list">
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/about"><p>01</p><h3>關於我們</h3><span>About Us</span></a></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>02</p><h3>服務流程</h3><span>Knowledge</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><a href="#"><p>02</p><h3>經驗分享</h3><span>Success Stories</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/unintended-2"><p>03</p><h3>我意外懷孕了</h3><span>Teen Mom</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/youngdad-2"><p>04</p><h3>我女友懷孕了</h3><span>Teen Dad</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/daughter-2"><p>05</p><h3>我女兒懷孕了</h3><span>Parents</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/family-2"><p>06</p><h3>親友懷孕了</h3><span>Family</span></a></li>
                 <li><img src="../assets/image/front/icon_triangle.svg"><a href="#/support-2"><p>07</p><h3>我想支持</h3><span>Support</span></a></li>
-                <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="https://www.instagram.com/protect.butterfly/" target="_blank"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
+                <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>
