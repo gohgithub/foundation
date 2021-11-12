@@ -48,7 +48,9 @@
                         <h3>中途之家</h3>
                         <p>若因為一些因素無法在家安心待產，可以聯絡下列中途之家，專業人員會協助你度過待產安置的需求，提供陪同產檢、心理諮商、尋找社福資源等服務，讓你安心地將寶寶生下來。<br>
                         <br>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1myDBI2I7HGUWxm2HfFb-iW6n6Q-8vKgk&hl=zh-TW" width="640" height="480"></iframe><br>
                         <img class="rounded-0 w-70" src='../../assets/image/page/shelter.png' alt=""><br>
+
                         <!--善牧基金會附設的寧心園－ 未婚媽媽中途之家<br>
                         電話：(06)3124626<br>
                         信箱：stlucy@goodshepherd.org.tw<br>
