@@ -2,6 +2,10 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
+// 載入 sweerAlet2
+import VueSweetalert2 from 'vue-sweetalert2'
+import 'sweetalert2/dist/sweetalert2.min.css'
+
 // 載入 Vuex
 import store from './store'
 
@@ -36,6 +40,7 @@ import Vue3PersianDatetimePicker from 'vue3-persian-datetime-picker'
 const VueScrollTo = require('vue-scrollto')
 
 const app = createApp(App)
+app.use(VueSweetalert2)
 app.use(VueAxios, axios)
 app.use(store)
 app.use(router)

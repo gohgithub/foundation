@@ -74,8 +74,10 @@
                         <p>青少年親善門診強調以尊重、保護及符合青少年權利之心態提供資訊，注重隱私與機密性、保持中立友善、不論斷之心態服務青少年。<br>
                         如您想尋求專業的醫學建議，可至您附近的青少年親善門診諮詢。<br><br>
                         來源：國民健康署網站（更新日期：110年03月24日)<br>
-                        <iframe src="https://www.google.com/maps/d/embed?mid=19MVZJgDLbwL-5JUn7Cpr3cgSS4XGIVw1" width="640" height="480"></iframe>
-                          </p>
+                        </p>
+                        <div class="google-rwd">
+                          <iframe src="https://www.google.com/maps/d/embed?mid=19MVZJgDLbwL-5JUn7Cpr3cgSS4XGIVw1" width="640" height="480"></iframe>
+                        </div>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

@@ -66,8 +66,10 @@
                           除了公家機關之補助外，還可以申請民間單位的補助，相較於公家機關的公文往返時間過長，民間單位反而能夠給予較快的補助流程，能彌補政府所不足的部份，也做為第一線的救助，只是有些補助不能同時申請，所以在申請的時候需特別留意。<br><br>
                           《急難救助之服務項目及聯絡窗口》<br>
                           （110年6月01日更新)<br>
-                          <iframe src="https://www.google.com/maps/d/embed?mid=16KB92Kb7JwRarrx8WrUjoOWIEnOZDzcj&hl=zh-TW" width="640" height="480"></iframe>
                         </p>
+                        <div class="google-rwd">
+                            <iframe src="https://www.google.com/maps/d/embed?mid=16KB92Kb7JwRarrx8WrUjoOWIEnOZDzcj&hl=zh-TW" width="640" height="480"></iframe>
+                        </div>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

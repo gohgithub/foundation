@@ -121,6 +121,7 @@
   </div>
 </template>
 <script>
+// 載入 jQuery
 // import $ from 'jquery'
 
 // 載入影片 modal
@@ -158,7 +159,7 @@ export default {
     // VideoModal
   },
   created () {
-
+    // this.$swal('Hello Vue world!!!')
   }
 }
 </script>
