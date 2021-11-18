@@ -47,7 +47,7 @@
                 font-size: 20px;
             }
             &:focus {
-                outline: 1px solid $purple
+                outline: none;
             }
         }
         label {
@@ -115,20 +115,19 @@
         margin: 0 auto;
         padding: 10px 0px;
         border-radius: 30px;
-        outline: 1px solid black;
+        border: 1px solid black;
         text-align: center;
         letter-spacing: 2px;
         font-size: 20px;
         display: block;
         background-color: white;
-        border: none;
         &:hover {
             background-color: #C08C7E;
             color: white;
             transition: cubic-bezier(0.075, 0.82, 0.165, 1) background-color 1s;
         }
         &:focus {
-            outline: 1px solid black;
+            outline: none;
         }
     }
     .error-text {
@@ -217,7 +216,7 @@
                 font-size: 20px;
             }
             &:focus {
-                outline: 1px solid $purple
+                outline: none;
             }
         }
         label {
@@ -257,7 +256,7 @@
     }
     select {
         &:focus {
-            outline: 1px solid $purple
+            outline: none;
         }
     }
     .select-down {
@@ -269,6 +268,7 @@
     .select-gender {
         border-radius: 10px;
         width: 100%;
+        background-color: white;
         padding: 25px 0 20px 30px;
         border: 1px solid #c8c8c8;
         letter-spacing: 2px;
@@ -357,7 +357,7 @@
             font-size: 20px;
         }
         &:focus {
-            outline: 1px solid $purple
+            outline: none;
         }
     }
     .forget-link {
@@ -425,8 +425,8 @@
         .signUp-span, .signUp-span-item {
             left: 40px;
         }
-        .login-account-input, .login-password-input {
-            padding: 25px 30px 20px 30px;
+        .login-account-input, .login-password-input, .signUp-input {
+            padding: 25px 20px 20px 20px;
         }
         .select-gender {
             padding: 25px 30px 20px 30px;
@@ -440,5 +440,9 @@
     }
     .rwd-show-password {
         padding: 15px 0px 45px 80px;
+    }
+    .picker-input {
+        background-color: white;
+        height: 71px;
     }
 }

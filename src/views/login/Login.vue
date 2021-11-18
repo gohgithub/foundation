@@ -11,14 +11,14 @@
               <!-- ID/手機/Email -->
               <label data-aos="fade-up" for="登入信箱" class="login-account-label">
                   <span class="login-account-span">ID/手機/Email</span>
-                  <Field v-model="loginData.email" class="login-account-input mb-15" rules="email|required" :class="{ 'outline-danger': errors['登入信箱'] }" name="登入信箱" type="email" placeholder="請輸入 ID 或手機或 Email" />
+                  <Field v-model="loginData.email" class="login-account-input mb-15" rules="email|required" :class="{ 'border-danger': errors['登入信箱'] }" name="登入信箱" type="email" placeholder="請輸入 ID 或手機或 Email" />
                   <error-message name="登入信箱" class="error-text "></error-message>
               </label>
 
               <!-- 密碼 -->
               <label data-aos="fade-up" for="登入密碼" class="login-password-label">
                   <span class="login-password-span">密碼</span>
-                  <Field v-model="loginData.password" class="login-password-input" maxlength="13" rules="required|min:8" :class="{ 'outline-danger': errors['登入密碼'] }" id="login-password" name="登入密碼" type="password" placeholder="請輸入密碼"/>
+                  <Field v-model="loginData.password" class="login-password-input" maxlength="13" rules="required|min:8" :class="{ 'border-danger': errors['登入密碼'] }" id="login-password" name="登入密碼" type="password" placeholder="請輸入密碼"/>
               </label>
 
               <!-- 顯示密碼 -->
@@ -82,14 +82,14 @@
               <!-- 手機/Eamil -->
               <label data-aos="fade-up" for="信箱" class="signUp-label rwd-signUp-label">
                 <span class="signUp-span"><span class="text-danger">*</span>手機/Email</span>
-                <Field v-model="signUpData.email" class="signUp-input mb-15" :class="{ 'outline-danger': errors['信箱'] }" name="信箱" type="email" rules="email|required" placeholder="請輸入手機或Email (僅忘記密碼使用，請正確填寫)" />
+                <Field v-model="signUpData.email" class="signUp-input mb-15" :class="{ 'border-danger': errors['信箱'] }" name="信箱" type="email" rules="email|required" placeholder="請輸入手機或Email (僅忘記密碼使用，請正確填寫)" />
                 <error-message name="信箱" class="error-text"></error-message>
               </label>
 
               <!-- 再次輸入手機/Email -->
               <label data-aos="fade-up" for="再次輸入信箱" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>再次輸入手機/Email</span>
-                <Field v-model="signUpData.email_confirmation" class="signUp-input mb-15" rules="required|emailConfirmed:@信箱" :class="{ 'outline-danger': errors['再次輸入信箱'] }" name="再次輸入信箱" type="email" placeholder="請再次輸入手機或Email" />
+                <Field v-model="signUpData.email_confirmation" class="signUp-input mb-15" rules="required|emailConfirmed:@信箱" :class="{ 'border-danger': errors['再次輸入信箱'] }" name="再次輸入信箱" type="email" placeholder="請再次輸入手機或Email" />
                 <error-message name="再次輸入信箱" class="error-text"></error-message>
               </label>
 
@@ -102,14 +102,14 @@
               <!-- 密碼 -->
               <label data-aos="fade-up" for="密碼" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>密碼</span>
-                  <Field v-model="signUpData.password" class="login-password-input signUp-Password mb-15" :class="{ 'outline-danger': errors['密碼'] }" maxlength="13" rules="required|min:8" name="密碼" type="password" placeholder="請輸入密碼"/>
+                  <Field v-model="signUpData.password" class="login-password-input signUp-Password mb-15" :class="{ 'border-danger': errors['密碼'] }" maxlength="13" rules="required|min:8" name="密碼" type="password" placeholder="請輸入密碼"/>
                   <error-message name="密碼" class="error-text"></error-message>
               </label>
 
               <!-- 再次輸入密碼 -->
               <label data-aos="fade-up" class="signUp-label py-0" for="再次輸入密碼">
                 <span class="signUp-span-item"><span class="text-danger">*</span>再次輸入密碼</span>
-                <Field v-model="signUpData.password_confirmation" maxlength="13" rules="required|passwordConfirmed:@密碼" :class="{ 'outline-danger': errors['再次輸入密碼'] }" class="signUp-input signUp-ConPassword" name="再次輸入密碼" type="password" placeholder="請再次輸入密碼" />
+                <Field v-model="signUpData.password_confirmation" maxlength="13" rules="required|passwordConfirmed:@密碼" :class="{ 'border-danger': errors['再次輸入密碼'] }" class="signUp-input signUp-ConPassword" name="再次輸入密碼" type="password" placeholder="請再次輸入密碼" />
               </label>
 
               <!-- 顯示密碼 -->
@@ -135,7 +135,7 @@
               <label data-aos="fade-up" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>性別</span>
                 <i class="fas fa-caret-down select-down fa-2x"></i>
-                <Field as="select" name="請選擇性別" v-model="signUpData.gender" rules="required" :class="{ 'outline-danger': errors['請選擇性別'] }" class="select-gender mb-15">
+                <Field as="select" name="請選擇性別" v-model="signUpData.gender" rules="required" :class="{ 'border-danger': errors['請選擇性別'] }" class="select-gender mb-15">
                   <option value="" disabled>請選擇性別</option>
                   <option value="male">男性</option>
                   <option value="female">女性</option>
@@ -148,7 +148,7 @@
               <label data-aos="fade-up" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>出生</span>
                 <Field name="出生日期">
-                  <flat-pickr name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr>
+                  <flat-pickr :config="config" id="myPicker" name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15 picker-input" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr>
                 </Field>
                 <error-message name="出生日期" class="error-text"></error-message>
               </label>
@@ -157,7 +157,7 @@
               <label data-aos="fade-up" class="signUp-label py-0 pb-25">
                 <span class="signUp-span-item"><span class="text-danger">*</span>所在縣市</span>
                 <i class="fas fa-caret-down select-down fa-2x"></i>
-                <Field data-aos="fade-up" name="選擇地區" as="select" v-model="signUpData.city" :class="{ 'outline-danger': errors['選擇地區'] }" class="select-gender mb-15" rules="required">
+                <Field data-aos="fade-up" name="選擇地區" as="select" v-model="signUpData.city" :class="{ 'border-danger': errors['選擇地區'] }" class="select-gender mb-15" rules="required">
                   <option selected disabled value="" >請選擇所在地區</option>
                   <option value="基隆市">基隆市</option>
                   <option value="台北市">台北市</option>
@@ -285,6 +285,9 @@ export default {
       },
       window: {
         width: 375
+      },
+      config: {
+        weekNumbers: true
       }
     }
   },
