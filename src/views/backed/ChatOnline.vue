@@ -24,7 +24,7 @@
         </div>
       </div>
       <!-- 使用者第一層 -->
-      <div class="user" v-if="firstData.stage === 2 || firstData.isClose === true">
+      <div class="user" v-if="firstData.stage === 1 || firstData.isClose === true">
         <img src="../../assets/image/backed/member_image_user.svg">
         <div class="user-box">
           <h3>
@@ -39,34 +39,25 @@
         <div>
           <div class="admin-box">
             <h3>您選擇了「{{firstData.user.select}}」</h3>
-            <ul>
-              <!-- <li>
-                <p @click="select('我需要有人一起討論')">{{ firstData.textA }}</p>
-              </li>
+            <ul v-for="item in secondData.message" :key="item">
               <li>
-                <p @click="select('我不想要生下來')">{{ firstData.textB }}</p>
+                <p @click="secondSelect(item)">{{ item }}</p>
               </li>
-              <li>
-                <p @click="select('我想要生下來')">{{ firstData.textC }}</p>
-              </li>
-              <li>
-                <p @click="select('如何安排與男方關係')">{{ firstData.textD }}</p>
-              </li>
-              <li>
-                <p @click="select('如何得到社會協助')">{{ firstData.textE }}</p>
-              </li>
-              <li>
-                <p @click="select('我未滿16歲')">{{ firstData.textF }}</p>
-              </li>
-              <li>
-                <p @click="select('疑似懷孕')">{{ firstData.textG }}</p>
-              </li> -->
             </ul>
           </div>
           <div class="time-item">
             <i class="far fa-clock"></i>
-            <small>{{ firstData.time }}</small>
+            <small>{{ secondData.time }}</small>
           </div>
+        </div>
+      </div>
+      <!-- 使用者第二層 -->
+      <div class="user" v-if="secondData.stage === 2 || secondData.isClose === true">
+        <img src="../../assets/image/backed/member_image_user.svg">
+        <div class="user-box">
+          <h3>
+            {{ secondData.user.select }}
+          </h3>
         </div>
       </div>
     </div>
@@ -111,7 +102,16 @@ export default {
       // *** 第二階資料 ***
       // 選擇「我想要生下來」
       secondData: {
-        textA: ''
+        message: {
+          textA: '自行撫養',
+          textB: '其他因素無法自行撫養'
+        },
+        user: {
+          select: ''
+        },
+        time: '',
+        isClose: false,
+        stage: 0
       }
     }
   },
@@ -122,11 +122,19 @@ export default {
       const data = vm.firstData
       if (data.isClose === false) {
         data.user.select = text
-        data.stage = 2
+        data.stage = 1
         data.isClose = true
-        setTimeout(() => {
-          data.stage = 3
-        }, 1000)
+        vm.secondData.time = moment(new Date()).format('YYYY/MM/DD HH:mm:ss')
+      }
+    },
+    // 自動回覆第二階
+    secondSelect (text) {
+      const vm = this
+      const data = vm.secondData
+      if (data.isClose === false) {
+        data.user.select = text
+        data.stage = 1
+        data.isClose = true
       }
     }
   },

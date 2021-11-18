@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="login-inner">
-      <div class="container d-flex justify-content-center">
+      <div class="container login-container d-flex justify-content-center">
         <!-- 左側登入欄位-->
         <div class="login-left">
           <h3 data-aos="fade-up">會員登入</h3>
@@ -24,10 +24,10 @@
               <!-- 顯示密碼 -->
               <div class="form-check show-password">
                 <div>
-                  <error-message name="登入密碼" class="error-text"></error-message>
+                  <error-message name="登入密碼" class="error-text error-text-rwd"></error-message>
                 </div>
                 <div data-aos="fade-up" class="d-flex align-items-center">
-                  <input class="form-check-input" type="checkbox"  @click="showPassword('login-password')" name="showPassword" id="showPassword">
+                  <input class="form-check-input" type="checkbox" @click="showPassword('login-password')" name="showPassword" id="showPassword">
                   <label class="form-check-label" for="showPassword" @click="showPassword('login-password')">
                     顯示密碼
                   </label>
@@ -36,6 +36,7 @@
               </div>
               <button data-aos="fade-up" class="login-btn">登入</button>
             </Form>
+            <button data-aos="fade-up" v-if="window.width <= 575" class="login-btn mt-20" @click="changeSignUp()">註冊</button>
             <!-- 快速登入 -->
             <div class="fastLogin">
               <div data-aos="fade-up" class="fastLogin-header">
@@ -62,7 +63,7 @@
                     <p class="pb-0 line-text">使用Line登入</p>
                   </a>
                 </li>
-                <li data-aos="fade-up" class="pb-90">
+                <li data-aos="fade-up" class="list">
                   <a class="apple-item" href="#">
                     <i class="fab fa-apple fa-2x apple-icon"></i>
                     <p class="pb-0 apple-text">使用Apple登入</p>
@@ -79,10 +80,10 @@
           <div class="form-box">
             <Form v-slot="{ errors }" @submit="onSubmit" autocomplete="off">
               <!-- 手機/Eamil -->
-              <label data-aos="fade-up" for="信箱" class="signUp-label">
+              <label data-aos="fade-up" for="信箱" class="signUp-label rwd-signUp-label">
                 <span class="signUp-span"><span class="text-danger">*</span>手機/Email</span>
                 <Field v-model="signUpData.email" class="signUp-input mb-15" :class="{ 'outline-danger': errors['信箱'] }" name="信箱" type="email" rules="email|required" placeholder="請輸入手機或Email (僅忘記密碼使用，請正確填寫)" />
-                <error-message name="信箱" class="error-text "></error-message>
+                <error-message name="信箱" class="error-text"></error-message>
               </label>
 
               <!-- 再次輸入手機/Email -->
@@ -112,9 +113,9 @@
               </label>
 
               <!-- 顯示密碼 -->
-              <div class="form-check show-password">
+              <div class="form-check show-password rwd-show-password">
                 <div>
-                <error-message name="再次輸入密碼" class="error-text"></error-message>
+                <error-message name="再次輸入密碼" class="error-text error-text-rwd"></error-message>
                 </div>
                 <div class="d-flex align-items-center" >
                   <input data-aos="fade-up" class="form-check-input" type="checkbox" @click="showPassword('signUp-Password')" name="showPassword">
@@ -281,6 +282,9 @@ export default {
         gender: '',
         birthday: '',
         city: ''
+      },
+      window: {
+        width: 375
       }
     }
   },
@@ -326,6 +330,13 @@ export default {
       if (e === 'close') {
         $('.header').show()
       }
+    },
+    myEventHandler (e) {
+      this.window.width = window.innerWidth
+    },
+    changeSignUp () {
+      $('.login-left').toggleClass('d-none')
+      $('.login-right').toggleClass('d-block')
     }
   },
   watch: {
@@ -335,8 +346,11 @@ export default {
       }
     }
   },
+  mounted () {
+    this.window.width = window.innerWidth
+  },
   created () {
-    // this.$http.defaults.headers.common.Authorization = `Bearer${this.token}`
+    window.addEventListener('resize', this.myEventHandler)
   }
 }
 </script>
