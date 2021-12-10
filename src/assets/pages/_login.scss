@@ -144,7 +144,7 @@
     }
     .form-check-input:focus {
         box-shadow: none;
-        border: none;
+        border: 1px solid $purple;
     }
     .fastLogin {
         h3 {
@@ -392,7 +392,7 @@
             border: none;
         }
         &-account-label {
-            padding: 50px 20px 20px 20px;
+            padding: 50px 20px;
         }
         &-password-label, .signUp-label {
             position: relative;

@@ -10,8 +10,8 @@
             <Form v-slot="{ errors }" @submit="login" autocomplete="off">
               <!-- ID/手機/Email -->
               <label data-aos="fade-up" for="登入信箱" class="login-account-label">
-                  <span class="login-account-span">ID/手機/Email</span>
-                  <Field v-model="loginData.email" class="login-account-input mb-15" rules="email|required" :class="{ 'border-danger': errors['登入信箱'] }" name="登入信箱" type="email" placeholder="請輸入 ID 或手機或 Email" />
+                  <span class="login-account-span">Email</span>
+                  <Field v-model="loginData.email" class="login-account-input mb-15" rules="email|required" :class="{ 'border-danger': errors['登入信箱'] }" name="登入信箱" type="email" placeholder="請輸入 Email" />
                   <error-message name="登入信箱" class="error-text "></error-message>
               </label>
 
@@ -27,8 +27,8 @@
                   <error-message name="登入密碼" class="error-text error-text-rwd"></error-message>
                 </div>
                 <div data-aos="fade-up" class="d-flex align-items-center">
-                  <input class="form-check-input" type="checkbox" @click="showPassword('login-password')" name="showPassword" id="showPassword">
-                  <label class="form-check-label" for="showPassword" @click="showPassword('login-password')">
+                  <input class="form-check-input" type="checkbox" @click="showPassword('login-password')" id="showPassword">
+                  <label class="form-check-label" @click="showPassword('login-password')">
                     顯示密碼
                   </label>
                   <router-link to="/forget">我忘記密碼了</router-link>
@@ -81,22 +81,22 @@
             <Form v-slot="{ errors }" @submit="onSubmit" autocomplete="off">
               <!-- 手機/Eamil -->
               <label data-aos="fade-up" for="信箱" class="signUp-label rwd-signUp-label">
-                <span class="signUp-span"><span class="text-danger">*</span>手機/Email</span>
-                <Field v-model="signUpData.email" class="signUp-input mb-15" :class="{ 'border-danger': errors['信箱'] }" name="信箱" type="email" rules="email|required" placeholder="請輸入手機或Email (僅忘記密碼使用，請正確填寫)" />
+                <span class="signUp-span"><span class="text-danger">*</span>Email</span>
+                <Field v-model="signUpData.email" class="signUp-input mb-15" :class="{ 'border-danger': errors['信箱'] }" name="信箱" type="email" rules="email|required" placeholder="請輸入 Email" />
                 <error-message name="信箱" class="error-text"></error-message>
               </label>
 
               <!-- 再次輸入手機/Email -->
               <label data-aos="fade-up" for="再次輸入信箱" class="signUp-label py-0 pb-50">
-                <span class="signUp-span-item"><span class="text-danger">*</span>再次輸入手機/Email</span>
-                <Field v-model="signUpData.email_confirmation" class="signUp-input mb-15" rules="required|emailConfirmed:@信箱" :class="{ 'border-danger': errors['再次輸入信箱'] }" name="再次輸入信箱" type="email" placeholder="請再次輸入手機或Email" />
+                <span class="signUp-span-item"><span class="text-danger">*</span>再次輸入 Email</span>
+                <Field v-model="signUpData.email_confirmation" class="signUp-input mb-15" rules="required|emailConfirmed:@信箱" :class="{ 'border-danger': errors['再次輸入信箱'] }" name="再次輸入信箱" type="email" placeholder="請再次輸入 Email" />
                 <error-message name="再次輸入信箱" class="error-text"></error-message>
               </label>
 
               <!-- 帳號 -->
               <label data-aos="fade-up" for="帳號" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item">帳號</span>
-                <Field v-model="signUpData.account" class="signUp-input mb-15" name="帳號" type="email" placeholder="(選填)除了手機/Email，亦可以使用帳號登入" />
+                <Field v-model="signUpData.account" class="signUp-input mb-15" name="帳號" type="email" placeholder="(選填)除了Email，亦可以使用帳號登入" />
               </label>
 
               <!-- 密碼 -->
@@ -118,8 +118,8 @@
                 <error-message name="再次輸入密碼" class="error-text error-text-rwd"></error-message>
                 </div>
                 <div class="d-flex align-items-center" >
-                  <input data-aos="fade-up" class="form-check-input" type="checkbox" @click="showPassword('signUp-Password')" name="showPassword">
-                  <label data-aos="fade-up" class="form-check-label" for="showPassword" @click="showPassword('signUp-Password')">
+                  <input data-aos="fade-up" class="form-check-input" type="checkbox" @click="showPassword('signUp-Password')">
+                  <label data-aos="fade-up" class="form-check-label" @click="showPassword('signUp-Password')">
                     顯示密碼
                   </label>
                 </div>
@@ -147,9 +147,9 @@
               <!-- 出生 -->
               <label data-aos="fade-up" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>出生</span>
-                <Field name="出生日期">
-                  <flat-pickr :config="config" id="myPicker" name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15 picker-input" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr>
-                </Field>
+                <Field name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15" rules="required" :class="{ 'border-danger': errors['請選擇性別'] }" />
+                  <!-- <flat-pickr :config="config" id="myPicker" name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15 picker-input" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr> -->
+                <!-- </Field> -->
                 <error-message name="出生日期" class="error-text"></error-message>
               </label>
 
@@ -234,8 +234,8 @@
 import $ from 'jquery'
 
 // 載入 flatPciker
-import flatPickr from 'vue-flatpickr-component'
-import 'flatpickr/dist/flatpickr.css'
+// import flatPickr from 'vue-flatpickr-component'
+// import 'flatpickr/dist/flatpickr.css'
 
 // 載入驗證規則
 import { defineRule } from 'vee-validate'
@@ -292,14 +292,13 @@ export default {
     }
   },
   components: {
-    flatPickr
+    // flatPickr
   },
   methods: {
     showPassword (e) {
       const loginPasswordValue = document.getElementById('login-password')
       const signUpPasswordValue = document.querySelector('.signUp-Password')
       const signUpConPassword = document.querySelector('.signUp-ConPassword')
-      console.log(e)
       if (e === 'login-password' && loginPasswordValue.type === 'password') {
         loginPasswordValue.type = 'text'
       } else {
@@ -317,6 +316,9 @@ export default {
     onSubmit () {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
+        if (res.data.success === 'false') {
+          this.$swal.fire('帳號註冊失敗')
+        }
         console.log(res)
       })
     },
