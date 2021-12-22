@@ -1,11 +1,13 @@
 import { createStore } from 'vuex'
 import axios from 'axios'
-
+// ㄙ
 axios.defaults.baseURL = 'https://iecosystem-api.tomyue.cc/api'
 
 export default createStore({
   state: {
-    user: null
+    user: null,
+    userData: {},
+    tempUserData: {}
   },
   mutations: {
     // 儲存登入資料 + 抬頭附上 token
@@ -13,23 +15,37 @@ export default createStore({
       state.user = userData
       localStorage.setItem('user', JSON.stringify(userData))
       axios.defaults.headers.common.Authorization = `Bearer ${userData.token}`
+    },
+    GETUSERDATA (state, payload) {
+      state.userData = payload
+      console.log(payload)
+    },
+    LOGOUT () {
+      localStorage.removeItem('user')
+      location.reload()
     }
   },
   actions: {
     // 登入 post 資料
     login ({ commit }, credentials) {
-      console.log(credentials)
       return axios
         .post('/login', credentials)
         .then(({ data }) => {
           commit('setUserData', data)
         })
+    },
+    getUserData (context) {
+      axios.get('https://iecosystem-api.tomyue.cc/api/user').then((res) => {
+        context.commit('GETUSERDATA', res.data.user)
+      })
+    },
+    logout (context) {
+      context.commit('LOGOUT')
     }
   },
   getters: {
     isLogged: state => !!state.user,
     user: state => {
-      console.log(state)
       return state.user
     }
   }

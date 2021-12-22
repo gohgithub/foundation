@@ -245,6 +245,11 @@ const routes = [
         path: '/chatonline',
         name: 'chatonline',
         component: () => import('../views/backed/ChatOnline.vue')
+      },
+      {
+        path: '/changePassword',
+        name: 'changePassword',
+        component: () => import('../views/backed/ChangePassword.vue')
       }
     ]
   }

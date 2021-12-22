@@ -7,47 +7,48 @@
         <section class="sidebar">
           <div class="sidebar-inner">
             <img src="../../assets/image/backed/member_image_user.svg">
-            <h3>小美</h3>
+            <h3>{{ userData.name }}</h3>
           </div>
           <div class="sidebar-menu">
             <!-- 我的帳戶 -->
             <h4 class="d-flex align-items-center">
-                <img src="../../assets/image/backed/member_icon_1.svg">我的帳戶
+              <img src="../../assets/image/backed/member_icon_1.svg">我的帳戶
             </h4>
             <ul>
-                <li>
-                    <router-link to="#">個人檔案</router-link>
-                </li>
-                <li>
-                    <router-link to="#">更改密碼</router-link>
-                </li>
+              <li>
+                <router-link to="backed">個人檔案</router-link>
+              </li>
+              <li>
+                <router-link to="changePassword">更改密碼</router-link>
+              </li>
             </ul>
 
             <!-- 我的歷程 -->
             <h4 class="d-flex align-items-center pt-15">
-                <img src="../../assets/image/backed/member_icon_2.svg">我的歷程
+              <img src="../../assets/image/backed/member_icon_2.svg">我的歷程
             </h4>
             <ul>
-                <li>
-                    <router-link to="course">歷程總覽</router-link>
-                </li>
-                <li>
-                    <router-link to="chatonline">申請進度查詢</router-link>
-                </li>
+              <li>
+                <router-link to="course">歷程總覽</router-link>
+              </li>
+              <li>
+                <router-link to="chatonline">申請進度查詢</router-link>
+              </li>
             </ul>
 
             <!-- 我想聊聊 -->
             <h4 class="d-flex align-items-center pt-15">
-                <img src="../../assets/image/backed/member_icon_3.svg">我想聊聊
+              <img src="../../assets/image/backed/member_icon_3.svg">我想聊聊
             </h4>
             <ul>
-                <li>
-                    <router-link to="/chatonline">線上聊聊</router-link>
-                </li>
+              <li>
+                <router-link to="/chatonline">線上聊聊</router-link>
+              </li>
             </ul>
           </div>
+          <button class="btn btn-danger d-block mt-48" @click="logout" >登出</button>
         </section>
-      <router-view></router-view>
+        <router-view></router-view>
       </div>
     </main>
     <Footer></Footer>
@@ -61,13 +62,19 @@ import Footer from '../../components/Footer.vue'
 export default {
   data () {
     return {
-
     }
   },
   methods: {
-    test (data) {
-      console.log(data)
-      console.log('攝氏')
+    getUserData () {
+      this.$store.dispatch('getUserData')
+    },
+    logout () {
+      this.$store.dispatch('logout')
+    }
+  },
+  computed: {
+    userData () {
+      return this.$store.state.userData
     }
   },
   components: {
@@ -81,6 +88,7 @@ export default {
       const userData = JSON.parse(userInfo)
       this.$store.commit('setUserData', userData)
     }
+    this.getUserData()
   }
 }
 </script>

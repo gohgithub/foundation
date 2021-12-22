@@ -28,11 +28,6 @@
             <p class="consult-content">歡迎您登入會員使用線上聊聊與我們聯絡， <br>我們將提供您個人專屬的各項專業諮詢。</p>
           </li>
         </ul>
-        <hr data-aos="fade-up">
-        <div data-aos="fade-up">
-          <a class="goBack" onclick="history.back()" value="回到上一頁">回到上一頁</a>
-          <a class="goBack" href="#">返回首頁</a>
-        </div>
       </div>
     </section>
   </div>

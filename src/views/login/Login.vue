@@ -7,7 +7,7 @@
           <h3 data-aos="fade-up">會員登入</h3>
           <p data-aos="fade-up">-Log In-</p>
           <div class="form-box">
-            <Form v-slot="{ errors }" @submit="login" autocomplete="off">
+            <Form v-slot="{ errors }" @submit="login()" autocomplete="off">
               <!-- ID/手機/Email -->
               <label data-aos="fade-up" for="登入信箱" class="login-account-label">
                   <span class="login-account-span">Email</span>
@@ -28,7 +28,7 @@
                 </div>
                 <div data-aos="fade-up" class="d-flex align-items-center">
                   <input class="form-check-input" type="checkbox" @click="showPassword('login-password')" id="showPassword">
-                  <label class="form-check-label" @click="showPassword('login-password')">
+                  <label class="form-check-label">
                     顯示密碼
                   </label>
                   <router-link to="/forget">我忘記密碼了</router-link>
@@ -78,7 +78,7 @@
           <h3 data-aos="fade-up">會員註冊</h3>
           <p data-aos="fade-up">-Sign up-</p>
           <div class="form-box">
-            <Form v-slot="{ errors }" @submit="onSubmit" autocomplete="off">
+            <Form v-slot="{ errors }" @submit.prevent="onSubmit" autocomplete="off">
               <!-- 手機/Eamil -->
               <label data-aos="fade-up" for="信箱" class="signUp-label rwd-signUp-label">
                 <span class="signUp-span"><span class="text-danger">*</span>Email</span>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="d-flex align-items-center" >
                   <input data-aos="fade-up" class="form-check-input" type="checkbox" @click="showPassword('signUp-Password')">
-                  <label data-aos="fade-up" class="form-check-label" @click="showPassword('signUp-Password')">
+                  <label data-aos="fade-up" class="form-check-label">
                     顯示密碼
                   </label>
                 </div>
@@ -318,8 +318,9 @@ export default {
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
         if (res.data.success === 'false') {
           this.$swal.fire('帳號註冊失敗')
+        } else {
+          this.$swal.fire('帳號註冊成功')
         }
-        console.log(res)
       })
     },
     login () {
@@ -327,8 +328,9 @@ export default {
       vm.$store.dispatch('login', {
         email: vm.loginData.email,
         password: vm.loginData.password
+      }).then(() => {
+        this.$router.push('/backed')
       })
-      vm.$router.push('/backed')
     },
     hideHeader (e) {
       $('.header').hide()
@@ -355,6 +357,7 @@ export default {
     this.window.width = window.innerWidth
   },
   created () {
+    localStorage.removeItem('user')
     window.addEventListener('resize', this.myEventHandler)
   }
 }
