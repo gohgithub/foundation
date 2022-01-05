@@ -1,5 +1,6 @@
 .chatOnline {
     width: 75%;
+    position: relative;
     margin-left: 80px;
     padding-top: 60px;
     h2 {
@@ -50,6 +51,16 @@
                 cursor: pointer;
             }
         }
+        .chat-box {
+            margin: 0px 0 0px 15px;
+            background-color: #FAE0E0;
+            border-radius: 0px 20px 20px 20px;
+            p {
+                font-size: 20px;
+                letter-spacing: 2px;
+                padding: 20px 30px 15px 30px;
+            }
+        }
         .time-item {
             display: flex;
             align-items: center;
@@ -76,10 +87,26 @@
             font-size: 20px;
             padding: 20px 30px 15px 30px;
         }
+        p {
+            letter-spacing: 2px;
+            font-size: 20px;
+            padding: 20px 30px 15px 30px; 
+        }
     }
     img {
         width: 60px;
         border-radius: 50%;
         margin: 0px 0 0px 15px;
     }
+}
+
+.dedicated-person {
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.input-item {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
 }

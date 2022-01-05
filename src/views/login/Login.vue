@@ -330,6 +330,8 @@ export default {
         password: vm.loginData.password
       }).then(() => {
         this.$router.push('/backed')
+      }).catch(() => {
+        alert('登入失敗')
       })
     },
     hideHeader (e) {

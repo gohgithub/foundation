@@ -27,19 +27,19 @@
     <div class="d-flex py-20 align-items-center">
       <h3 class="fw-bold">性別</h3>
       <div class="form-check pr-25">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" :checked="userData.gender === 'male'" id="male" >
+        <input class="form-check-input" v-model="tempUserData.gender" type="radio" name="flexRadioDefault" :checked="userData.gender === 'male'" id="male" value="male">
         <label class="form-check-label" for="male">
             男性
         </label>
       </div>
       <div class="form-check pr-25">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" :checked="userData.gender === 'female'" id="female">
+        <input class="form-check-input" v-model="tempUserData.gender" type="radio" name="flexRadioDefault" :checked="userData.gender === 'female'" id="female" value="female">
         <label class="form-check-label" for="female">
             女性
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" :checked="userData.gender === 'other'" id="other">
+        <input class="form-check-input" v-model="tempUserData.gender" type="radio" name="flexRadioDefault" :checked="userData.gender === 'other'" id="other" value="other">
         <label class="form-check-label" for="other">
             其他
         </label>
@@ -51,13 +51,12 @@
     <h3 class="fw-bold">生日</h3>
     <span>{{ userData.birthday }}</span>
     </div>
-
     <!-- 所在縣市 -->
     <div class="d-flex py-20 align-items-center">
       <h3 class="fw-bold">所在縣市</h3>
       <div class="select-item">
         <i class="fas fa-caret-down select-down fa-2x"></i>
-        <select>
+        <select v-model="userData.city">
           <option :selected="userData.city === '基隆市'" value="基隆市">基隆市</option>
           <option :selected="userData.city === '台北市'" value="台北市">台北市</option>
           <option :selected="userData.city === '新北市'" value="新北市">新北市</option>
@@ -85,7 +84,7 @@
     </div>
 
     <!-- 儲存資料 -->
-    <button>儲存</button>
+    <button @click="saveData">儲存</button>
     </div>
     <hr>
   </section>
@@ -94,11 +93,19 @@
 export default {
   data () {
     return {
+      tempUserData: {
+        gender: '',
+        city: ''
+      }
     }
   },
   methods: {
     getUserData () {
       this.$store.dispatch('getUserData')
+    },
+    saveData () {
+      this.tempUserData = this.userData
+      this.$store.dispatch('saveData', this.tempUserData)
     }
   },
   computed: {

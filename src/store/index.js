@@ -1,6 +1,6 @@
 import { createStore } from 'vuex'
 import axios from 'axios'
-// ㄙ
+//
 axios.defaults.baseURL = 'https://iecosystem-api.tomyue.cc/api'
 
 export default createStore({
@@ -18,7 +18,7 @@ export default createStore({
     },
     GETUSERDATA (state, payload) {
       state.userData = payload
-      console.log(payload)
+      state.tempUserData.city = payload.city
     },
     LOGOUT () {
       localStorage.removeItem('user')
@@ -35,8 +35,13 @@ export default createStore({
         })
     },
     getUserData (context) {
-      axios.get('https://iecosystem-api.tomyue.cc/api/user').then((res) => {
+      axios.get('https://iecosystem-api.tomyue.cc/api/user/').then((res) => {
         context.commit('GETUSERDATA', res.data.user)
+      })
+    },
+    saveData (context, tempUserData) {
+      axios.post('https://iecosystem-api.tomyue.cc/api/user/profile', tempUserData).then((res) => {
+        alert('成功修改資料')
       })
     },
     logout (context) {
