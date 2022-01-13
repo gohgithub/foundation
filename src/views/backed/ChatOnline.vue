@@ -1,4 +1,3 @@
-/* eslint-disable no-dupe-keys */
 <template>
   <section class="chatOnline">
     <h2>線上聊聊</h2>
@@ -82,38 +81,45 @@
         </div>
       </div>
 
-      <!-- 轉接專人服務 -->
-      <h3 v-if="thirdData.user.select === '轉接專人服務'" class="text-center dedicated-person">--- 正在轉接專人服務 ---</h3>
-
       <!-- 留言板 -->
-      <!-- 管理者 -->
-      <div v-if="thirdData.user.select === '轉接專人服務'" class="admin">
-        <img src="../../assets/image/backed/member_image_administrator.svg">
-        <div class="chat-box mb-60">
-          <p>哈囉 請問有什麼問題呢？:D </p>
-            <!-- <ul v-for="message in messages" :key="message">
-              <li>
-                {{ message.user_id }}
-                {{ message.user_id === user.user.id ? 'user:' : 'admin' }}
-                {{ message.body }}
-              </li>
-            </ul> -->
+      <!-- v-if="thirdData.user.select === '轉接專人服務'" -->
+      <div>
+        <h3 class="text-center dedicated-person">--- 正在轉接專人服務 ---</h3>
+        <div class="admin">
+          <img src="../../assets/image/backed/member_image_administrator.svg">
+          <div>
+            <div class="chat-box">
+              <p>哈囉 請問 {{ userData.name }} 有什麼問題呢？:D </p>
+            </div>
+            <div class="time-item">
+                <i class="far fa-clock"></i>
+                <small>{{ firstData.time }}</small>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <!-- 使用者 -->
-      <div class="user pb-60" v-if="isAddMessage">
-        <img src="../../assets/image/backed/member_image_user.svg">
-        <div class="user-box">
-          <p>
-            {{ newMessage }}
-          </p>
+        <div v-for="(item, index) in messages" :key="index">
+          <div class="user pb-30">
+            <img src="../../assets/image/backed/member_image_user.svg">
+              <ul class="d-flex align-items-end flex-column">
+                <li>
+                  <div class="user-box">
+                    <p>
+                      {{ item.body }}
+                    </p>
+                  </div>
+                </li>
+                <div class="time-item">
+                  <i class="far fa-clock"></i>
+                  <small>{{ item.created_at }}</small>
+                </div>
+            </ul>
+          </div>
         </div>
-      </div>
-
-      <div v-if="thirdData.user.select === '轉接專人服務'" class="input-group input-item mt-5">
-        <input type="text" class="form-control" placeholder="輸入問題" v-model="newMessage">
-        <button class="btn btn-primary" type="button" @click="addMessage">送出</button>
+        <div class="send-input">
+          <input type="text" placeholder="輸入問題" v-model="newMessage">
+          <button class="btn btn-black" type="button" @click="addMessage">送出</button>
+        </div>
       </div>
     </div>
   </section>
@@ -127,16 +133,15 @@ moment.locale('zh-tw')
 export default {
   computed: {
     ...mapGetters([
-      'user'
+      'user',
+      'userData',
+      'messages'
     ])
   },
   data () {
     return {
       // 儲存訊息資料用
-      isAddMessage: false,
-      messages: [],
       newMessage: '',
-      userId: 17,
       // *** 第一階段資料 ***
       firstData: {
         message: {
@@ -225,17 +230,15 @@ export default {
       }
       vm.axios.post('https://iecosystem-api.tomyue.cc/api/messages', { body: vm.newMessage })
         .then((response) => {
+          console.log(response)
           vm.messages.push({ body: vm.newMessage, user_id: vm.user.user.id })
           vm.isAddMessage = true
+          vm.newMessage = ''
         })
     }
   },
   created () {
-    const vm = this
-    vm.axios.get('https://iecosystem-api.tomyue.cc/api/users/' + this.userId + '/messages?page=1&perPage=100')
-      .then((res) => {
-        vm.messages = res.data.data
-      })
+    this.$store.dispatch('getMessage')
   }
 }
 </script>
