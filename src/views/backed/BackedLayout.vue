@@ -24,10 +24,10 @@
             </ul>
 
             <!-- 我的歷程 -->
-            <h4 class="d-flex align-items-center pt-15">
+            <h4 class="d-flex align-items-center pt-15" v-if="userData.id !== 55">
               <img src="../../assets/image/backed/member_icon_2.svg">我的歷程
             </h4>
-            <ul>
+            <ul v-if="userData.id !== 55">
               <li>
                 <router-link to="course">歷程總覽</router-link>
               </li>
@@ -37,12 +37,22 @@
             </ul>
 
             <!-- 我想聊聊 -->
-            <h4 class="d-flex align-items-center pt-15">
+            <h4 class="d-flex align-items-center pt-15" v-if="userData.id !== 55">
               <img src="../../assets/image/backed/member_icon_3.svg">我想聊聊
             </h4>
-            <ul>
+            <ul v-if="userData.id !== 55">
               <li>
                 <router-link to="/chatonline">線上聊聊</router-link>
+              </li>
+            </ul>
+
+            <!-- 問題清單 -->
+            <h4 class="d-flex align-items-center pt-15" v-if="userData.id == 55">
+              <img src="../../assets/image/backed/member_icon_3.svg">問題清單
+            </h4>
+            <ul v-if="userData.id == 55">
+              <li>
+                <router-link to="/question">線上聊聊</router-link>
               </li>
             </ul>
           </div>
@@ -58,11 +68,17 @@
 // 載入 Header 跟 Footer 元件
 import Header from '../../components/Header.vue'
 import Footer from '../../components/Footer.vue'
+import { mapGetters } from 'vuex'
 
 export default {
   data () {
     return {
     }
+  },
+  computed: {
+    ...mapGetters([
+      'userData'
+    ])
   },
   methods: {
     getUserData () {
@@ -70,11 +86,6 @@ export default {
     },
     logout () {
       this.$store.dispatch('logout')
-    }
-  },
-  computed: {
-    userData () {
-      return this.$store.state.userData
     }
   },
   components: {

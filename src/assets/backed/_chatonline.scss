@@ -12,6 +12,9 @@
     &-box {
         width: 90%;
         height: 694px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
         overflow-y: scroll;
         margin: 30px auto 0 auto;
         background-color: #F8F6EF;
@@ -65,7 +68,6 @@
         .time-item {
             display: flex;
             align-items: center;
-            justify-content: flex-end;
             margin: 5px 0 40px 0;
             color: #9B9B9B;
             small {
@@ -76,7 +78,7 @@
     }
     .user {
         display: flex;
-        align-items: start;
+        align-items: flex-start;
         flex-direction: row-reverse;
         &-box {
             background-color: white;
@@ -99,6 +101,29 @@
         border-radius: 50%;
         margin: 0px 25px 0px 25px;
     }
+    .admin-chat {
+        display: flex;
+        align-items: flex-start;
+        &-box {
+            background-color: white;
+            border-radius: 20px 0px 20px 20px;
+        }
+        h3 {
+            letter-spacing: 2px;
+            font-size: 20px;
+            padding: 20px 30px 15px 30px;
+        }
+        p {
+            letter-spacing: 2px;
+            font-size: 20px;
+            padding: 20px 30px 15px 30px;
+        }
+    }
+    img {
+        width: 60px;
+        border-radius: 50%;
+        margin: 0px 25px 0px 25px;
+    }
 }
 
 .dedicated-person {
@@ -109,21 +134,19 @@
 .send-input {
     background-color: #E8DDBA;
     width: 90%;
-    position: absolute;
-    bottom: 0;
+    margin: 0 auto;
     input {
         margin: 30px 10px 30px 45px;
         height: 45px;
         border-radius: 25px;
         border: none;
         width: 80%;
-        &::-webkit-input-placeholder {
-            padding-left: 15px;
-        }
+        padding-left: 20px;
     }
     button {
         height: 45px;
         width: 10%;
+        margin-bottom: 5px;
         border-radius: 25px;
     }
 }

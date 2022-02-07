@@ -250,6 +250,11 @@ const routes = [
         path: '/changePassword',
         name: 'changePassword',
         component: () => import('../views/backed/ChangePassword.vue')
+      },
+      {
+        path: '/question',
+        name: 'question',
+        component: () => import('../views/backed/Question.vue')
       }
     ]
   }

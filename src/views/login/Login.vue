@@ -78,7 +78,7 @@
           <h3 data-aos="fade-up">會員註冊</h3>
           <p data-aos="fade-up">-Sign up-</p>
           <div class="form-box">
-            <Form v-slot="{ errors }" @submit.prevent="onSubmit" autocomplete="off">
+            <Form v-slot="{ errors }" @submit="onSubmit" autocomplete="off">
               <!-- 手機/Eamil -->
               <label data-aos="fade-up" for="信箱" class="signUp-label rwd-signUp-label">
                 <span class="signUp-span"><span class="text-danger">*</span>Email</span>
@@ -102,7 +102,7 @@
               <!-- 密碼 -->
               <label data-aos="fade-up" for="密碼" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>密碼</span>
-                  <Field v-model="signUpData.password" class="login-password-input signUp-Password mb-15" :class="{ 'border-danger': errors['密碼'] }" maxlength="13" rules="required|min:8" name="密碼" type="password" placeholder="請輸入密碼"/>
+                  <Field v-model="signUpData.password" class="login-password-input signUp-Password mb-15" :class="{ 'border-danger': errors['請輸入密碼'] }" maxlength="13" rules="required|min:8" name="密碼" type="password" placeholder="請輸入密碼"/>
                   <error-message name="密碼" class="error-text"></error-message>
               </label>
 
@@ -139,7 +139,7 @@
                   <option value="" disabled>請選擇性別</option>
                   <option value="male">男性</option>
                   <option value="female">女性</option>
-                  <option value="其他">其他</option>
+                  <option value="other">其他</option>
                 </Field>
                 <error-message name="請選擇性別" class="error-text"></error-message>
               </label>
@@ -147,9 +147,7 @@
               <!-- 出生 -->
               <label data-aos="fade-up" class="signUp-label py-0 pb-50">
                 <span class="signUp-span-item"><span class="text-danger">*</span>出生</span>
-                <Field name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15" rules="required" :class="{ 'border-danger': errors['請選擇性別'] }" />
-                  <!-- <flat-pickr :config="config" id="myPicker" name="出生日期" v-model="signUpData.birthday" class="signUp-input mb-15 picker-input" placeholder="YYYY/MM/DD(無法修改，請正確填寫)"></flat-pickr> -->
-                <!-- </Field> -->
+                <Field name="出生日期" type="date" v-model="signUpData.birthday" class="signUp-input mb-15" rules="required" :class="{ 'border-danger': errors['請選擇性別'] }"/>
                 <error-message name="出生日期" class="error-text"></error-message>
               </label>
 
@@ -316,10 +314,11 @@ export default {
     onSubmit () {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
-        if (res.data.success === 'false') {
-          this.$swal.fire('帳號註冊失敗')
-        } else {
+        if (res.data.success) {
           this.$swal.fire('帳號註冊成功')
+        } else {
+          console.log(res)
+          this.$swal.fire('帳號註冊失敗')
         }
       })
     },
@@ -328,10 +327,10 @@ export default {
       vm.$store.dispatch('login', {
         email: vm.loginData.email,
         password: vm.loginData.password
-      }).then(() => {
+      }).then((res) => {
         this.$router.push('/backed')
       }).catch(() => {
-        alert('登入失敗')
+        this.$swal.fire('登入失敗')
       })
     },
     hideHeader (e) {

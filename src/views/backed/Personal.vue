@@ -8,13 +8,13 @@
     <div class="d-flex py-20 align-items-center">
       <h3 class="fw-bold">E-mail</h3>
       <span>{{ userData.email }}</span>
-      <router-link to="changePassword">更改</router-link>
     </div>
 
     <!-- 帳號 -->
     <div class="d-flex py-20">
       <h3 class="fw-bold">帳號</h3>
-      <span>{{ userData.account}}</span>
+      <span v-if="userData.account">{{ userData.account}}</span>
+      <span v-else>暫時無資料</span>
     </div>
 
     <!-- 暱稱 -->

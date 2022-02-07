@@ -8,6 +8,8 @@ export default createStore({
     user: null,
     userData: {},
     messages: [],
+    userMessages: [],
+    userId: 45,
     tempUserData: {}
   },
   mutations: {
@@ -17,21 +19,20 @@ export default createStore({
       localStorage.setItem('user', JSON.stringify(userData))
       axios.defaults.headers.common.Authorization = `Bearer ${userData.token}`
     },
+    // 儲存使用者資料
     GETUSERDATA (state, payload) {
+      console.log(payload)
       state.userData = payload
       state.tempUserData.city = payload.city
     },
-    GETMESSAGE (state, payload) {
-      state.messages = payload
-      console.log(payload)
-      state.messages.filter((item) => {
-        return item.user_id === state.userData.id
-      })
-      console.log(state.messages)
-      state.messages.forEach((item) => {
-        item.name = state.userData.name
-      })
+    // 指派訊息用
+    ASSIGN (state, payload) {
+      axios.post('https://iecosystem-api.tomyue.cc/api/orders/' + 1 + '/assign', { user_id: 45 })
+        .then((res) => {
+          console.log(res)
+        })
     },
+    // 登出
     LOGOUT () {
       localStorage.removeItem('user')
       location.reload()
@@ -46,22 +47,29 @@ export default createStore({
           commit('setUserData', data)
         })
     },
+    // 取得使用者資料
     getUserData (context) {
       axios.get('https://iecosystem-api.tomyue.cc/api/user/').then((res) => {
         context.commit('GETUSERDATA', res.data.user)
       })
     },
+    // 修改使用者資料
     saveData (context, tempUserData) {
       axios.post('https://iecosystem-api.tomyue.cc/api/user/profile', tempUserData).then((res) => {
         alert('成功修改資料')
       })
     },
-    getMessage (context) {
-      axios.get('https://iecosystem-api.tomyue.cc/api/messages')
+    // 取得指派清單
+    getQuestion (context) {
+      axios.get('https://iecosystem-api.tomyue.cc/api/orders/assign')
         .then((res) => {
-          context.commit('GETMESSAGE', res.data.data)
+          console.log(res)
         })
     },
+    assign (context) {
+      context.commit('ASSIGN')
+    },
+    // 登出
     logout (context) {
       context.commit('LOGOUT')
     }
@@ -73,9 +81,6 @@ export default createStore({
     },
     userData: state => {
       return state.userData
-    },
-    messages: state => {
-      return state.messages
     }
   }
 })

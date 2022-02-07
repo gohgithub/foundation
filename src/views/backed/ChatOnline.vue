@@ -82,7 +82,6 @@
       </div>
 
       <!-- 留言板 -->
-      <!-- v-if="thirdData.user.select === '轉接專人服務'" -->
       <div>
         <h3 class="text-center dedicated-person">--- 正在轉接專人服務 ---</h3>
         <div class="admin">
@@ -99,6 +98,42 @@
         </div>
 
         <div v-for="(item, index) in messages" :key="index">
+          <div class="user pb-30" v-if="item.user_id !== 55">
+            <img src="../../assets/image/backed/member_image_user.svg">
+              <ul class="d-flex align-items-end flex-column">
+                <li>
+                  <div class="user-box">
+                    <p>
+                      {{ item.body }}
+                      {{ item.length}}
+                    </p>
+                  </div>
+                </li>
+                <div class="time-item">
+                  <i class="far fa-clock"></i>
+                  <small>{{ item.created_at }}</small>
+                </div>
+            </ul>
+          </div>
+          <div class="admin-chat" v-if="item.user_id == 55">
+            <img src="../../assets/image/backed/member_image_administrator.svg">
+            <ul class="d-flex align-items-end flex-column">
+              <li>
+                <div class="admin-chat-box">
+                  <p>
+                    {{ item.body }}
+                    {{ item.length}}
+                  </p>
+                </div>
+                <div class="time-item">
+                    <i class="far fa-clock"></i>
+                    <small>{{ item.created_at }}</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div v-for="(item, index) in newData" :key="index">
           <div class="user pb-30">
             <img src="../../assets/image/backed/member_image_user.svg">
               <ul class="d-flex align-items-end flex-column">
@@ -106,6 +141,7 @@
                   <div class="user-box">
                     <p>
                       {{ item.body }}
+                      {{ item.length}}
                     </p>
                   </div>
                 </li>
@@ -116,11 +152,11 @@
             </ul>
           </div>
         </div>
-        <div class="send-input">
-          <input type="text" placeholder="輸入問題" v-model="newMessage">
-          <button class="btn btn-black" type="button" @click="addMessage">送出</button>
-        </div>
       </div>
+    </div>
+    <div class="send-input">
+      <input type="text" placeholder="輸入問題" v-model="newMessage">
+      <button class="btn btn-black" type="button" @click="addMessage">送出</button>
     </div>
   </section>
 </template>
@@ -134,14 +170,15 @@ export default {
   computed: {
     ...mapGetters([
       'user',
-      'userData',
-      'messages'
+      'userData'
     ])
   },
   data () {
     return {
       // 儲存訊息資料用
       newMessage: '',
+      messages: [],
+      newData: [],
       // *** 第一階段資料 ***
       firstData: {
         message: {
@@ -229,16 +266,23 @@ export default {
         return false
       }
       vm.axios.post('https://iecosystem-api.tomyue.cc/api/messages', { body: vm.newMessage })
-        .then((response) => {
-          console.log(response)
-          vm.messages.push({ body: vm.newMessage, user_id: vm.user.user.id })
+        .then((res) => {
           vm.isAddMessage = true
+          vm.newData.push({ body: vm.newMessage, created_at: moment(new Date()).format('YYYY/MM/DD HH:mm:ss') })
           vm.newMessage = ''
+        })
+    },
+    getMessage () {
+      const vm = this
+      vm.axios.get('https://iecosystem-api.tomyue.cc/api/messages?page=1&perPage=100')
+        .then((res) => {
+          console.log(res)
+          vm.messages = res.data.data
         })
     }
   },
   created () {
-    this.$store.dispatch('getMessage')
+    this.getMessage()
   }
 }
 </script>
