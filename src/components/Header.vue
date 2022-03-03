@@ -8,13 +8,12 @@
             <div class="modal-box">
               <ul class="modal-list">
                 <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('about')" to="about"><p>01</p><h3>關於我們</h3><span>About Us</span></router-link></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('#')" to="#"><p>02</p><h3>經驗分享</h3><span>Success Stories</span></router-link></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('unintended-2')" to="unintended-2"><p>03</p><h3>我意外懷孕了</h3><span>Teen Mom</span></router-link></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('youngdad-2')" to="youngdad-2"><p>04</p><h3>我女友懷孕了</h3><span>Teen Dad</span></router-link></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('daughter-2')" to="daughter-2"><p>05</p><h3>我女兒懷孕了</h3><span>Parents</span></router-link></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('family-2')" to="family-2"><p>06</p><h3>親友懷孕了</h3><span>Family</span></router-link></li>
-                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('support-2')" to="support-2"><p>07</p><h3>我想支持</h3><span>Support</span></router-link></li>
-                <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><p>08</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('unintended-2')" to="unintended-2"><p>02</p><h3>我意外懷孕了</h3><span>Teen Mom</span></router-link></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('youngdad-2')" to="youngdad-2"><p>03</p><h3>我女友懷孕了</h3><span>Teen Dad</span></router-link></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('daughter-2')" to="daughter-2"><p>04</p><h3>我女兒懷孕了</h3><span>Parents</span></router-link></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('family-2')" to="family-2"><p>05</p><h3>親友懷孕了</h3><span>Family</span></router-link></li>
+                <li><img src="../assets/image/front/icon_triangle.svg"><router-link data-bs-toggle="modal" data-bs-target="#rightModal" aria-label="Main Menu" @click="closeModal('support-2')" to="support-2"><p>06</p><h3>我想支持</h3><span>Support</span></router-link></li>
+                <li class="mb-20"><img src="../assets/image/front/icon_triangle.svg"><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><p>07</p><h3>聯絡我們</h3><span>Contact Us</span></a></li>
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>

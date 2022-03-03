@@ -231,14 +231,10 @@
 <script>
 import $ from 'jquery'
 
-// 載入 flatPciker
-// import flatPickr from 'vue-flatpickr-component'
-// import 'flatpickr/dist/flatpickr.css'
-
 // 載入驗證規則
 import { defineRule } from 'vee-validate'
 
-// 初始化規則
+// custom 初始化規則
 defineRule('passwordConfirmed', (value, [target]) => {
   if (value === target) {
     return true

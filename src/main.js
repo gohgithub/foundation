@@ -2,13 +2,14 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-// 載入 sweerAlet2
+// 載入 SweerAlet2
 import VueSweetalert2 from 'vue-sweetalert2'
 import 'sweetalert2/dist/sweetalert2.min.css'
 
 // 載入 Vuex
 import store from './store'
 
+// 載入 BootStrap5
 import 'bootstrap'
 
 // 載入 axios
