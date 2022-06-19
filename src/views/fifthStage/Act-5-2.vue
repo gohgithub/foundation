@@ -5,11 +5,11 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/">首頁</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-2">我女兒懷孕了</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-3-1">我想要生下來</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-4-1">自行撫養</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">選擇答案</a></li>
+                <li class="breadcrumb-item"><a href="/">首頁</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">法律議題</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">已分手，獨自撫養</a></li>
             </ol>
           </nav>
         </section>
@@ -24,15 +24,15 @@
             <img class="image3" src="../../assets/image/front/page02_image3.svg">
             <!-- 結束 -->
             <div class="text-box">
-              <p class="step-text" data-aos="fade-up" >ANSEWR</p>
+              <p class="step-text" data-aos="fade-up">ANSEWR</p>
               <h2 class="step-title" data-aos="fade-up" >選擇・答案</h2>
               <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
-              <p class="step-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
+              <p class="step-sologan" data-aos="fade-up">為自己所想，為自己所選。</p>
             </div>
             <div class="container step-box">
-              <div class="step-box-inner">
+              <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜相關法規｜</h2>
+                  <h2>｜已分手，獨自撫養｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -66,6 +66,8 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
+        <Article></Article>
         <Circle></Circle>
       </main>
     </div>
@@ -75,6 +77,9 @@
 export default {
   data () {
     return {
+      data: [
+
+      ]
     }
   }
 }

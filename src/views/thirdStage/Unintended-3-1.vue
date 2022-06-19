@@ -22,10 +22,10 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 02</p>
+            <p class="step-text" data-aos="fade-up">STEP 03</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">為自己所想，為自己所選。</p>
+            <p class="step-sologan" data-aos="fade-up">如果我要生下寶寶，接下來會面對什麼狀況？</p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
@@ -41,6 +41,46 @@
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="unintended-4-2">其他因素無法自行撫養</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="medical-3-2">醫療議題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="act-4-2">法律議題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="familyRelation-4-2">家庭關係</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="medical-3-2">就學問題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="heartTohearts-4-1">三人世界的親密關係</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="mentalCare-4-1">身心照顧</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="parenting-4-1">育兒預備</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="economy-4-1">經濟需求</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

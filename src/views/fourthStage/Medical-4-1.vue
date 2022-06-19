@@ -5,10 +5,10 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/">首頁</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-2">我意外懷孕了</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-3-2">我不想要生下來</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">選擇答案</a></li>
+                <li class="breadcrumb-item"><a href="/">首頁</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">醫療議題</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">終止懷孕</a></li>
             </ol>
           </nav>
         </section>
@@ -91,12 +91,11 @@
             </div>
           </div>
         </section>
-        <Circle></Circle>
       </main>
     </div>
 </template>
-<script>
 
+<script>
 export default {
   data () {
     return {
@@ -104,6 +103,8 @@ export default {
   },
   mounted () {
 
+  },
+  components: {
   }
 }
 </script>

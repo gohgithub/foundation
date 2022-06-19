@@ -5,16 +5,14 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/">首頁</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-2">我女兒懷孕了</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-3-1">我想要生下來</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-4-1">自行撫養</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">選擇答案</a></li>
+                <li class="breadcrumb-item"><a href="/">首頁</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">法律議題</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">未滿20歲的議題</a></li>
             </ol>
           </nav>
         </section>
 
-        <!-- 主要區塊 -->
         <section class="container step-rwd">
           <div class="step">
             <!-- 裝飾用圖片 -->
@@ -66,16 +64,20 @@
             </div>
           </div>
         </section>
-        <Circle></Circle>
       </main>
     </div>
 </template>
-<script>
 
+<script>
 export default {
   data () {
     return {
     }
+  },
+  mounted () {
+
+  },
+  components: {
   }
 }
 </script>

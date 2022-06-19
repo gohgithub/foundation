@@ -6,8 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">我還沒準備好生下來</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">育兒預備</a></li>
           </ol>
         </nav>
       </section>
@@ -22,46 +23,32 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 03</p>
+            <p class="step-text" data-aos="fade-up">STEP 04</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">我還沒準備好要迎接寶寶，還能怎麼做？</p>
+            <p class="step-sologan" data-aos="fade-up">你做好當父母的準備了嗎？<br>你知道寶寶生下來後會遇到什麼難關嗎？
+            </p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜我還沒準備好生下來｜</h2>
+                <h2>｜育兒預備｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-4-3">終止懷孕</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="parenting-5-1">寶寶問題</router-link>
+                  <p class="d-block">寶寶歸剛欸!! 到底怎麼辦？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="chat">我需要幫助</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="parenting-5-2">如何照顧</router-link>
+                  <p class="d-block">媽媽很崩潰？到底要怎麼照顧？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="medical-4-6">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-4-3">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="600">
-                  <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="chat">身心議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="chat">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="parenting-5-3">寶寶發展</router-link>
+                  <p class="d-block">寶寶的每一步發展都很重要，你了解孩子的成長軌跡嗎？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

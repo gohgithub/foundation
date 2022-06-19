@@ -24,7 +24,10 @@
             <p class="step-text" data-aos="fade-up">STEP 02</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">為自己所想，為自己所選。</p>
+            <p class="step-sologan" data-aos="fade-up">面對不確定性及突發的狀況，我想你一定很緊張及害怕。
+              <br>
+              沒關係，我們陪你一起來確認這件事
+            </p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
@@ -39,12 +42,32 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="unintended-3-2">我不想要生下來</router-link>
+                  <router-link to="unintended-3-2">我還沒準備好生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="unintended-3-1">我想要生下來</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="medical-3-1">醫療議題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="act-3-1">法律議題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="familyRelation-3-1">家庭關係</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="fintimacy-3-1">親密關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

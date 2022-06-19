@@ -6,8 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">我還沒準備好生下來</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">法律議題</a></li>
           </ol>
         </nav>
       </section>
@@ -22,46 +23,43 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 03</p>
+            <p class="step-text" data-aos="fade-up">STEP 04</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">我還沒準備好要迎接寶寶，還能怎麼做？</p>
+            <p class="step-sologan" data-aos="fade-up">相信你現在有種種的擔憂，這些都是很常見的疑問，<br>
+            讓我們冷靜下來看看相關的法律規範吧!
+            </p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜我還沒準備好生下來｜</h2>
+                <h2>｜法律議題｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-4-3">終止懷孕</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="act-5-1">共同撫養，父母不同意</router-link>
+                  <p class="d-block">我和男朋友想要共同撫養小孩，<br> 但父母不同意，我可以怎麼做呢？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="chat">我需要幫助</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="act-5-2">已分手，獨自撫養</router-link>
+                  <p class="d-block">我已經跟男朋友分手了，<br>可以自己養小孩嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="medical-4-6">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="act-5-3">被通報上法院</router-link>
+                  <p class="d-block">被通報會要上法院嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-4-3">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="unintended-4-2">無法人工流產，也無法撫養</router-link>
+                  <p class="d-block">我已經沒辦法人工流產了，<br> 但是我真的沒辦法養小孩，到底該怎麼辦</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="chat">身心議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="chat">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="act-3-1">滿18歲想生，父母不同意</router-link>
+                  <p class="d-block">我18歲，想要生下孩子，<br> 但我父母強迫我拿掉，我可以怎麼辦？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

@@ -7,8 +7,9 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="/">首頁</a></li>
               <li class="breadcrumb-item"><a href="#/unintended-2">我意外懷孕了</a></li>
-              <li class="breadcrumb-item"><a href="#/unintended-3-2">我不想要生下來</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">選擇答案</a></li>
+              <li class="breadcrumb-item"><a href="#/unintended-3-1">我還沒準備好生下來</a></li>
+              <li class="breadcrumb-item" aria-current="page"><a href="#">醫療議題</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="#">人工流產</a></li>
             </ol>
           </nav>
         </section>
@@ -31,7 +32,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜終止懷孕｜</h2>
+                  <h2>｜人工流產｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
