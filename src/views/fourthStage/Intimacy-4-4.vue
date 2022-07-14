@@ -31,7 +31,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜15 歲可以買避孕藥嗎｜</h2>
+                  <h2>｜懷孕問題｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -40,6 +40,9 @@
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
                         <p>在交往過程當中，會想要有親密接觸都是很正常的，但是若你和男友還沒有準備好要懷孕共同養育寶寶，建議你們還是要採取雙重避孕(女生規律吃事前避孕藥、男生全程戴保險套)才能有效避孕喔</p>
+                      </li>
+                      <li data-aos="fade-up">
+                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=26" target="_blank">>> 點我了解更多「懷孕/避孕」相關議題</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
@@ -53,20 +56,25 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
+        <Circle></Circle>
       </main>
     </div>
 </template>
-
 <script>
+import Consult from '../../components/Consult.vue'
+
 export default {
   data () {
     return {
+
     }
   },
   mounted () {
 
   },
   components: {
+    Consult
   }
 }
 </script>

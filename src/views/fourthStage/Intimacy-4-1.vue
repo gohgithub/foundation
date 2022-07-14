@@ -31,7 +31,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜15 歲可以買保險套嗎｜</h2>
+                  <h2>｜15歲可以買保險套嗎｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -40,7 +40,10 @@
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
                         <p>法律上為了保護未滿16歲的青少年們身心健康，規範這個年齡層不適合發生性行為，因此當診所、醫院知道這個狀況，就保護青少年的立場，還是會通知社會局社工人員關懷你的狀況喔</p>
-                        <router-link to="act-3-1" class="fs-5 text-danger">>> 可以點我參考「性自主」及「法律相關」議題</router-link>
+                        <!-- <router-link to="act-3-1" class="fs-5 text-danger">>> 可以點我參考「性自主」及「法律相關」議題</router-link> -->
+                      </li>
+                      <li data-aos="fade-up">
+                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=19" target="_blank">>> 點我了解更多「保險套」相關議題</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
@@ -54,20 +57,25 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
+        <Circle></Circle>
       </main>
     </div>
 </template>
-
 <script>
+import Consult from '../../components/Consult.vue'
+
 export default {
   data () {
     return {
+
     }
   },
   mounted () {
 
   },
   components: {
+    Consult
   }
 }
 </script>

@@ -40,22 +40,21 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="intimacy-4-2">可以買避孕藥嗎</router-link>
+                  <router-link to="intimacy-4-2">可以買事後避孕藥嗎</router-link>
                   <p class="d-block">我可以去藥局買事後避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="intimacy-4-3">15 歲可以買避孕藥嗎</router-link>
+                  <router-link to="intimacy-4-3">15歲可以買避孕藥嗎</router-link>
                   <p class="d-block">我現在15歲，<br>可以自行去診所或是藥局購買事前避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="intimacy-4-4">懷孕問題</router-link>
                   <p class="d-block">只在陰道口外面摩擦會懷孕嗎？<br>
-                  隔著內褲愛撫還會懷孕嗎？體外射精<br>
-                  安全期時發生性行為<br>
-                  月經來時發生性行為，是不是不會懷孕？
-</p>
+                  隔著內褲愛撫還會懷孕嗎？<br>體外射精、
+                  安全期、月經來時發生性行為，<br>
+                  是不是不會懷孕？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

@@ -30,7 +30,7 @@
                 <h2>｜我女友懷孕了｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300">
+                <!-- <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="youngdad-3-1">我的社會責任</router-link>
                   <p>我是小爸爸，<br>整體比較一致。</p>
@@ -59,7 +59,7 @@
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="chat">我需要協助建議</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
+                </li> -->
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="youngdad-3-4">不知道女友有沒有懷孕</router-link>
