@@ -31,7 +31,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜可以買避孕藥嗎｜</h2>
+                  <h2>｜可以買事後避孕藥嗎｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -39,9 +39,12 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>不行喔~事後避孕藥是醫師處方籤才能取得，如果自己在藥局購買、可能會買到假藥(非法進口的藥物)喔！</p>
+                        <p>不行喔~事後避孕藥是醫師處方籤才能取得，如果自己在藥局購買，可能會買到假藥(非法進口的藥物)喔！</p>
                       </li>
-                      <router-link data-aos="fade-up" class="fs-5 text-primary" to="https://257085.sfaa.gov.tw/index.php">可以參考連結：https://257085.sfaa.gov.tw/index.php</router-link>
+                      <li data-aos="fade-up">
+                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=23" target="_blank">>> 點我了解更多「避孕藥」相關議題</a></p>
+                      </li>
+                      <!-- <router-link target="_blank" data-aos="fade-up" class="fs-5 text-primary" to="https://257085.sfaa.gov.tw/index.php">可以參考連結：https://257085.sfaa.gov.tw/index.php</router-link> -->
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
@@ -54,20 +57,25 @@
             </div>
           </div>
         </section>
+       <Consult></Consult>
+        <Circle></Circle>
       </main>
     </div>
 </template>
-
 <script>
+import Consult from '../../components/Consult.vue'
+
 export default {
   data () {
     return {
+
     }
   },
   mounted () {
 
   },
   components: {
+    Consult
   }
 }
 </script>

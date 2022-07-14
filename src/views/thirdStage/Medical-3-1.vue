@@ -39,7 +39,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="medical-4-7">可以買事後避孕藥嗎？</router-link>
+                  <router-link to="intimacy-4-2">可以買事後避孕藥嗎？</router-link>
                   <p class="d-block">我可以去藥局買事後避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">

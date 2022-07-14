@@ -55,7 +55,25 @@
           </div>
         </div>
       </section>
-      <Circle></Circle>
-    </main>
-  </div>
+      <Consult></Consult>
+        <Circle></Circle>
+      </main>
+    </div>
 </template>
+<script>
+import Consult from '../../components/Consult.vue'
+
+export default {
+  data () {
+    return {
+
+    }
+  },
+  mounted () {
+
+  },
+  components: {
+    Consult
+  }
+}
+</script>
