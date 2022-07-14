@@ -6,7 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我女友懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">不知道女友有沒有懷孕</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">醫療議題</a></li>
           </ol>
         </nav>
@@ -40,7 +41,7 @@
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="medical-4-7">可以買事後避孕藥嗎？</router-link>
-                  <p class="d-block">我可以去藥局買事後避孕藥嗎？</p>
+                  <p class="d-block">女友可以去藥局買事後避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
@@ -60,7 +61,7 @@
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="medical-4-8">懷孕前的徵兆？</router-link>
-                  <p class="d-block">我最近有胸部腫脹、頭痛、反胃、吃很多等狀況，<br>跟懷孕的徵兆很像？這樣是懷孕嗎？<br>還是只是月經快來呢？</p>
+                  <p class="d-block">女友最近有胸部腫脹、頭痛、反胃、吃很多等狀況，<br>跟懷孕的徵兆很像？這樣是懷孕嗎？<br>還是只是月經快來呢？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
@@ -80,7 +81,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="medical-4-11">假性月經是什麼？</router-link>
-                  <p class="d-block">我月經都有來？這樣還會懷孕嗎？</p>
+                  <p class="d-block">女友月經都有來？這樣還會懷孕嗎？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

@@ -39,6 +39,11 @@
                   <router-link to="familyRelation-4-1">通報家長</router-link>
                   <p class="d-block">我還沒20/16會不會通報家長？</p>
                 </li>
+                <li data-aos="fade-up" data-aos-delay="600">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="familyRelation-4-3">如何跟爸媽說懷孕了</router-link>
+                  <p class="d-block">不知道怎麼跟我爸媽說，可能懷孕了…</p>
+                </li>
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">

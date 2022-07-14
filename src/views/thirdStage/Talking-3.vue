@@ -7,8 +7,7 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
             <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">三人世界的親密關係</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">我不知道該怎麼做</a></li>
           </ol>
         </nav>
       </section>
@@ -23,32 +22,39 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 04</p>
+            <p class="step-text" data-aos="fade-up">STEP 02</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">懷孕之後，再也不是兩個人的世界？有了寶寶之後，<br> 可能會面對什麼變化？
+            <p class="step-sologan" data-aos="fade-up">面對不確定性及突發的狀況，我想你一定很緊張及害怕。
+              <br>
+              沒關係，我們陪你一起來確認這件事
             </p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜三人世界的親密關係｜</h2>
+                <h2>｜我不知道該怎麼做｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="heartTohearts-5-1">懷孕性行為</router-link>
-                  <p class="d-block">懷孕了還可以發生性行為嗎？</p>
+                  <router-link to="medical-3-1">醫療議題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="familyRelation-5-2">養不起小孩</router-link>
-                  <p class="d-block">男友說他養不起小孩，<br> 要我把孩子拿掉？</p>
+                  <router-link to="act-3-1">法律議題</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-5-3">不知道生父是誰</router-link>
-                  <p class="d-block">我不知道孩子的生父是誰？</p>
+                  <router-link to="familyRelation-3-1">家庭關係</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="fintimacy-3-1">親密關係</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

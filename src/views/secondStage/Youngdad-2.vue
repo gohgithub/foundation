@@ -60,6 +60,11 @@
                   <router-link to="chat">我需要協助建議</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="youngdad-3-4">不知道女友有沒有懷孕</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">

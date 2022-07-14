@@ -33,7 +33,7 @@
                 <h2>｜我還沒準備好生下來｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300">
+                <li class="d-none" data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="unintended-4-3">終止懷孕</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>

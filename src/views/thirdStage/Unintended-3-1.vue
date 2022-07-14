@@ -33,12 +33,12 @@
                 <h2>｜我想要生下來｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300">
+                <li class="d-none" data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="unintended-4-1">自行撫養</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600">
+                <li class="d-none" data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="unintended-4-2">其他因素無法自行撫養</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
@@ -60,7 +60,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="medical-3-2">就學問題</router-link>
+                  <router-link to="study-4-1">就學問題</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">

@@ -38,6 +38,11 @@ const routes = [
         component: () => import('../views/secondStage/Unintended-2.vue')
       },
       {
+        path: 'talking-3',
+        name: 'talking-3',
+        component: () => import('../views/thirdStage/Talking-3.vue')
+      },
+      {
         path: 'unintended-3-1',
         name: 'unintended-3-1',
         component: () => import('../views/thirdStage/Unintended-3-1.vue')
@@ -118,6 +123,31 @@ const routes = [
         component: () => import('../views/fourthStage/Medical-4-6.vue')
       },
       {
+        path: 'medical-4-7',
+        name: 'medical-4-7',
+        component: () => import('../views/fourthStage/Medical-4-7.vue')
+      },
+      {
+        path: 'medical-4-8',
+        name: 'medical-4-8',
+        component: () => import('../views/fourthStage/Medical-4-8.vue')
+      },
+      {
+        path: 'medical-4-9',
+        name: 'medical-4-9',
+        component: () => import('../views/fourthStage/Medical-4-9.vue')
+      },
+      {
+        path: 'medical-4-10',
+        name: 'medical-4-10',
+        component: () => import('../views/fourthStage/Medical-4-10.vue')
+      },
+      {
+        path: 'medical-4-11',
+        name: 'medical-4-11',
+        component: () => import('../views/fourthStage/Medical-4-11.vue')
+      },
+      {
         path: 'act-4-1',
         name: 'act-4-1',
         component: () => import('../views/fourthStage/Act-4-1.vue')
@@ -126,6 +156,11 @@ const routes = [
         path: 'act-4-2',
         name: 'act-4-2',
         component: () => import('../views/fourthStage/Act-4-2.vue')
+      },
+      {
+        path: 'act-4-3',
+        name: 'act-4-3',
+        component: () => import('../views/fourthStage/Act-4-3.vue')
       },
       {
         path: 'mentalCare-4-1',
@@ -143,6 +178,11 @@ const routes = [
         component: () => import('../views/fourthStage/FamilyRelation-4-2.vue')
       },
       {
+        path: 'familyRelation-4-3',
+        name: 'familyRelation-4-3',
+        component: () => import('../views/fourthStage/FamilyRelation-4-3.vue')
+      },
+      {
         path: 'heartTohearts-4-1',
         name: 'heartTohearts-4-1',
         component: () => import('../views/fourthStage/HeartTohearts-4-1.vue')
@@ -153,9 +193,34 @@ const routes = [
         component: () => import('../views/fourthStage/Parenting-4-1.vue')
       },
       {
+        path: 'study-4-1',
+        name: 'study-4-1',
+        component: () => import('../views/fourthStage/Study-4-1.vue')
+      },
+      {
         path: 'economy-4-1',
         name: 'economy-4-1',
         component: () => import('../views/fourthStage/Economy-4-1.vue')
+      },
+      {
+        path: 'intimacy-4-1',
+        name: 'intimacy-4-1',
+        component: () => import('../views/fourthStage/Intimacy-4-1.vue')
+      },
+      {
+        path: 'intimacy-4-2',
+        name: 'intimacy-4-2',
+        component: () => import('../views/fourthStage/Intimacy-4-2.vue')
+      },
+      {
+        path: 'intimacy-4-3',
+        name: 'intimacy-4-3',
+        component: () => import('../views/fourthStage/Intimacy-4-3.vue')
+      },
+      {
+        path: 'intimacy-4-4',
+        name: 'intimacy-4-4',
+        component: () => import('../views/fourthStage/Intimacy-4-4.vue')
       },
       {
         path: 'unintended-5-1',
@@ -196,6 +261,21 @@ const routes = [
         path: 'familyRelation-5-1',
         name: 'familyRelation-5-1',
         component: () => import('../views/fifthStage/FamilyRelation-5-1.vue')
+      },
+      {
+        path: 'study-5-1',
+        name: 'study-5-1',
+        component: () => import('../views/fifthStage/Study-5-1.vue')
+      },
+      {
+        path: 'familyRelation-5-2',
+        name: 'familyRelation-5-2',
+        component: () => import('../views/fifthStage/FamilyRelation-5-2.vue')
+      },
+      {
+        path: 'familyRelation-5-3',
+        name: 'familyRelation-5-3',
+        component: () => import('../views/fifthStage/FamilyRelation-5-3.vue')
       },
       {
         path: 'heartTohearts-5-1',
@@ -343,6 +423,21 @@ const routes = [
         path: 'youngdad-3-3',
         name: 'youngdad-3-3',
         component: () => import('../views/thirdStage/Youngdad-3-3.vue')
+      },
+      {
+        path: 'youngdad-3-4',
+        name: 'youngdad-3-4',
+        component: () => import('../views/thirdStage/Youngdad-3-4.vue')
+      },
+      {
+        path: 'youngdad-4-1',
+        name: 'youngdad-4-1',
+        component: () => import('../views/fourthStage/Youngdad-4-1.vue')
+      },
+      {
+        path: 'youngdad-4-2',
+        name: 'youngdad-4-2',
+        component: () => import('../views/fourthStage/Youngdad-4-2.vue')
       },
       // 我是親友
       {
