@@ -56,19 +56,22 @@
             </div>
           </div>
         </section>
+        <Consult></Consult>
         <Circle></Circle>
       </main>
     </div>
 </template>
 <script>
-
+import Consult from '../../components/Consult.vue'
 export default {
   data () {
     return {
-      data: [
-
-      ]
     }
+  },
+  mounted () {
+  },
+  components: {
+    Consult
   }
 }
 </script>
