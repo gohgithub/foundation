@@ -54,7 +54,9 @@
                         <h3>繼續完成學業</h3>
                         <p>為保障學生受教權，校方必須主動依學籍和成績評量等相關規定來做輔導，讓學生能夠在非預期懷孕後，回歸學校時再次適應學習環境，並依照他們的情況來調整彈性措施，讓面臨非預期懷孕的學生能夠順利完成學業。</p>
                       </li>
-                      <router-link data-aos="fade-up" to="https://257085.sfaa.gov.tw/welfare.php?cID=7">參考來源 https://257085.sfaa.gov.tw/welfare.php?cID=7</router-link>
+                      <li data-aos="fade-up">
+                      <p>參考法規：<a class="fs-5 text-danger" href="https://edu.law.moe.gov.tw/LawContent.aspx?id=FL036539" target="_blank">教育部《學生懷孕受教權維護及輔導協助要點》</a></p>
+                      </li>
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
@@ -77,6 +79,7 @@ import Consult from '../../components/Consult.vue'
 export default {
   data () {
     return {
+
     }
   },
   mounted () {
