@@ -39,9 +39,10 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>不行喔~事後避孕藥是醫師處方籤才能取得，<br>如果自己在藥局購買、可能會買到假藥(非法進口的藥物)喔！
-</p>
-<router-link class="fs-5 text-primary" to="https://257085.sfaa.gov.tw/welfare.php?cID=7">可以參考連結：https://257085.sfaa.gov.tw/welfare.php?cID=7</router-link>
+                        <p>不行喔~事後避孕藥是醫師處方籤才能取得，如果自己在藥局購買，可能會買到假藥(非法進口的藥物)喔！</p>
+                      </li>
+                      <li data-aos="fade-up">
+                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=23" target="_blank">>> 點我了解更多「避孕藥」相關議題</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

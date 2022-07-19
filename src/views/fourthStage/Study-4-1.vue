@@ -37,12 +37,12 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="study-5-1">不想讓老師同學知道</router-link>
-                  <p>我不想讓學校老師和同學知道我懷孕了？</p>
+                  <p class="d-block">我不想讓學校老師和同學知道我懷孕了？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="study-5-1">學校會強迫休學嗎？</router-link>
-                  <p>學校如果知道我懷孕，<br>是不是會強迫我休學？</p>
+                  <p class="d-block">學校如果知道我懷孕，<br>是不是會強迫我休學？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">
