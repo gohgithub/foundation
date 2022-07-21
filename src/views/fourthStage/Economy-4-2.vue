@@ -6,8 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我女友懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">不知道女友有沒有懷孕</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">經濟需求</a></li>
           </ol>
         </nav>
       </section>
@@ -22,39 +23,32 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 02</p>
+            <p class="step-text" data-aos="fade-up">STEP 04</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">面對不確定性及突發的狀況，我想你一定很緊張及害怕。
-              <br>
-              沒關係，我們陪你一起來確認這件事
+            <p class="step-sologan" data-aos="fade-up">柴米油鹽醬醋茶？<br> 以前怎麼沒想到要花這麼多錢？
             </p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜不知道女友有沒有懷孕｜</h2>
+                <h2>｜經濟需求｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="youngdad-4-1">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="economy-5-1">補助問題</router-link>
+                  <p class="d-block">生下寶寶可以申請什麼補助？<br>政府可以幫我嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="youngdad-4-2">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="economy-5-2">生活問題</router-link>
+                  <p class="d-block">有什麼工作是可以養活我們這一家的？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-4-4">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="intimacy-4-5">親密關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="familyRelation-5-1">就業問題</router-link>
+                  <p class="d-block">無法親自顧寶寶，寶寶怎麼辦？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

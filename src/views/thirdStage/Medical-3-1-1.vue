@@ -35,7 +35,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="medical-4-1">我可以中止懷孕嗎？</router-link>
-                  <p class="d-block">可以中止懷孕嗎？一定要有家長幫我簽同意書嗎？我男友成年了可以幫我簽嗎？</p>
+                  <p class="d-block">可以中止懷孕嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>

@@ -6,8 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我女友懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">不知道女友有沒有懷孕</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">我不知道該怎麼做</a></li>
           </ol>
         </nav>
       </section>
@@ -33,27 +33,27 @@
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜不知道女友有沒有懷孕｜</h2>
+                <h2>｜我不知道該怎麼做｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="youngdad-4-1">醫療議題</router-link>
+                  <router-link to="medical-3-1-1">醫療議題</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="youngdad-4-2">法律議題</router-link>
+                  <router-link to="act-3-1">法律議題</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="900">
+                <li class="d-none" data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-4-4">家庭關係</router-link>
+                  <router-link to="familyRelation-3-1">家庭關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="intimacy-4-5">親密關係</router-link>
+                  <router-link to="fintimacy-3-1">親密關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

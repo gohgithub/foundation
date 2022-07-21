@@ -6,8 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我女友懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">不知道女友有沒有懷孕</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">親密關係</a></li>
           </ol>
         </nav>
       </section>
@@ -21,40 +21,40 @@
           <img class="image2" src="../../assets/image/front/page02_image2.svg">
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
-          <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 02</p>
-            <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
-            <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">面對不確定性及突發的狀況，我想你一定很緊張及害怕。
-              <br>
-              沒關係，我們陪你一起來確認這件事
-            </p>
-          </div>
+          <p class="step-text" data-aos="fade-up">STEP 03</p>
+          <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
+          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
+          <p class="step-sologan" data-aos="fade-up">交往的過程中，一定會想和情人進一步的接觸，<br>
+          在發生性行為前，你做好準備了嗎？
+          </p>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜不知道女友有沒有懷孕｜</h2>
+                <h2>｜親密關係｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="youngdad-4-1">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="intimacy-4-1">15 歲可以買保險套嗎</router-link>
+                  <p class="d-block">我想到藥局買保險套，15歲可以買嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="youngdad-4-2">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="intimacy-4-2">可以買事後避孕藥嗎</router-link>
+                  <p class="d-block">我可以去藥局買事後避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-4-4">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="intimacy-4-3">15歲可以買避孕藥嗎</router-link>
+                  <p class="d-block">我現在15歲，<br>可以自行去診所或是藥局購買事前避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="intimacy-4-5">親密關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="intimacy-4-4">懷孕問題</router-link>
+                  <p class="d-block">只在陰道口外面摩擦會懷孕嗎？<br>
+                  隔著內褲愛撫還會懷孕嗎？<br>體外射精、
+                  安全期、月經來時發生性行為，<br>
+                  是不是不會懷孕？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

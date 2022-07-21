@@ -82,7 +82,7 @@
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic2.jpg">
                 <p>支持與陪伴，<br>勝過千言萬語。</p>
-                <router-link to="Youngdad-2">了解更多</router-link>
+                <router-link to="youngdad-2">了解更多</router-link>
               </div>
             </div>
           </div>
