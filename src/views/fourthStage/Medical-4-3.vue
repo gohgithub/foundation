@@ -73,7 +73,9 @@
                         <h3>四、小產飲食</h3>
                         <p>小產之後總是擔心自己身體會不會受到影響，該怎麼休養，人工流產後 、自然流產後最多人問的就是關於流產後飲食、流產後補品：小產吃什麼？流產吃什麼？流產補品怎麼吃？等等諸如刺此類的問題不勝枚舉，其實小產後飲食真的有那麼多要注意的地方嗎？我來簡單告訴大家流產飲食注意事項吧！</p>
                       </li>
-                      <a data-aos="fade-up" href="https://haveababy.tw/posts/pregnancy-20">參考來源：https://haveababy.tw/posts/pregnancy-20</a>
+                      <li data-aos="fade-up">
+                        <p>參考來源：<br><a class="fs-5 text-danger" href="https://www.taog.org.tw/ill.php " target="_blank"> 台灣婦產科醫學會</a><br><a class="fs-5 text-danger" href="https://haveababy.tw/posts/pregnancy-20" target="_blank"> 人工流產諮詢指引 </a></p>
+                    </li>
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
