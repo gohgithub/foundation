@@ -135,10 +135,9 @@
     </p>
     <p>懷孕是一件辛苦又開心的事情，孕期間碰到生理或是心理上的不適時，都應該要盡量尋求外力的協助來改善，有健康的身心，寶寶才能在安穩的環境中長大！</p>
     <hr>
-    <p>部分摘譯自: <a href="http://www.motherandbaby.co.au/">http://www.motherandbaby.co.au</a></p>
     <ul>
     <li data-aos="fade-up">
-      <p>參考資料：<a href=" https://www.mamaway.com.tw/pregnancy-nursing-breastfeeding/658/pregnancy/">孕期的身體變化</a></p>
+      <p>參考資料：<a href=" https://www.mamaway.com.tw/pregnancy-nursing-breastfeeding/658/pregnancy/" target="_blank">孕期的身體變化</a></p>
     </li>
     </ul>
   </div>
