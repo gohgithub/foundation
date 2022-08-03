@@ -62,7 +62,7 @@
 容易出現產後重鬱症的因素有年輕產婦、不預期懷孕、收入不穩定、婚姻衝突、缺乏支持系統、憂鬱症病史、患有經前不悅症或孕期憂鬱／焦慮等，特別值得注意的是，產後重鬱症患者可能會對自己無法克盡母職而自責，而出現自殺或帶嬰兒一起尋死的行為。治療上與一般重鬱症無異，但對於仍哺育母乳的產婦，抗憂鬱劑種類的選擇則須特別謹慎。</p>
                       </li>
                     <li data-aos="fade-up">
-                      <p>參考資料：<a href="https://www.mamaway.com.tw/pregnancy-nursing-breastfeeding/6792/pregnancy/ ">心情很Blue？擺脫孕期+產後憂鬱(全文引用)</a></p>
+                      <p>參考資料：<a href="https://www.mamaway.com.tw/pregnancy-nursing-breastfeeding/6792/pregnancy/ ">心情很Blue？擺脫孕期+產後憂鬱</a></p>
                     </li>
                     </ul>
                     <!-- 選項結束 -->

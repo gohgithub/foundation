@@ -97,7 +97,9 @@
                         <p>隨著胎兒成長，產婦腹部越來越大，懷孕後期性行為已經不適合常見的傳教士姿勢，為了減輕產婦的負擔，又能避免壓迫到腹部，建議採取能錯開腹部，且不會讓肚子懸空的姿勢，其他還有什麼姿勢就交給各位去研究了！</p>
                         <img class="rounded-0 w-100 pt-2" src="https://images.ctfassets.net/i2o3e6knau3c/2uJ60sMwmTTGLKZW9Hsh2Z/8d1e0b84b5c928d724ceba5df5e1a375/______________________________.jpg" alt="">
                       </li>
-                      <a class="pt-5" data-aos="fade-up" href="https://haveababy.tw/posts/the-correct-concept-of-pregnancy-sex">參考來源：https://haveababy.tw/posts/the-correct-concept-of-pregnancy-sex</a>
+                      <li data-aos="fade-up">
+                        <p>參考來源：<a class="fs-5 text-danger" href="https://haveababy.tw/posts/the-correct-concept-of-pregnancy-sex" target="_blank">Dr. Willams《懷孕做愛行不行？會影響胎兒嗎？可以無套嗎？姿勢怎麼喬？》</a></p>
+                      </li>
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
