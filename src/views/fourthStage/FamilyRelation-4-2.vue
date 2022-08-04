@@ -6,8 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-2">我意外懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-3-1">我想要生下來</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">家庭關係</a></li>
           </ol>
         </nav>
@@ -44,7 +44,7 @@
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="familyRelation-5-1">父母不同意</router-link>
-                  <p class="d-block">男友的爸媽很支持我生下來，<br> 可是我爸媽不同意，該怎麼辦？</p>
+                  <p class="d-block">男方爸媽很支持生下來，<br> 可是女方爸媽不同意，該怎麼辦？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

@@ -6,8 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+            <li class="breadcrumb-item"><a href="#/youngdad-2">我女友懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/unintended-3-3">我們想要生下來</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">就學問題</a></li>
           </ol>
         </nav>

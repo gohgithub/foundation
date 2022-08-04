@@ -41,7 +41,7 @@
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="act-4-3">未滿16歲的議題</router-link>
-                  <p class="d-block">我才14歲，和男友發生性行為後，<br>好像懷孕了怎麼辦…</p>
+                  <p class="d-block">我才14歲，發生性行為後，<br>好像懷孕了怎麼辦…</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">
