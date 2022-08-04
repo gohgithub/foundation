@@ -30,7 +30,7 @@
                 <h2>｜我女兒懷孕了｜</h2>
               </div>
                <ul class="step-menu">
-                  <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <li data-aos="fade-up" data-aos-delay="300">
                     <img src='../../assets/image/front/page02_pic1.jpg'>
                     <router-link to="daughter-3-1">我或我女兒有的權益保障 </router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
@@ -59,20 +59,25 @@
                     <img src='../../assets/image/front/page02_pic3.jpg'>
                     <router-link to="daughter-3-6">小孩怎麼養小孩</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                  </li>
+                  </li> -->
                   <li data-aos="fade-up" data-aos-delay="300">
                     <img src='../../assets/image/front/page02_pic1.jpg'>
-                    <router-link to="talking-3-1">不知道女兒有沒有懷孕</router-link>
+                    <router-link to="talking-3-1">不知道有沒有懷孕</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
-                    <router-link to="unintended-3-1-1">我想生下來/我只能生下來</router-link>
+                    <router-link to="unintended-3-1-1">想把孩子生下來</router-link>
+                    <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="500">
+                    <img src='../../assets/image/front/page02_pic2.jpg'>
+                    <router-link to="unintended-3-1-1">只能選擇生下來</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="700">
                     <img src='../../assets/image/front/page02_pic3.jpg'>
-                    <router-link to="unintended-3-2">我還沒準備好生下來</router-link>
+                    <router-link to="unintended-3-2">還沒準備好生下來</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                 </ul>

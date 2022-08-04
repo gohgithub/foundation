@@ -39,7 +39,7 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>從你上次的經期結束最後一天開始推算。</p>
+                        <p>從上次的經期結束最後一天開始推算。</p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

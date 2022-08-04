@@ -41,69 +41,71 @@
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
                         <h3>準備懷孕 怎麼吃才能營養又健康？</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/96">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/96" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>準備懷孕營養均衡先打底！</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/168">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/168" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>新生命報到！寶寶在做什麼呢</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/169">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/169" target="_blank">查看文章</a>
                       </li>
                        <li data-aos="fade-up">
                         <h3>6大懷孕初期症狀出現，準備當媽咪？！懷孕初期症狀完整解析</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/170">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/170" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>體重該增加多少呢?</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/171">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/171" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>解除孕早期不適：倦怠疲勞</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/172">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/172" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>孕吐嚴重怎麼辦？五招緩解懷孕初期的孕吐症狀</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/173">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/173" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>了解孕早期不適：頻尿</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/174">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/174" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>懷孕初期飲食規劃：完整懷孕飲食餐單，讓孕媽咪吃出營養又健康</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/175">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/175" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>葉酸推薦從懷孕初期就開始補充！分享營養師推薦的葉酸挑選原則</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/176">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/176" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>DHA是孕婦必備營養?!學會DHA補充方法，綻放寶寶發展力</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/177">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/177" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>孕媽咪的預防過敏飲食建議</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/178">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/178" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>懷孕初期出血咖啡色是異狀？詳解9大懷孕初期出血原因</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/469">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/469" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>產前憂鬱症症狀有哪些？試著讓家人陪伴妳的憂鬱症</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/470">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/470" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>懷孕週期怎麼算？計算懷孕週期，輕鬆推估預產期！</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/472">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/472" target="_blank">查看文章</a>
                       </li>
                       <li data-aos="fade-up">
                         <h3>懷孕初期分泌物多正常嗎？3招改善懷孕分泌物困擾</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/473">查看文章</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/473" target="_blank">查看文章</a>
                       </li>
-                      <a data-aos="fade-up" href="https://starthealthy.nestle.com.tw/">參考來源：https://starthealthy.nestle.com.tw/</a>
+                      <li data-aos="fade-up">
+                        <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/" target="_blank">雀巢1000天營養計畫</a></p>
+                      </li>
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">

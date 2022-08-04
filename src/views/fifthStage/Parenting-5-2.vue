@@ -40,8 +40,12 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
+                        <p>媽媽很崩潰？到底要怎麼照顧？</p>
                         <h3>線上爸媽教室</h3>
-                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/classroom/online">查看教學</a>
+                        <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/classroom/online" target="_blank">查看教學</a>
+                      </li>
+                      <li data-aos="fade-up">
+                          <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/" target="_blank">雀巢1000天營養計畫</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
