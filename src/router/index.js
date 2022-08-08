@@ -222,6 +222,12 @@ const routes = [
         name: 'heartTohearts-4-1',
         component: () => import('../views/fourthStage/HeartTohearts-4-1.vue')
       },
+      // 男友版
+      {
+        path: 'heartTohearts-4-1-1',
+        name: 'heartTohearts-4-1-1',
+        component: () => import('../views/fourthStage/HeartTohearts-4-1-1.vue')
+      },
       {
         path: 'parenting-4-1',
         name: 'parenting-4-1',

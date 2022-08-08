@@ -6,7 +6,7 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
+            <li class="breadcrumb-item"><a href="#/youngdad-2">我女友懷孕了</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">我想要生下來</a></li>
           </ol>
         </nav>
@@ -65,7 +65,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="heartTohearts-4-1">三人世界的親密關係</router-link>
+                  <router-link to="heartTohearts-4-1-1">三人世界的親密關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">

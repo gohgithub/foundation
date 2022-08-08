@@ -83,7 +83,11 @@
                         <p>懷孕初期多久產檢一次？懷孕中期多久產檢一次？懷孕後期多久產檢一次？以下列出一般產檢時間表供大家參考，雙胞胎產檢則依據產婦狀況而增加產檢次數。也在此再次強調，生男生女一樣好，產檢性別不是產檢最重要的關鍵。</p>
                         <img class="rounded-0 w-100 pt-2 pb-60" src="https://images.ctfassets.net/i2o3e6knau3c/hDNc9y12yKY2nfCtVU0go/f8bc4f8d359f4b916141ababba2208b5/haveababy_________________1.jpg" alt="">
                       </li>
-                      <a data-aos="fade-up" href="https://haveababy.tw/posts/pregnancy-22">參考來源：https://haveababy.tw/posts/pregnancy-22</a>
+                      <li data-aos="fade-up">
+                      <p>參考來源：
+                      <a lass="fs-5 text-danger" href="https://haveababy.tw/posts/pregnancy-22" target="_blank">最新產檢補助指南！產檢多久一次？自費項目那些必做？</a>
+                      </p>
+                      </li>
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
