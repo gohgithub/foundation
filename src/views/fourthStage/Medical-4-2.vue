@@ -105,7 +105,7 @@
                       </li>
 
                       <li data-aos="fade-up">
-                        <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/" target="_blank">雀巢1000天營養計畫</a></p>
+                        <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/1000days/section/1" target="_blank">雀巢1000天營養計畫</a></p>
                       </li>
 
                     </ul>
