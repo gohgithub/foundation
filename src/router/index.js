@@ -198,6 +198,11 @@ const routes = [
         component: () => import('../views/fourthStage/MentalCare-4-2.vue')
       },
       {
+        path: 'mentalCare-4-3',
+        name: 'mentalCare-4-3',
+      component: () => import('../views/fourthStage/MentalCare-4-3.vue')
+      },
+      {
         path: 'familyRelation-4-1',
         name: 'familyRelation-4-1',
         component: () => import('../views/fourthStage/FamilyRelation-4-1.vue')
@@ -357,6 +362,11 @@ const routes = [
         path: 'mentalCare-5-2',
         name: 'mentalCare-5-2',
         component: () => import('../views/fifthStage/MentalCare-5-2.vue')
+      },
+      {
+        path: 'mentalCare-5-3',
+        name: 'mentalCare-5-3',
+        component: () => import('../views/fifthStage/MentalCare-5-3.vue')
       },
       {
         path: 'act-5-1',
