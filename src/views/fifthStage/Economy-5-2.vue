@@ -9,7 +9,7 @@
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">經濟需求</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">就業問題</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">生活就業問題</a></li>
             </ol>
           </nav>
         </section>
@@ -32,7 +32,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜就業問題｜</h2>
+                  <h2>｜生活就業問題｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -45,7 +45,15 @@
                       </li>
                       <li data-aos="fade-up">
                         <h3>就業問題</h3>
-                        <p>你可以申請勞動部所規劃的「職前訓練」，幫助你培養一技之長。在訓練期間也不用擔心生活費，只要你是獨自撫養小孩，或是符合低收入戶的標準，都可以申請職訓生活津貼補助，補助金額為每月基本工資百分之六十。補助條件為：需參加「全日制職業訓練」，並符合四個條件:(一)、訓練期間1個月以上(二)、每星期訓練4日以上(三)、每日訓練日間4小時以上(四)、每月總訓練時數達100小時以上，即可申請。建議你可以至 台灣就業通 獲得更多完整資訊。 </p>
+                        <p>你可以申請勞動部所規劃的「職前訓練」，幫助你培養一技之長。在訓練期間也不用擔心生活費，只要你是獨自撫養小孩，或是符合低收入戶的標準，都可以申請職訓生活津貼補助，補助金額為每月基本工資百分之六十。<br>
+                        補助條件為：需參加「全日制職業訓練」，並符合四個條件，即可申請。<br>
+                          (一)、訓練期間1個月以上 <br>
+                          (二)、每星期訓練4日以上<br>
+                          (三)、每日訓練日間4小時以上<br>
+                          (四)、每月總訓練時數達100小時以上<br><br>
+                          建議你可以至
+                          <a class="fs-5 text-danger" href="https://www.taiwanjobs.gov.tw/home109/index.aspx" target="_blank">台灣就業通</a>
+                           獲得更多完整資訊。 </p>
                       </li>
                       <li data-aos="fade-up">
                         <h3>繼續完成學業</h3>

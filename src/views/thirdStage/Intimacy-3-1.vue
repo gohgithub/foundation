@@ -56,6 +56,12 @@
                   安全期、月經來時發生性行為，<br>
                   是不是不會懷孕？</p>
                 </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="intimacy-4-5">辨識情人需求</router-link>
+                  <p class="d-block">如何辨視你的情人也想要？<br>
+                  要拒絕可以嗎？<br></p>
+                </li>
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">
