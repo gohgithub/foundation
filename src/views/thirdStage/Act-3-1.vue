@@ -33,15 +33,15 @@
                 <h2>｜法律議題｜</h2>
               </div>
               <ul class="step-menu">
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-4-1">未滿20歲的議題</router-link>
-                  <p class="d-block">我已經19歲了，可以自己決定要不要生嗎？<br>（112年修正成未滿18歲）</p>
-                </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="act-4-3">未滿16歲的議題</router-link>
                   <p class="d-block">我才14歲，發生性行為後，<br>好像懷孕了怎麼辦…</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="act-4-1">未滿20歲的議題</router-link>
+                  <p class="d-block">我已經19歲了，可以自己決定要不要生嗎？<br>（112年修正成未滿18歲）</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

@@ -34,43 +34,48 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="medical-4-1">我可以中止懷孕嗎？</router-link>
-                  <p class="d-block">可以中止懷孕嗎？</p>
+                  <router-link to="medical-4-1">可以中止懷孕嗎？</router-link>
+                  <p class="d-block">一定要我(家長)出面簽同意書嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="medical-4-7">可以買事後避孕藥嗎？</router-link>
-                  <p class="d-block">我可以去藥局買事後避孕藥嗎？</p>
+                  <p class="d-block">可以去藥局買事後避孕藥嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="act-3-1">未成年拿避孕藥會被通報？</router-link>
                   <p class="d-block">未成年去婦產科診所就醫 <br> 或是拿事後避孕藥會被通報嗎？</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="300">
+                <!-- <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="medical-4-8">如何驗孕 / 就醫</router-link>
                   <p class="d-block">怎麼樣確定有沒有懷孕？</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="600">
+                </li> -->
+                <!-- <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="medical-4-8">保險套戴反了</router-link>
                   <p class="d-block">保險套戴反了、立刻翻過來， <br> 這樣還會懷孕嗎？</p>
-                </li>
+                </li> -->
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="medical-4-8">懷孕前的徵兆？</router-link>
-                  <p class="d-block">我最近有胸部腫脹、頭痛、反胃、吃很多等狀況，<br>跟懷孕的徵兆很像？這樣是懷孕嗎？<br>還是只是月經快來呢？</p>
+                  <p class="d-block">女兒最近有胸部腫脹、頭痛、反胃、吃很多等狀況，<br>跟懷孕的徵兆很像？這樣是懷孕嗎？<br>還是只是月經快來呢？</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="300">
+                <!-- <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="medical-4-8">保險套破了</router-link>
                   <p class="d-block">性行為結束後發現保險套破掉，<br>立刻吃了事後避孕藥，還會懷孕嗎？</p>
+                </li> -->
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="medical-4-8">如何確定女兒有沒有懷孕</router-link>
+                  <p class="d-block">女兒現在有沒有懷孕呢？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="medical-4-9">吃避孕藥，月經沒來？</router-link>
-                  <p class="d-block">吃了事後避孕藥、但是月經還沒有來？</p>
+                  <p class="d-block">吃了避孕藥、但是月經還沒有來？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
@@ -80,7 +85,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="medical-4-11">假性月經是什麼？</router-link>
-                  <p class="d-block">我月經都有來？這樣還會懷孕嗎？</p>
+                  <p class="d-block">女兒月經都有來？這樣還會懷孕嗎？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">
