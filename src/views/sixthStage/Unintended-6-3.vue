@@ -100,17 +100,21 @@
           </div>
         </section>
         <Consult></Consult>
-        <Article></Article>
         <Circle></Circle>
       </main>
     </div>
 </template>
 <script>
-
+import Consult from '../../components/Consult.vue'
 export default {
   data () {
     return {
     }
+  },
+  mounted () {
+  },
+  components: {
+    Consult
   }
 }
 </script>

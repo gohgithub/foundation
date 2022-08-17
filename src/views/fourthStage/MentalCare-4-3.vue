@@ -6,8 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">我不知道該怎麼做</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/youngdad-2">我女友懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/unintended-3-3">我還沒準備好生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">身心照顧</a></li>
           </ol>
         </nav>
       </section>
@@ -22,40 +23,23 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 02</p>
+            <p class="step-text" data-aos="fade-up">STEP 04</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">面對不確定性及突發的狀況，我想你一定很緊張及害怕。
-              <br>
-              沒關係，我們陪你一起來確認這件事
-            </p>
+            <p class="step-sologan" data-aos="fade-up">突如其來的懷孕狀況，想必你一定嚇壞了，<br>面對不如何因應的心情，及害怕搞雜一切的擔心，我們都知道唷！讓我們陪你聊聊</p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜我不知道該怎麼做｜</h2>
+                <h2>｜身心照顧｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="medical-3-1">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="mentalCare-5-3">流產後憂鬱 </router-link>
+                  <p class="d-block">流產後，<br>總覺得自己很憂鬱，該怎麼辦？ </p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600">
-                  <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="act-3-1">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-3-1">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="intimacy-3-1">親密關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
+
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">

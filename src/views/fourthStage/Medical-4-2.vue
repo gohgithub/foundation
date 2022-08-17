@@ -103,9 +103,11 @@
                         <h3>懷孕初期分泌物多正常嗎？3招改善懷孕分泌物困擾</h3>
                         <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/1000days/section/1/view/473" target="_blank">查看文章</a>
                       </li>
+
                       <li data-aos="fade-up">
-                        <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/" target="_blank">雀巢1000天營養計畫</a></p>
+                        <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/1000days/section/1" target="_blank">雀巢1000天營養計畫</a></p>
                       </li>
+
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">

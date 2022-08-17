@@ -45,7 +45,7 @@
                         <a class="mb-60 d-block text-primary" href="https://starthealthy.nestle.com.tw/classroom/online" target="_blank">查看教學</a>
                       </li>
                       <li data-aos="fade-up">
-                          <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/" target="_blank">雀巢1000天營養計畫</a></p>
+                          <p>參考來源：<a class="fs-5 text-danger" href="https://starthealthy.nestle.com.tw/classroom" target="_blank">雀巢1000天營養計畫</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

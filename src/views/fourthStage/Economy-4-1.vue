@@ -42,14 +42,19 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="economy-5-2">生活問題</router-link>
-                  <p class="d-block">我想要出去工作，寶寶怎麼辦？<br> 有什麼工作是可以養活我跟寶寶的？</p>
+                  <router-link to="economy-5-2">生活就業問題</router-link>
+                  <p class="d-block">我可以有哪些生活規劃？</p>
                 </li>
-                <!-- <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-5-1">就業問題</router-link>
-                  <p class="d-block">我想要出去工作，寶寶怎麼辦？</p>
+                <!-- <li data-aos="fade-up" data-aos-delay="600">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="economy-5-2">生活就業問題</router-link>
+                  <p class="d-block">我想要出去工作，寶寶怎麼辦？<br> 有什麼工作是可以養活我跟寶寶的？</p>
                 </li> -->
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="economy-5-3">托育問題</router-link>
+                  <p class="d-block">我想要出去工作，寶寶怎麼辦？</p>
+                </li>
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">
