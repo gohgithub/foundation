@@ -103,15 +103,14 @@ const routes = [
         component: () => import('../views/thirdStage/FamilyRelation-3-1.vue')
       },
       {
-<<<<<<< HEAD
         path: 'familyRelation-3-2',
         name: 'familyRelation-3-2',
         component: () => import('../views/thirdStage/FamilyRelation-3-2.vue')
-=======
+      },
+      {
         path: 'familyRelation-3-1-1',
         name: 'familyRelation-3-1-1',
         component: () => import('../views/thirdStage/FamilyRelation-3-1-1.vue')
->>>>>>> 6f00ee04ca306e49ca06d0fe7f6d712a81bb110f
       },
       {
         path: 'intimacy-3-1',
@@ -254,11 +253,6 @@ const routes = [
         component: () => import('../views/fourthStage/FamilyRelation-4-4.vue')
       },
       {
-<<<<<<< HEAD
-        path: 'familyRelation-4-7',
-        name: 'familyRelation-4-7',
-        component: () => import('../views/fourthStage/FamilyRelation-4-7.vue')
-=======
         path: 'familyRelation-4-5',
         name: 'familyRelation-4-5',
         component: () => import('../views/fourthStage/FamilyRelation-4-5.vue')
@@ -267,7 +261,11 @@ const routes = [
         path: 'familyRelation-4-6',
         name: 'familyRelation-4-6',
         component: () => import('../views/fourthStage/FamilyRelation-4-6.vue')
->>>>>>> 6f00ee04ca306e49ca06d0fe7f6d712a81bb110f
+      },
+      {
+        path: 'familyRelation-4-7',
+        name: 'familyRelation-4-7',
+        component: () => import('../views/fourthStage/FamilyRelation-4-7.vue')
       },
       {
         path: 'heartTohearts-4-1',
