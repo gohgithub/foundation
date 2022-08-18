@@ -48,6 +48,11 @@ const routes = [
         component: () => import('../views/thirdStage/Talking-3-1.vue')
       },
       {
+        path: 'talking-3-1-1',
+        name: 'talking-3-1-1',
+        component: () => import('../views/thirdStage/Talking-3-1-1.vue')
+      },
+      {
         path: 'unintended-3-1',
         name: 'unintended-3-1',
         component: () => import('../views/thirdStage/Unintended-3-1.vue')
@@ -91,6 +96,11 @@ const routes = [
         path: 'familyRelation-3-1',
         name: 'familyRelation-3-1',
         component: () => import('../views/thirdStage/FamilyRelation-3-1.vue')
+      },
+      {
+        path: 'familyRelation-3-1-1',
+        name: 'familyRelation-3-1-1',
+        component: () => import('../views/thirdStage/FamilyRelation-3-1-1.vue')
       },
       {
         path: 'intimacy-3-1',
@@ -221,6 +231,16 @@ const routes = [
         path: 'familyRelation-4-4',
         name: 'familyRelation-4-4',
         component: () => import('../views/fourthStage/FamilyRelation-4-4.vue')
+      },
+      {
+        path: 'familyRelation-4-5',
+        name: 'familyRelation-4-5',
+        component: () => import('../views/fourthStage/FamilyRelation-4-5.vue')
+      },
+      {
+        path: 'familyRelation-4-6',
+        name: 'familyRelation-4-6',
+        component: () => import('../views/fourthStage/FamilyRelation-4-6.vue')
       },
       {
         path: 'heartTohearts-4-1',
