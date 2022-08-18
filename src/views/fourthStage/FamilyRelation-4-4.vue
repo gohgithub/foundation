@@ -37,12 +37,17 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="familyRelation-4-1">通報家長</router-link>
-                  <p class="d-block">我還沒20/16會不會通報家長？</p>
+                  <p class="d-block">我還沒20歲/16歲會不會通報家長？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="familyRelation-4-3">怎麼跟爸媽說，可能懷孕了</router-link>
-                  <p class="d-block">如何向親人告知及求助…<br></p>
+                  <router-link to="familyRelation-4-3">如何跟爸媽說懷孕了</router-link>
+                  <p class="d-block">不知道怎麼跟我爸媽說，可能懷孕了…<br>如何向親人告知及求助…</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="familyRelation-5-4">雙方家長溝通</router-link>
+                  <p class="d-block">是否要/如何讓雙方家長溝通？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">
