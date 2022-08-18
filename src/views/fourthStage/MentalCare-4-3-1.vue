@@ -6,7 +6,7 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#/youngdad-2">我意外懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/youngdad-2">我女友懷孕了</a></li>
             <li class="breadcrumb-item" aria-current="page"><a href="#/unintended-3-3">我還沒準備好生下來</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">身心照顧</a></li>
           </ol>
@@ -37,7 +37,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="mentalCare-5-3">流產後憂鬱 </router-link>
-                  <p class="d-block">流產後，<br>總覺得自己很憂鬱，該怎麼辦？ </p>
+                  <p class="d-block">流產後，<br>總覺得女友很憂鬱，該怎麼辦？ </p>
                 </li>
 
               </ul>

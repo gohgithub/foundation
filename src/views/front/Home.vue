@@ -96,7 +96,7 @@
                 <router-link to="daughter-2">了解更多</router-link>
               </div>
             </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
+            <!-- <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
               <div class="choose-box bg-banana">
                 <h3>我是親友</h3>
                 <hr class="line">
@@ -104,9 +104,9 @@
                 <p>人生中的每場際遇，從來不會太快<br>或太慢，生命中的一切都準時到來。</p>
                 <router-link to="family-2">了解更多</router-link>
               </div>
-            </div>
-            <div class="choose-card" data-aos="fade-up" data-aos-delay="700">
-              <div class="choose-box">
+            </div> -->
+            <div class="choose-card" data-aos="fade-up" data-aos-delay="500">
+              <div class="choose-box bg-banana">
                 <h3>我想支持</h3>
                 <hr class="line">
                 <img src="../../assets/image/front/choose_pic5.jpg">

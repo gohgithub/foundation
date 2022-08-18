@@ -37,12 +37,20 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="mentalCare-5-1">女友孕程的身心變化</router-link>
-                  <p class="d-block">面對第一次懷孕，<br>你可能有很多未知和恐懼的擔心，<br>無論是哪一種情緒，<br>這都是陪伴你迎接新生命的過程喔!!</p>
+                  <p class="d-block">面對第一次懷孕，<br>你可能有很多未知和恐懼的擔心，<br>無論是哪一種情緒，<br>這都是陪伴你迎接新生命的過程喔！</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="mentalCare-5-2">心理狀況</router-link>
                   <p class="d-block">不論孕期或是產後，<br>媽媽的心理狀況都不容忽視，<br>需要家人和朋友給予關心與支持</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="900">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="mentalCare-5-4">身心狀況量測</router-link>
+                  <p class="d-block">
+                    面對懷孕的訊息<br>及接種而來要處理及面對的事情，<br>
+                    你可能有很多未知的恐懼及擔心，<br>這是很正常的！<br>
+                    讓我們來掌握一下你目前的身心狀況吧！</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

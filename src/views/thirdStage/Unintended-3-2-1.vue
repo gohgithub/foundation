@@ -6,7 +6,7 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
+            <li class="breadcrumb-item"><a href="#/Unintended-2">我女友懷孕了</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">我還沒準備好生下來</a></li>
           </ol>
         </nav>
@@ -50,12 +50,12 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-3-1">法律議題</router-link>
+                  <router-link to="youngdad-4-2">法律議題</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="MentalCare-4-3">身心照顧</router-link>
+                  <router-link to="MentalCare-4-3-1">身心照顧</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
