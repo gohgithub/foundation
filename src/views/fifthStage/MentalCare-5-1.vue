@@ -32,10 +32,10 @@
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜面對第一次懷孕｜</h2>
+                  <h2>｜孕程的身心變化｜</h2>
                 </div>
                 <div class="select-menu">
-                  <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
+                  <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic2.jpg'>
                   <hr data-aos="fade-up">
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">

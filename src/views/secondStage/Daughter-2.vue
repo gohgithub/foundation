@@ -63,22 +63,22 @@
                   <li data-aos="fade-up" data-aos-delay="300">
                     <img src='../../assets/image/front/page02_pic1.jpg'>
                     <router-link to="talking-3-1-1">不知道有沒有懷孕</router-link>
-                    <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                    <p class="d-block">不知道女兒(孩子的女友)有沒有懷孕</p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
-                    <router-link to="unintended-3-1-1">想把孩子生下來</router-link>
-                    <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                    <router-link to="unintended-3-1-2">想把孩子生下來</router-link>
+                    <p class="d-block">如果女兒（兒子的女友）要生下寶寶，<br>接下來會面對什麼狀況？</p>
                   </li>
-                  <li data-aos="fade-up" data-aos-delay="500">
+                  <!-- <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
                     <router-link to="unintended-3-1-1">只能選擇生下來</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                  </li>
+                  </li> -->
                   <li data-aos="fade-up" data-aos-delay="700">
                     <img src='../../assets/image/front/page02_pic3.jpg'>
-                    <router-link to="unintended-3-2">還沒準備好生下來</router-link>
-                    <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                    <router-link to="unintended-3-2-2">還沒準備好生下來</router-link>
+                    <p class="d-block">我還沒準備好要讓女兒生下寶寶，<br>還能怎麼辦？</p>
                   </li>
                 </ul>
                 <hr data-aos="fade-up">

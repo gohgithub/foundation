@@ -9,7 +9,7 @@
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">身心照顧</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">心理狀況</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">流產後憂鬱</a></li>
             </ol>
           </nav>
         </section>
@@ -32,7 +32,7 @@
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜心理狀況｜</h2>
+                  <h2>｜流產後憂鬱｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
