@@ -51,9 +51,9 @@
                   <router-link to="familyRelation-4-4">家庭關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="300">
+                <li data-aos="fade-up" data-aos-delay="1200">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="intimacy-4-5">親密關係</router-link>
+                  <router-link to="intimacy-3-1">親密關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>
