@@ -36,7 +36,7 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="familyRelation-5-4">我的孩子好像懷孕了！</router-link>
+                  <router-link to="familyRelation-5-5">我的孩子好像懷孕了！</router-link>
                   <p class="d-block">家中還有長輩，一定沒有辦法接受，沒有辦法讓他在家裡繼續住下去，該怎麼辦呢？</p>
                 </li>
                 <!-- <li data-aos="fade-up" data-aos-delay="600">

@@ -77,7 +77,7 @@
                   </li> -->
                   <li data-aos="fade-up" data-aos-delay="700">
                     <img src='../../assets/image/front/page02_pic3.jpg'>
-                    <router-link to="unintended-3-2">還沒準備好生下來</router-link>
+                    <router-link to="unintended-3-2-2">還沒準備好生下來</router-link>
                     <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                   </li>
                 </ul>
