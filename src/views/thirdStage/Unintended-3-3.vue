@@ -30,7 +30,7 @@
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜我們想要(只能選擇)生下來｜</h2>
+                <h2>｜我們想要或只能選擇生下來｜</h2>
               </div>
               <ul class="step-menu">
                 <li class="d-none" data-aos="fade-up" data-aos-delay="300">

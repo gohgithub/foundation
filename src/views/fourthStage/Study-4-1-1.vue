@@ -6,8 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">我還沒準備好生下來</a></li>
+            <li class="breadcrumb-item"><a href="#/Unintended-2">我女兒懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-3-1">我想要生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">就學問題</a></li>
           </ol>
         </nav>
       </section>
@@ -25,43 +26,23 @@
             <p class="step-text" data-aos="fade-up">STEP 03</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">我還沒準備好要迎接寶寶，還能怎麼做？</p>
+            <p class="step-sologan" data-aos="fade-up">女兒還在讀書，能得到什麼協助？</p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜我還沒準備好生下來｜</h2>
+                <h2>｜就學問題｜</h2>
               </div>
               <ul class="step-menu">
-                <li class="d-none" data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="unintended-4-3">終止懷孕</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="600">
-                  <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="chat">我需要幫助</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="medical-4-6">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-3-1">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="study-5-1">不想讓老師同學知道</router-link>
+                  <p class="d-block">我不想讓學校老師和同學知道孩子懷孕了？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="MentalCare-4-3">身心照顧</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="FamilyRelation-3-2">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="study-5-1">學校會強迫休學嗎？</router-link>
+                  <p class="d-block">學校如果知道孩子懷孕，<br>是不是會強迫她休學？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

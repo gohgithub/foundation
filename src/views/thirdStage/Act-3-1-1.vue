@@ -6,9 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#/youngdad-2">我意外懷孕了</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#/unintended-3-3">我還沒準備好生下來</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">身心照顧</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">我女兒懷孕了</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">法律議題</a></li>
           </ol>
         </nav>
       </section>
@@ -22,24 +21,28 @@
           <img class="image2" src="../../assets/image/front/page02_image2.svg">
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
-          <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 04</p>
-            <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
-            <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">突如其來的懷孕狀況，想必你一定嚇壞了，<br>面對不如何因應的心情，及害怕搞雜一切的擔心，我們都知道唷！讓我們陪你聊聊</p>
-          </div>
+          <p class="step-text" data-aos="fade-up">STEP 03</p>
+          <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
+          <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
+          <p class="step-sologan" data-aos="fade-up">面對可能懷孕的情況，您有足夠了解法律上能夠保護你女兒的資源嗎？
+            <br>
+          </p>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜身心照顧｜</h2>
+                <h2>｜法律議題｜</h2>
               </div>
               <ul class="step-menu">
+                <li data-aos="fade-up" data-aos-delay="600">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="act-4-3-1">未滿16歲的議題</router-link>
+                  <p class="d-block">小孩才14歲，發生性行為後，<br>好像懷孕了怎麼辦…</p>
+                </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="mentalCare-5-3">流產後憂鬱 </router-link>
-                  <p class="d-block">流產後，<br>總覺得自己很憂鬱，該怎麼辦？ </p>
+                  <router-link to="act-4-3-1">未滿20歲的議題</router-link>
+                  <p class="d-block">小孩已經19歲了，可以自己決定要不要生嗎？<br>（112年修正成未滿18歲）</p>
                 </li>
-
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">

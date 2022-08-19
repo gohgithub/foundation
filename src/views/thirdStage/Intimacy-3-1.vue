@@ -24,8 +24,8 @@
           <p class="step-text" data-aos="fade-up">STEP 03</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">交往的過程中，一定會想和男友進一步的接觸，<br>
-          在發生性行為前，你做好準備了嗎？
+          <p class="step-sologan" data-aos="fade-up">交往的過程中，一定會想和情人有進一步的接觸，<br>
+          在發生性行為前，要注意什麼呢？你做好準備了嗎？
           </p>
           <div class="container step-box">
             <div class="step-box-inner">

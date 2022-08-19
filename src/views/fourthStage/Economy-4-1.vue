@@ -53,7 +53,8 @@
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="economy-5-3">托育問題</router-link>
-                  <p class="d-block">我想要出去工作，寶寶怎麼辦？</p>
+                  <p class="d-block">我想要出去工作，寶寶怎麼辦？<br>
+                  無法親自顧寶寶，寶寶怎麼辦？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">
