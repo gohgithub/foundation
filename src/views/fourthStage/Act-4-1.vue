@@ -36,7 +36,7 @@
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
                   <hr data-aos="fade-up">
                     <!-- 選項開始 -->
-                    <ul class="select-item container-inner mt-60">                    
+                    <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
                         <h3>未滿20歲</h3>
                         <ul class="list mb-60">
@@ -55,7 +55,6 @@
                         <p>(二)強制生父認領</p>
                         <p>依據民法1067條，若生父不願意認領負起責任，可以透過法律扶助尋求律師諮詢，蒐集資料作舉證，請求強制認領。</p>
                       </li>
-
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
