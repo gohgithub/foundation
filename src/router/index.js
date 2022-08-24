@@ -573,6 +573,11 @@ const routes = [
         name: 'unintended-6-3',
         component: () => import('../views/sixthStage/Unintended-6-3.vue')
       },
+      {
+        path: 'unintended-6-4',
+        name: 'unintended-6-4',
+        component: () => import('../views/sixthStage/Unintended-6-4.vue')
+      },
       // 我女兒懷孕了
       {
         path: 'daughter-2',

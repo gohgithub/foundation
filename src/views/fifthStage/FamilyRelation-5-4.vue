@@ -70,7 +70,6 @@
 </template>
 <script>
 import Consult from '../../components/Consult.vue'
-
 export default {
   data () {
     return {
