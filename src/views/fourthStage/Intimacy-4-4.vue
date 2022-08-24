@@ -42,7 +42,7 @@
                         <p>在交往過程當中，會想要有親密接觸都是很正常的，但是若你和男友還沒有準備好要懷孕共同養育寶寶，建議你們還是要採取雙重避孕(女生規律吃事前避孕藥、男生全程戴保險套)才能有效避孕喔</p>
                       </li>
                       <li data-aos="fade-up">
-                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=26" target="_blank">>> 點我了解更多「懷孕/避孕」相關議題</a></p>
+                      <p><a class="fs-5 text-danger" href="https://reurl.cc/V14eyy" target="_blank">>> 點我了解更多「懷孕/避孕」相關議題</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

@@ -42,7 +42,7 @@
                         <p>不行喔~事後避孕藥是醫師處方籤才能取得，如果在藥局購買，可能會買到假藥(非法進口的藥物)喔！</p>
                       </li>
                       <li data-aos="fade-up">
-                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=23" target="_blank">>> 點我了解更多「避孕藥」相關議題</a></p>
+                      <p><a class="fs-5 text-danger" href="https://reurl.cc/V14eyy" target="_blank">>> 點我了解更多「避孕藥」相關議題</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

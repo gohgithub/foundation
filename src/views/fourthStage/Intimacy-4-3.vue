@@ -44,7 +44,7 @@
                         <p>但若你已年滿16歲、未滿20歲，子宮內避孕器或是事前避孕藥的醫療處置，可自行前往相關醫療院所諮詢。</p>
                       </li>
                       <li data-aos="fade-up">
-                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=17" target="_blank">>> 點我了解更多「避孕藥」相關議題</a></p>
+                      <p><a class="fs-5 text-danger" href="https://reurl.cc/V14eyy" target="_blank">>> 點我了解更多「避孕藥」相關議題</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
