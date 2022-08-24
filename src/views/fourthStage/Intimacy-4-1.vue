@@ -43,8 +43,11 @@
                         <!-- <router-link to="act-3-1" class="fs-5 text-danger">>> 可以點我參考「性自主」及「法律相關」議題</router-link> -->
                       </li>
                       <li data-aos="fade-up">
-                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=19" target="_blank">>> 點我了解更多「保險套」相關議題</a></p>
+                      <p><a class="fs-5 text-danger" href="https://reurl.cc/V14eyy" target="_blank">>> 點我了解更多「保險套」相關議題</a></p>
                       </li>
+                      <!-- <li data-aos="fade-up">
+                      <p><a class="fs-5 text-danger" href="http://www.8181.org.tw/contraception/qa-list.asp?cate=19" target="_blank">>> 點我了解更多「保險套」相關議題</a></p>
+                      </li> -->
                     </ul>
                     <!-- 選項結束 -->
                     <hr data-aos="fade-up">
