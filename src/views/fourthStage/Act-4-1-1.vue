@@ -6,9 +6,9 @@
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">首頁</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">我女兒懷孕了</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">法律議題</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">未滿16歲/20歲</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">未滿 20 歲</a></li>
             </ol>
           </nav>
         </section>
@@ -25,12 +25,12 @@
               <p class="step-text" data-aos="fade-up" >ANSEWR</p>
               <h2 class="step-title" data-aos="fade-up" >選擇・答案</h2>
               <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
-              <p class="step-sologan" data-aos="fade-up" >註：112年修正未滿18歲</p>
+              <p class="step-sologan" data-aos="fade-up" >為自己所想，為自己所選。</p>
             </div>
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜未滿16歲/20歲｜</h2>
+                  <h2>｜未滿 20 歲｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -38,15 +38,22 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>想必你現在一定很擔心女兒的狀況，但是第一步還是要先確認是否有懷孕喔。<br><br>
-                            如果要進行人工流產，必須先確認懷孕週數，在現行優生保健法的規定內，超過24週是無法進行手術的。
-                            <br><br>
-                            另外，即便女兒現在未成年，但有關於生育的決定，監護人和當事人的意見都同等重要，不論要繼續懷孕或是人工流產，都必須取得共同決定。
-                            法律上為了保護未滿16歲的青少年們身心健康，規範這個年齡層不適合發生性行為，因此當診所、醫院知道這個狀況，就保護青少年的立場，還是會通知社會局社工人員關懷喔。
-                            <br><br>
-                            如果是年滿16歲但未滿20歲的當事人(法定成年)，有關醫療和監護權民法等相關決定，都必須有監護人共同面對。
-                            如果監護人和當事人還無法取得共識，也可以透過社工的服務，陪伴您們面對這個家庭協商的過程。
-                        </p>
+                        <h3>未滿20歲</h3>
+                        <ul class="list mb-60">
+                          <li>1.當小孩未滿20歲(法定成年)前，有關醫療的相關決定，都必須有監護人共同面對。如果小孩尚未和父母、監護人坦承懷孕，也可以透過社工的服務，陪伴孩子面對這個家庭協商的過程。</li>
+                          <li>2.若未滿20歲時，父母是有義務負擔子女的行為責任，因為在民法上20歲以前的青少男女都是限制行為能力人，因此他們除了有義務維繫子女的經濟狀況外，也有義務照顧子女在非預期懷孕下所生的小孩。</li>
+                        </ul>
+                      </li>
+
+                      <li><h3>相關法規</h3></li>
+
+                      <li data-aos="fade-up">
+                        <p>(一)生父認領的責任權益與監護議題</p>
+                        <p>依據民法第1065條生父具有認領非婚生子女的權力，一旦認領視同婚生子女，父母共同擁有監護權，法律上生父必須負擔孩子在成年以前的扶養責任，孩子也具有財產繼承的權利。若是不願意共同擁有監護，就必須要再進行「監護權的訴訟」，舉證一方不適合擁有監護權的理由與證據，由法院以孩子最大利益作裁判。 </p>
+                      </li>
+                      <li data-aos="fade-up">
+                        <p>(二)強制生父認領</p>
+                        <p>依據民法1067條，若生父不願意認領負起責任，可以透過法律扶助尋求律師諮詢，蒐集資料作舉證，請求強制認領。</p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
