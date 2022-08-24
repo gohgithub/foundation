@@ -25,7 +25,7 @@
           <p class="step-text" data-aos="fade-up">STEP 04</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">迎接新生命的到來，你和寶寶的健康都很重要，<br>
+          <p class="step-sologan" data-aos="fade-up">迎接新生命的到來，媽媽和寶寶的健康都很重要，<br>
           讓我們來看看可以怎麼預備？
           </p>
           <div class="container step-box">

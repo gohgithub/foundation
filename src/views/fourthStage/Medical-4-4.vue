@@ -84,7 +84,8 @@
                         <p>寶寶出生後，產婦可選擇抱寶寶的時機點，例如：生產後擦乾即刻肌膚接觸、量完體重後、擦乾包好後與給予眼藥之前等。而產後寶寶與媽媽立即肌膚接觸，除了讓寶寶更有安全感，增加親子間的親密連結，更有益於寶寶順利含乳。</p>
                       </li>
                       <li data-aos="fade-up">
-                      <p>參考來源：
+                      <p>文章轉載至<a class="fs-5 text-success" href="https://www.mombaby.com.tw/" target="_blank">《媽媽寶寶》</a>
+                      <br>
                       <a class="fs-5 text-danger" href="https://257085.sfaa.gov.tw/information_detail.php?Key=26" target="_blank">規劃生產計畫書，從3階段8項目著手，孕媽咪也能表達對生產的期待！</a>
                       </p>
                       </li>

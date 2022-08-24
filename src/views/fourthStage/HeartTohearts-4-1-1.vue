@@ -8,7 +8,7 @@
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
             <li class="breadcrumb-item" aria-current="page"><a href="#/youngdad-2">我女友懷孕了</a></li>
             <li class="breadcrumb-item" aria-current="page"><a href="#/unintended-3-3">我們想要生下來</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">三人世界的親密關係</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">親密關係</a></li>
           </ol>
         </nav>
       </section>
@@ -32,7 +32,7 @@
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜三人世界的親密關係｜</h2>
+                <h2>｜親密關係｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">

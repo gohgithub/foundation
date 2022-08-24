@@ -7,7 +7,7 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
             <li class="breadcrumb-item"><a href="#/daughter-2">我女兒懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">我想要生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">想把孩子生下來</a></li>
           </ol>
         </nav>
       </section>
@@ -25,12 +25,12 @@
             <p class="step-text" data-aos="fade-up">STEP 03</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">如果我要生下寶寶，接下來會面對什麼狀況？</p>
+            <p class="step-sologan" data-aos="fade-up">如果女兒（兒子的女友）要生下寶寶，接下來會面對什麼狀況？</p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜我想要(只能選擇)生下來｜</h2>
+                <h2>｜想把孩子生下來｜</h2>
               </div>
               <ul class="step-menu">
                 <li class="d-none" data-aos="fade-up" data-aos-delay="300">
@@ -45,7 +45,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="medical-3-2">醫療議題</router-link>
+                  <router-link to="medical-3-2-1">醫療議題</router-link>
                   <p class="d-block">迎接新生命的到來，<br>女兒和寶寶的健康都很重要，<br>讓我們來看看可以怎麼準備？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">

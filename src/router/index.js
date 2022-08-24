@@ -103,6 +103,11 @@ const routes = [
         component: () => import('../views/thirdStage/Medical-3-2.vue')
       },
       {
+        path: 'medical-3-2-1',
+        name: 'medical-3-2-1',
+        component: () => import('../views/thirdStage/Medical-3-2-1.vue')
+      },
+      {
         path: 'act-3-1',
         name: 'act-3-1',
         component: () => import('../views/thirdStage/Act-3-1.vue')
@@ -211,6 +216,11 @@ const routes = [
         path: 'act-4-1',
         name: 'act-4-1',
         component: () => import('../views/fourthStage/Act-4-1.vue')
+      },
+      {
+        path: 'act-4-1-1',
+        name: 'act-4-1-1',
+        component: () => import('../views/fourthStage/Act-4-1-1.vue')
       },
       {
         path: 'act-4-2',
@@ -562,6 +572,11 @@ const routes = [
         path: 'unintended-6-3',
         name: 'unintended-6-3',
         component: () => import('../views/sixthStage/Unintended-6-3.vue')
+      },
+      {
+        path: 'unintended-6-4',
+        name: 'unintended-6-4',
+        component: () => import('../views/sixthStage/Unintended-6-4.vue')
       },
       // 我女兒懷孕了
       {

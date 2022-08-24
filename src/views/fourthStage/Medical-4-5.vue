@@ -63,7 +63,7 @@
                      <li data-aos="fade-up">
                         <h3>二、健保產檢次數有幾次？產檢補助項目快速看</h3>
                         <p>懷孕檢查項目多到眼花撩亂嗎？門診常遇到產婦對於產檢項目有諸多疑惑，「自費產檢有必要嗎？」、「自費產檢到底要做哪個？」、「x染色體脆折症有需要做嗎？」、「唐氏症篩檢一定要做嗎？」
-首先這裡大致上將產檢項目分為：「健保」與「自費」，做大方向的說明，這裡先針對健保給付產檢補助、項目說明。</p>
+                          首先這裡大致上將產檢項目分為：「健保」與「自費」，做大方向的說明，這裡先針對健保給付產檢補助、項目說明。</p>
                       </li>
                       <li data-aos="fade-up">
                         <h3>1.例行檢查</h3>
@@ -84,8 +84,8 @@
                         <img class="rounded-0 w-100 pt-2 pb-60" src="https://images.ctfassets.net/i2o3e6knau3c/hDNc9y12yKY2nfCtVU0go/f8bc4f8d359f4b916141ababba2208b5/haveababy_________________1.jpg" alt="">
                       </li>
                       <li data-aos="fade-up">
-                      <p>參考來源：
-                      <a lass="fs-5 text-danger" href="https://haveababy.tw/posts/pregnancy-22" target="_blank">最新產檢補助指南！產檢多久一次？自費項目那些必做？</a>
+                      <p>參考來源：《Dr.Williams》
+                      <a class="fs-5 text-danger" href="https://haveababy.tw/posts/pregnancy-22" target="_blank">最新產檢補助指南！產檢多久一次？自費項目那些必做？</a>
                       </p>
                       </li>
                     </ul>
