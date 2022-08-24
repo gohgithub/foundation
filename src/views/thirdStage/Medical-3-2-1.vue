@@ -6,9 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我女兒懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">我不知道該怎麼做</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">家庭關係</a></li>
+            <li class="breadcrumb-item"><a href="#/Unintended-2">我女兒懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#">想把孩子生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">醫療議題</a></li>
           </ol>
         </nav>
       </section>
@@ -22,28 +22,37 @@
           <img class="image2" src="../../assets/image/front/page02_image2.svg">
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
-          <p class="step-text" data-aos="fade-up">STEP 03</p>
+          <p class="step-text" data-aos="fade-up">STEP 04</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">或許在發現女兒懷孕的當下，你有千百種想自己處理的念頭，<br>
-          但相信你點到這兒，是否也發現以你自己很難獨自完成，<br>
-          沒關係，讓我們陪你一起來想想辦法！
+          <p class="step-sologan" data-aos="fade-up">迎接新生命的到來，女兒和寶寶的健康都很重要，<br>
+          讓我們來看看可以怎麼預備？
           </p>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜家庭關係｜</h2>
+                <h2>｜醫療議題｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="familyRelation-4-5">我該如何跟孩子討論？</router-link>
-                  <p class="d-block">為什麼孩子不願意說？或是不早點告訴我們(家長)呢？</p>
+                  <router-link to="medical-4-2">寶寶發育週期及產檢？</router-link>
+                  <p>一定要有家長幫我簽同意書嗎？<br> 我男友成年了可以幫我簽嗎？</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600">
+                <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="familyRelation-4-6">我該負的相關責任</router-link>
-                  <p class="d-block">孩子懷孕，我要怎麼做？</p>
+                  <router-link to="medical-4-3">意外流產？</router-link>
+                  <p>一定要有家長幫我簽同意書嗎？<br> 我男友成年了可以幫我簽嗎？</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic3.jpg'>
+                  <router-link to="medical-4-4">分娩計畫</router-link>
+                  <p>一定要有家長幫我簽同意書嗎？<br> 我男友成年了可以幫我簽嗎？</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="medical-4-5">產檢計畫</router-link>
+                  <p class="d-block">產檢做些什麼呢？會需要花多少錢</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

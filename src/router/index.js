@@ -103,6 +103,11 @@ const routes = [
         component: () => import('../views/thirdStage/Medical-3-2.vue')
       },
       {
+        path: 'medical-3-2-1',
+        name: 'medical-3-2-1',
+        component: () => import('../views/thirdStage/Medical-3-2-1.vue')
+      },
+      {
         path: 'act-3-1',
         name: 'act-3-1',
         component: () => import('../views/thirdStage/Act-3-1.vue')

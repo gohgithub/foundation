@@ -8,7 +8,7 @@
                 <li class="breadcrumb-item"><a href="/">首頁</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">三人世界的親密關係</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">親密關係</a></li>
                 <li class="breadcrumb-item active" aria-current="page"><a href="#">不知道生父是誰</a></li>
             </ol>
           </nav>
@@ -40,7 +40,7 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>如果涉及生父認領或監護權議題可以向法院提出確認親子關係之訴訟，由法院出具需提供親子鑑定報告書之公函，來代替需監護人陪同之文件。</p>
+                        <p>如果涉及生父認領或監護權議題可以向法院提出確認親子關係之訴訟，由法院出具需提供親子鑑定報告書之公函。</p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->
