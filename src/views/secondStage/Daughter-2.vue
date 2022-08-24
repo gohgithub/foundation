@@ -68,7 +68,7 @@
                   <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
                     <router-link to="unintended-3-1-2">想把孩子生下來</router-link>
-                    <p class="d-block">如果女兒（兒子的女友）要生下寶寶，<br>接下來會面對什麼狀況？</p>
+                    <p class="d-block">如果女兒（孩子的女友）要生下寶寶，<br>接下來會面對什麼狀況？</p>
                   </li>
                   <!-- <li data-aos="fade-up" data-aos-delay="500">
                     <img src='../../assets/image/front/page02_pic2.jpg'>
