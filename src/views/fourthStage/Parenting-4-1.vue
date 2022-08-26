@@ -48,7 +48,7 @@
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="parenting-5-3">寶寶發展</router-link>
-                  <p class="d-block">寶寶的每一步發展都很重要，你了解孩子的成長軌跡嗎？</p>
+                  <p class="d-block">寶寶的每一步發展都很重要，<br>你了解孩子的成長軌跡嗎？</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

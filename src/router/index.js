@@ -499,6 +499,11 @@ const routes = [
         component: () => import('../views/fifthStage/Act-5-1.vue')
       },
       {
+        path: 'act-5-1-1',
+        name: 'act-5-1-1',
+        component: () => import('../views/fifthStage/Act-5-1-1.vue')
+      },
+      {
         path: 'act-5-2',
         name: 'act-5-2',
         component: () => import('../views/fifthStage/Act-5-2.vue')

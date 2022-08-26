@@ -38,7 +38,7 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-5-1">共同撫養，但我不同意</router-link>
+                  <router-link to="act-5-1-1">共同撫養，但我不同意</router-link>
                   <p class="d-block">女兒想和男朋友想要共同撫養小孩，<br> 但我怎麼能放心讓小孩養小小孩呢？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
