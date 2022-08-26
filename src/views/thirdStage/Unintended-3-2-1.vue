@@ -38,12 +38,7 @@
                   <router-link to="unintended-4-3">終止懷孕</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600">
-                  <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="chat">我需要幫助</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
+                <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="medical-4-6">醫療議題</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
@@ -60,7 +55,12 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="FamilyRelation-3-2">家庭關係</router-link>
+                  <router-link to="FamilyRelation-4-2-1">家庭關係</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="1200">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="chat">我需要幫助</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

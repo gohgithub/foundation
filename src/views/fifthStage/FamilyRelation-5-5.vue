@@ -6,8 +6,8 @@
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">首頁</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">我女兒懷孕了</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="#">想要生下來</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">家庭關係</a></li>
                 <li class="breadcrumb-item active" aria-current="page"><a href="#">家中不適合待產</a></li>
             </ol>
@@ -32,7 +32,7 @@
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜家中其他因素｜</h2>
+                  <h2>｜我的孩子好像懷孕了｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -40,8 +40,10 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>外部連結：
-                        <a href="https://257085.sfaa.gov.tw/welfare.php?cID=7"  target="_blank">安置待產資源</a></p>
+                        <p>我的孩子懷孕了，家中還有長輩，一定沒辦法接受，<br><br>
+                        無法讓他在家裡繼續住下去，該怎麼辦？<br><br>
+                          洽詢資訊：
+                        <a class="text-success" href="https://257085.sfaa.gov.tw/welfare.php?cID=7"  target="_blank">安置待產資源</a></p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

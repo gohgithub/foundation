@@ -39,7 +39,7 @@
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="mentalCare-5-1">面對孩子懷孕</router-link>
                   <p class="d-block">
-                    面對孩子的非預期懷孕，你可能有很多未知和恐懼的擔心，<br>無論是哪一種情緒，這都是陪伴你迎接新生命的過程喔!!
+                    面對孩子的非預期懷孕，<br>你可能有很多未知和恐懼的擔心，<br>無論是哪一種情緒，<br>這都是陪伴你迎接新生命的過程喔!!
                     </p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">

@@ -9,7 +9,7 @@
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
                 <li class="breadcrumb-item" aria-current="page"><a href="#">法律議題</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">告知父母 / 父母不同意</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">告知父母．父母不同意</a></li>
             </ol>
           </nav>
         </section>
@@ -32,7 +32,7 @@
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜告知父母 / 父母不同意｜</h2>
+                  <h2>｜告知父母．父母不同意｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -40,11 +40,18 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <h3>準備好成為父母</h3>
+                        <h3>準備好當爸媽</h3>
                         <p>當你選擇自己撫養，你就是一個爸爸或媽媽的角色，面對親友鄰居不同的眼光，你需要接受自己就是一個父母的事實，能夠坦然面對自己，也才能坦然面對孩子和身邊的人。</p>
+
+                        <h3>如何向父母告知並得到幫助</h3>
                         <p>父母在第一時間聽到這個消息，一定跟你一樣擔心害怕，有時候甚至會很生氣。但是這些情緒的背後，都是因為擔憂你們在這個年紀要面對這麼困難的抉擇。
-或許在第一時間要和父母有共識並不容易，但是多數父母在最後都很願意幫助自己的孩子，若你在和父母溝通上有困難，歡迎與社工人員聯繫。
-</p>
+                          或許在第一時間要和父母有共識並不容易，但是多數父母在最後都很願意幫助自己的孩子。<br><br>
+                          若你在與對方家長溝通上有困難，歡迎與社工人員聯繫。
+                        </p>
+                        <p>免付費諮詢專線：<a href="tel:0800257085" class="text-success">0800-25-7085
+                          </a><br>
+                          服務時間為週一到週五09:00～18:00
+                        </p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

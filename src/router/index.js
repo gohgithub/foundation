@@ -293,6 +293,11 @@ const routes = [
         component: () => import('../views/fourthStage/FamilyRelation-4-2-1.vue')
       },
       {
+        path: 'familyRelation-4-2-2',
+        name: 'familyRelation-4-2-2',
+        component: () => import('../views/fourthStage/FamilyRelation-4-2-2.vue')
+      },
+      {
         path: 'familyRelation-4-3',
         name: 'familyRelation-4-3',
         component: () => import('../views/fourthStage/FamilyRelation-4-3.vue')

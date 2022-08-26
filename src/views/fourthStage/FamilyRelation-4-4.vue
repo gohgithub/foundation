@@ -25,8 +25,10 @@
           <p class="step-text" data-aos="fade-up">STEP 03</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">你可能會覺得很冏！自己造成的卻無法收尾~ <br>
-確實，新生命的出現，不是一件小事，他是家裡的大事，<br>先不管是否要生下來，即使無法讓他出生，我們都需要完善的討論與處理。<br>讓我們陪你一起來討論該如何
+          <p class="step-sologan" data-aos="fade-up">你可能會覺得很囧！自己造成的卻無法收尾~ <br>
+          確實，新生命的出現，不是一件小事，他是家裡的大事，<br>
+          先不管是否要生下來，即使無法讓他出生，我們都需要完善的討論與處理。<br>
+          讓我們陪你一起來討論該如何面對這樣的狀況吧！
           </p>
           <div class="container step-box">
             <div class="step-box-inner">
@@ -36,7 +38,7 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="familyRelation-4-1">通報家長</router-link>
+                  <router-link to="familyRelation-4-1">會通報家長嗎？</router-link>
                   <p class="d-block">我還沒20歲/16歲會不會通報家長？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
