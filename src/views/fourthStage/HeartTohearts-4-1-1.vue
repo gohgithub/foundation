@@ -48,7 +48,7 @@
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="familyRelation-5-3">不知道生父是誰</router-link>
-                  <p class="d-block">我們只發生一次性行為，我能確認女友肚子的寶寶真的是我的嗎？ </p>
+                  <p class="d-block">我們只發生一次性行為，<br>我能確認女友肚子的寶寶真的是我的嗎？ </p>
                 </li>
               </ul>
               <hr data-aos="fade-up">

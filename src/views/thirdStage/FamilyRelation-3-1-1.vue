@@ -38,7 +38,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="familyRelation-4-5">我該如何跟孩子討論？</router-link>
-                  <p class="d-block">為什麼孩子不願意說？或是不早點告訴我們(家長)呢？</p>
+                  <p class="d-block">為什麼孩子不願意說？<br>或是不早點告訴我們(家長)呢？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
