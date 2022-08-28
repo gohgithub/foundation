@@ -40,11 +40,6 @@
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
-                  <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="unintended-3-2">我還沒準備好生下來</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="unintended-3-1">我想要生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
@@ -52,6 +47,11 @@
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="unintended-3-1">我只能選擇生下來</router-link>
+                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="1200">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="unintended-3-2">我還沒準備好生下來</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
               </ul>

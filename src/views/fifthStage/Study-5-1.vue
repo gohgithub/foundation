@@ -40,7 +40,13 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <p>依照以下輔導要點，學校應提升教職員工生及家長對適用學生同理、接納與關懷之正向態度，積極營造無歧視、多元平等之友善校園環境。如果你在就學上遇到困難，歡迎與社工人員聯繫。</p>
+                        <p>依照以下輔導要點，學校應提升教職員工生及家長對適用學生同理、接納與關懷之正向態度，積極營造無歧視、多元平等之友善校園環境。
+                          <br><br>如果你在就學上遇到困難，歡迎與社工人員聯繫。<br>
+                        未成年懷孕求助網站：<a class="text-success" href="https://257085.sfaa.gov.tw" target="_blank" title="未成年懷孕求助網站">257085.sfaa.gov.tw</a>
+                        <br>
+                        免付費諮詢專線：<a href="tel:0800257085" class="text-success">0800-25-7085
+                          </a>（服務時間為週一到週五09:00～18:00）
+                        </p>
                       </li>
                       <li data-aos="fade-up">
                         <h3>懷孕通報</h3>

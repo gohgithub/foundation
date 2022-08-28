@@ -42,7 +42,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="economy-5-3">生活問題</router-link>
+                  <router-link to="economy-5-3">托育問題</router-link>
                   <p class="d-block">無法親自顧寶寶，寶寶怎麼辦</p>
                 </li>
                 <!-- <li data-aos="fade-up" data-aos-delay="900">

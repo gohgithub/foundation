@@ -55,7 +55,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="familyRelation-4-2-1">家庭關係</router-link>
+                  <router-link to="familyRelation-4-2-2">家庭關係</router-link>
                   <p class="d-block">和家人討論過，<br>和懷孕的女兒討論過了嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">

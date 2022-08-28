@@ -6,8 +6,8 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-2">我女兒懷孕了</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-3-1">想把孩子生下來</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-2">我女友懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-3-1">我還沒準備好生下來</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">家庭關係</a></li>
           </ol>
         </nav>
@@ -26,7 +26,9 @@
             <p class="step-text" data-aos="fade-up">STEP 04</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">當女兒確定懷孕後，不知道女兒是否和家人坦承了？</p>
+            <p class="step-sologan" data-aos="fade-up">當你確定懷孕後，不知道你是否和家人坦承了嗎？<br>
+            你是否也在猶豫該如何和家人坦承
+            </p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
@@ -36,8 +38,8 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="familyRelation-5-5">我的孩子好像懷孕了！</router-link>
-                  <p class="d-block">家中還有長輩，一定沒有辦法接受，沒有辦法讓他在家裡繼續住下去，該怎麼辦呢？</p>
+                  <router-link to="familyRelation-4-3">如何跟爸媽說懷孕了</router-link>
+                  <p class="d-block">如何跟家長告知及求助？</p>
                 </li>
                 <!-- <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>

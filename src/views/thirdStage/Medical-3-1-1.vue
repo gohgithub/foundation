@@ -60,7 +60,7 @@
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic3.jpg'>
                   <router-link to="medical-4-8">懷孕前的徵兆？</router-link>
-                  <p class="d-block">女兒最近有胸部腫脹、頭痛、反胃、吃很多等狀況，<br>跟懷孕的徵兆很像？這樣是懷孕嗎？<br>還是只是月經快來呢？</p>
+                  <p class="d-block">女兒最近有胸部腫脹、頭痛、<br>反胃、吃很多等狀況，跟懷孕的徵兆很像，<br>這樣是懷孕嗎？還是只是月經快來呢？</p>
                 </li>
                 <!-- <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>

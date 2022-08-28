@@ -34,15 +34,15 @@
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic2.jpg'>
+                  <router-link to="act-4-3">我未滿16歲</router-link>
+                  <p class="d-block">我才14歲，和女友發生性行為後，<br>好像懷孕了怎麼辦…</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="act-4-1">我未滿20歲</router-link>
                   <p class="d-block">女友已經19歲了，可以自己決定要不要生嗎？<br>
                   (112年修正成未滿18)</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="600">
-                  <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="act-4-3">我未滿16歲</router-link>
-                  <p class="d-block">我才14歲，和女友發生性行為後，<br>好像懷孕了怎麼辦…</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <img src='../../assets/image/front/page02_pic2.jpg'>

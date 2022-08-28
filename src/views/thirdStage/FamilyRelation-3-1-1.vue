@@ -25,9 +25,9 @@
           <p class="step-text" data-aos="fade-up">STEP 03</p>
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-          <p class="step-sologan" data-aos="fade-up">或許在發現女兒懷孕的當下，你有千百種想自己處理的念頭，<br>
-          但相信你點到這兒，是否也發現以你自己很難獨自完成，<br>
-          沒關係，讓我們陪你一起來想想辦法！
+          <p class="step-sologan" data-aos="fade-up">我知道身為父母的你有多麼寶貝你的孩子，也沒有預期到這樣的事情會發生，<br>
+          所以有許多的焦慮與擔心，甚至有生氣的情緒，面對孩子無法自己面對，需要你陪著一同處理，也有許多無奈，
+          <br>我們也來看看孩子有哪些擔心與反應…
           </p>
           <div class="container step-box">
             <div class="step-box-inner">
@@ -38,7 +38,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="familyRelation-4-5">我該如何跟孩子討論？</router-link>
-                  <p class="d-block">為什麼孩子不願意說？或是不早點告訴我們(家長)呢？</p>
+                  <p class="d-block">為什麼孩子不願意說？<br>或是不早點告訴我們(家長)呢？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>

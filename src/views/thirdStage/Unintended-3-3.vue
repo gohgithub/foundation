@@ -65,7 +65,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="heartTohearts-4-1-1">三人世界的親密關係</router-link>
+                  <router-link to="heartTohearts-4-1-1">親密關係</router-link>
                   <p>這裡可以打簡短文案，<br>整體比較一致。</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">

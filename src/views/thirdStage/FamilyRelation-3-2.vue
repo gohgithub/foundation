@@ -37,7 +37,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="familyRelation-4-7">父母不同意墮胎</router-link>
-                  <p class="d-block">我真的沒辦法養育小孩，但是我爸媽不願意我拿掉小孩… </p>
+                  <p class="d-block">我真的沒辦法養育小孩，<br>但是我爸媽不願意我拿掉小孩… </p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>

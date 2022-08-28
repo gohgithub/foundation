@@ -48,8 +48,8 @@
                   <img src='../../assets/image/front/page02_pic2.jpg'>
                   <router-link to="mentalCare-5-4">身心狀況量測</router-link>
                   <p class="d-block">
-                    面對懷孕的訊息及接種而來要處理及面對的事情，<br>
-                    你可能有很多未知的恐懼及擔心，這是很正常的！<br>
+                    面對懷孕的訊息及接種而來要處理及面對的事情，
+                    你可能有很多未知的恐懼及擔心，<br>這是很正常的！<br>
                     讓我們來掌握一下你目前的身心狀況吧！</p>
                 </li>
               </ul>

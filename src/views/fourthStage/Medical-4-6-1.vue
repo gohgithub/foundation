@@ -38,7 +38,7 @@
                       <li data-aos="fade-up"  data-aos-delay="500">
                         <img src='../../assets/image/front/page02_pic2.jpg'>
                         <router-link to="unintended-4-2">懷孕超過時間</router-link>
-                        <p class="d-block">女兒懷孕的週數已經超過24週了，該怎麼辦？</p>
+                        <p class="d-block">女兒懷孕的週數已經超過24週了，<br>該怎麼辦？</p>
                       </li>
                       <li data-aos="fade-up" data-aos-delay="700">
                         <img src='../../assets/image/front/page02_pic3.jpg'>

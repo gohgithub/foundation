@@ -6,8 +6,9 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我女兒懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">不知有無懷孕</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-2">我女兒懷孕了</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="#/Unintended-3-1">想把孩子生下來</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">家庭關係</a></li>
           </ol>
         </nav>
       </section>
@@ -22,40 +23,27 @@
           <img class="image3" src="../../assets/image/front/page02_image3.svg">
           <!-- 結束 -->
           <div class="text-box">
-            <p class="step-text" data-aos="fade-up">STEP 02</p>
+            <p class="step-text" data-aos="fade-up">STEP 04</p>
             <h2 class="step-title" data-aos="fade-up">中止・生下</h2>
             <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
-            <p class="step-sologan" data-aos="fade-up">面對不確定性及突發的狀況，我想你一定很緊張及害怕。
-              <br>
-              沒關係，我們陪你一起來確認這件事
-            </p>
+            <p class="step-sologan" data-aos="fade-up">當女兒確定懷孕後，不知道女兒是否和家人坦承了？</p>
           </div>
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜不知女兒(或對方)有無懷孕｜</h2>
+                <h2>｜家庭關係｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="medical-3-1-1">醫療議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
+                  <router-link to="familyRelation-5-5">我的孩子好像懷孕了！</router-link>
+                  <p class="d-block">家中還有長輩，一定沒有辦法接受，沒有辦法讓他在家裡繼續住下去，該怎麼辦呢？</p>
                 </li>
-                <li data-aos="fade-up" data-aos-delay="600">
+                <!-- <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="act-3-1-1">法律議題</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="900">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="familyRelation-3-1-1">家庭關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
-                <li class="d-none" data-aos="fade-up" data-aos-delay="300">
-                  <img src='../../assets/image/front/page02_pic3.jpg'>
-                  <router-link to="fintimacy-3-1">親密關係</router-link>
-                  <p>這裡可以打簡短文案，<br>整體比較一致。</p>
-                </li>
+                  <router-link to="familyRelation-5-1">父母不同意</router-link>
+                  <p class="d-block">男方爸媽很支持生下來，<br> 可是女方爸媽不同意，該怎麼辦？</p>
+                </li> -->
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">
@@ -65,7 +53,25 @@
           </div>
         </div>
       </section>
-      <Circle></Circle>
-    </main>
-  </div>
+      <Consult></Consult>
+        <Circle></Circle>
+      </main>
+    </div>
 </template>
+<script>
+import Consult from '../../components/Consult.vue'
+
+export default {
+  data () {
+    return {
+
+    }
+  },
+  mounted () {
+
+  },
+  components: {
+    Consult
+  }
+}
+</script>
