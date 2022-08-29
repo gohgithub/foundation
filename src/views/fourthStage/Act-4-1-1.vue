@@ -5,10 +5,11 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">首頁</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">法律議題</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">未滿 20 歲</a></li>
+              <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="daughter-2">我女兒懷孕了</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3-1-1">不知道有沒有懷孕</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="act-3-1-1">法律議題</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿20歲</router-link></li>
             </ol>
           </nav>
         </section>

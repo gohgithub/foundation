@@ -5,10 +5,11 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">首頁</a></li>
-                <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">親密關係</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">15 歲可以買避孕藥嗎</a></li>
+              <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="youngdad-2">我女友懷孕了</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="youngdad-3-4">不知道女友有沒有懷孕</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="intimacy-3-1">親密關係</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">15歲可以買避孕藥嗎</router-link></li>
             </ol>
           </nav>
         </section>

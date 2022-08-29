@@ -5,9 +5,10 @@
       <section class="container" data-aos="fade-down" data-aos-delay="500">
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="badge">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">首頁</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#">法律議題</a></li>
+            <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
+            <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3">我不知道該怎麼做</router-link></li>
+            <li class="breadcrumb-item" aria-current="page"><router-link to="medical-3-1">醫療議題</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page"><router-link to="">未成年拿避孕藥會被通報</router-link></li>
           </ol>
         </nav>
       </section>
@@ -30,7 +31,7 @@
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜法律議題｜</h2>
+                <h2>｜未成年拿避孕藥會被通報？｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="600">

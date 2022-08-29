@@ -5,10 +5,11 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">首頁</a></li>
-                <li class="breadcrumb-item"><a href="#/Unintended-2">我意外懷孕了</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">醫療議題</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">懷孕週數怎麼算？</a></li>
+              <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3">我不知道該怎麼做</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="medical-3-1">醫療議題</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">懷孕週數</router-link></li>
             </ol>
           </nav>
         </section>

@@ -5,11 +5,11 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">首頁</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">我意外懷孕了</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">我想要生下來</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="#">經濟需求</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="#">托育問題</a></li>
+              <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-3-1">我想要生下來</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="economy-4-1">經濟需求</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">托育問題</router-link></li>
             </ol>
           </nav>
         </section>
