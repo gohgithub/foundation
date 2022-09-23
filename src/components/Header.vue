@@ -39,7 +39,7 @@
               <img src="../assets/image/front/new_header_logo.svg">
           </a>
           <hr class="header-line">
-          <h1>小蝴蝶資源整合平台</h1>
+          <h1>YOUNG父母諮詢服務平台</h1>
         </div>
         <div class="header-menu">
           <!-- 社群 icon -->
