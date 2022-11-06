@@ -8,8 +8,7 @@
             <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
             <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
             <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3">我不知道該怎麼做</router-link></li>
-            <li class="breadcrumb-item" aria-current="page"><router-link to="medical-3-1">醫療議題</router-link></li>
-            <li class="breadcrumb-item active" aria-current="page"><router-link to="">未成年拿避孕藥會被通報</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page"><router-link to="">法律議題</router-link></li>
           </ol>
         </nav>
       </section>

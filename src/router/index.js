@@ -118,6 +118,11 @@ const routes = [
         component: () => import('../views/thirdStage/Act-3-1-1.vue')
       },
       {
+        path: 'act-3-1-2',
+        name: 'act-3-1-2',
+        component: () => import('../views/thirdStage/Act-3-1-2.vue')
+      },
+      {
         path: 'familyRelation-3-1',
         name: 'familyRelation-3-1',
         component: () => import('../views/thirdStage/FamilyRelation-3-1.vue')
@@ -241,6 +246,16 @@ const routes = [
         path: 'act-4-3-1',
         name: 'act-4-3-1',
         component: () => import('../views/fourthStage/Act-4-3-1.vue')
+      },
+      {
+        path: '',
+        name: 'act-4-3-2',
+        component: () => import('../views/fourthStage/Act-4-3-2.vue')
+      },
+      {
+        path: 'act-4-3-3',
+        name: 'act-4-3-3',
+        component: () => import('../views/fourthStage/Act-4-3-3.vue')
       },
       {
         path: 'act-4-4',
@@ -404,6 +419,11 @@ const routes = [
         component: () => import('../views/fourthStage/Intimacy-4-5.vue')
       },
       {
+        path: 'talking-4-1',
+        name: 'talking-4-1',
+        component: () => import('../views/fourthStage/Talking-4-1.vue')
+      },
+      {
         path: 'unintended-5-1',
         name: 'unintended-5-1',
         component: () => import('../views/fifthStage/Unintended-5-1.vue')
@@ -437,6 +457,11 @@ const routes = [
         path: 'unintended-5-7',
         name: 'unintended-5-7',
         component: () => import('../views/fifthStage/Unintended-5-7.vue')
+      },
+      {
+        path: 'unintended-5-8',
+        name: 'unintended-5-8',
+        component: () => import('../views/fifthStage/Unintended-5-8.vue')
       },
       {
         path: 'familyRelation-5-1',
@@ -587,6 +612,26 @@ const routes = [
         path: 'unintended-6-4',
         name: 'unintended-6-4',
         component: () => import('../views/sixthStage/Unintended-6-4.vue')
+      },
+      {
+        path: 'unintended-6-1-1',
+        name: 'unintended-6-1-1',
+        component: () => import('../views/sixthStage/Unintended-6-1-1.vue')
+      },
+      {
+        path: 'unintended-6-2-1',
+        name: 'unintended-6-2-1',
+        component: () => import('../views/sixthStage/Unintended-6-2-1.vue')
+      },
+      {
+        path: 'unintended-6-3-1',
+        name: 'unintended-6-3-1',
+        component: () => import('../views/sixthStage/Unintended-6-3-1.vue')
+      },
+      {
+        path: 'unintended-6-4-1',
+        name: 'unintended-6-4-1',
+        component: () => import('../views/sixthStage/Unintended-6-4-1.vue')
       },
       // 我女兒懷孕了
       {

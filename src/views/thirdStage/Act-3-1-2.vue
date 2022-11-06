@@ -7,9 +7,8 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
             <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
-            <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3">我不知道該怎麼做</router-link></li>
-            <li class="breadcrumb-item" aria-current="page"><router-link to="medical-3-1">醫療議題</router-link></li>
-            <li class="breadcrumb-item active" aria-current="page"><router-link to="">未成年拿避孕藥會被通報</router-link></li>
+            <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-3-2">我還沒準備好生下來</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page"><router-link to="">法律議題</router-link></li>
           </ol>
         </nav>
       </section>
@@ -37,12 +36,12 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="act-4-3">我未滿16歲</router-link>
+                  <router-link to="act-4-3-2">我未滿16歲</router-link>
                   <p class="d-block">我才14歲，發生性行為後，<br>好像懷孕了怎麼辦…</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-4-1">我未滿20歲</router-link>
+                  <router-link to="act-4-3-3">我未滿20歲</router-link>
                   <p class="d-block">我已經19歲了，可以自己決定要不要生嗎？<br>（112年修正成未滿18歲）</p>
                 </li>
               </ul>

@@ -6,15 +6,16 @@
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
-              <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
-              <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3">我不知道該怎麼做</router-link></li>
-              <li class="breadcrumb-item" aria-current="page"><router-link to="talking-4-1">法律議題</router-link></li>
-              <li class="breadcrumb-item" aria-current="page"><router-link to="act-3-1">未成年拿避孕藥會被通報</router-link></li>
-              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿 20 歲</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="daughter-2">我女兒懷孕了</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-3-1-2">想把孩子生下來</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="act-5-4">無法人工流產，也無法撫養</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-5-8">出養</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">法律規定</router-link></li>
             </ol>
           </nav>
         </section>
 
+        <!-- 主要區塊 -->
         <section class="container step-rwd">
           <div class="step">
             <!-- 裝飾用圖片 -->
@@ -32,7 +33,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜未滿 20 歲｜</h2>
+                  <h2>｜法律規定｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -40,22 +41,16 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <h3>未滿20歲 (112年修正成未滿18歲)</h3>
-                        <ul class="list mb-60">
-                          <li>1.當你未滿20歲(法定成年)前，有關醫療的相關決定，都必須有監護人共同面對。如果你尚未和父母、監護人坦承懷孕，也可以透過社工的服務，陪伴你面對這個家庭協商的過程。</li>
-                          <li>2.若未滿20歲時，父母是有義務負擔子女的行為責任，因為在民法上20歲以前的青少男女都是限制行為能力人，因此他們除了有義務維繫子女的經濟狀況外，也有義務照顧子女在非預期懷孕下所生的小孩。</li>
-                        </ul>
-                      </li>
-
-                      <li><h3>相關法規</h3></li>
-
-                      <li data-aos="fade-up">
-                        <p>(一)生父認領的責任權益與監護議題</p>
-                        <p>依據民法第1065條生父具有認領非婚生子女的權力，一旦認領視同婚生子女，父母共同擁有監護權，法律上生父必須負擔孩子在成年以前的扶養責任，孩子也具有財產繼承的權利。若是不願意共同擁有監護，就必須要再進行「監護權的訴訟」，舉證一方不適合擁有監護權的理由與證據，由法院以孩子最大利益作裁判。 </p>
+                        <h3>我能夠自己決定出養嗎?</h3>
+                        <p>若你未滿20歲，在決定辦理出養時需經過父母或監護人的同意；此外，與你共育此生命的生父亦有行使親權的權力，所以如果生母與生父已經結婚，或生父已經認領小孩時，則程序中必須和生父一起決定；但若未結婚或未認領，就寶寶成長需求的立場，仍期盼能找到生父，一同為寶寶的未來好好討論。</p>
                       </li>
                       <li data-aos="fade-up">
-                        <p>(二)強制生父認領</p>
-                        <p>依據民法1067條，若生父不願意認領負起責任，可以透過法律扶助尋求律師諮詢，蒐集資料作舉證，請求強制認領。</p>
+                        <h3>出養後小孩還是我的小孩嗎?</h3>
+                        <p>在經過法院的裁定後，小孩的親權將轉交給收養家庭，你將不再具有照顧這個小孩的義務以及權力。也就是說從那刻起，將會由收養家庭接手所有的養育責任，擔任起父母的角色，而你不得以任何名義擅自介入收養家庭的生活；而未來的日子裡，如果小孩有任何個人重大決定時，也不需向原生父母報備。如果你有任何特殊需求都應與領有收出養媒合服務許可之機構事先提出，經機構之協助連結與了解評估收養家庭、小孩等預備狀況後，視其狀況安排之。</p>
+                      </li>
+                      <li data-aos="fade-up">
+                        <h3>出養後我還能把小孩要回來嗎?</h3>
+                        <p>若是經由法院裁定後的出養，是無法任意解除的。除非今天你和收養家庭雙方同意並經過法院認可（民法第1080條第1項、第2項參照），才能解除收養家庭的收養關係，恢復生父生母的親權。除此之外，若小孩尚未成年，並在收養家庭受到虐待、棄養，或因犯罪及其他重大事由導致收養家庭無法持續維繫收養關係時，你得以向法院提出，終止收養家庭的收養關係。</p>
                       </li>
                     </ul>
                     <!-- 選項結束 -->

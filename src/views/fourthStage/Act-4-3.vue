@@ -5,11 +5,12 @@
         <section class="container" data-aos="fade-down"  data-aos-delay="500">
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb" class="badge">
             <ol class="breadcrumb">
+              <li class="breadcrumb-item"><router-link to="/">首頁</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="unintended-2">我意外懷孕了</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3">我不知道該怎麼做</router-link></li>
-              <li class="breadcrumb-item" aria-current="page"><router-link to="medical-3-1">醫療議題</router-link></li>
+              <li class="breadcrumb-item" aria-current="page"><router-link to="talking-4-1">法律議題</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="act-3-1">未成年拿避孕藥會被通報</router-link></li>
-              <li class="breadcrumb-item active" aria-current="page"><router-link to="act-3-1">未滿 16 歲</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿 16 歲</router-link></li>
             </ol>
           </nav>
         </section>
