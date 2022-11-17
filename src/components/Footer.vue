@@ -8,8 +8,9 @@
       <div class="container footer-item">
         <div class="w-50 footer-title">
           <a href="#">
-            <img src="../assets/image/front/footer_logo_PC.svg">
+            <img src="../assets/image/front/footer_logo.svg">
           </a>
+          <p>贊助單位：社團法人臺灣臨床藥學會</p>
           <h2 class="pc-none">守護勇敢 | 翩然起舞</h2>
           <hr class="footer-line">
           <h2 class="phone-none">守護勇敢 | 翩然起舞</h2>

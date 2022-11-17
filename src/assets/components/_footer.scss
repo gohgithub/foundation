@@ -5,6 +5,12 @@
         padding-top: 100px;
         display: flex;
         align-items: center;
+        p {
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
     }
     &-line {
         opacity: 1;

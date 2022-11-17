@@ -31,7 +31,7 @@
           <div class="container step-box">
             <div class="step-box-inner">
               <div class="box-title" data-aos="fade-up">
-                <h2>｜未成年拿避孕藥會被通報？｜</h2>
+                <h2>｜法律議題｜</h2>
               </div>
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="600">

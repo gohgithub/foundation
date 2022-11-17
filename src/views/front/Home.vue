@@ -10,7 +10,7 @@
             <img class="banner-circle" src="../../assets/image/front/image_circleword.svg">
             <div class="banner-inner container-inner">
               <div class="banner-head">
-                <img src="../../assets/image/front/new_header_logo.svg">
+                <img src="../../assets/image/front/banner_logo.svg">
                 <h2>守護勇敢 | 翩然起舞</h2>
               </div>
               <h2>是深愛，就值得勇敢<br>

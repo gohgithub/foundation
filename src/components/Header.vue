@@ -35,17 +35,18 @@
     <header class="container header-fixed fixed-top header-rwd" id="header">
       <section class="header" data-aos="fade-down" data-aos-duration="2000">
         <div class="header-logo">
-          <a href="#">
-              <img src="../assets/image/front/new_header_logo.svg">
-          </a>
+          <h1>
+            <a href="#">
+                <img src="../assets/image/front/header_logo.svg">
+            </a>
+          </h1>
           <hr class="header-line">
-          <h1>YOUNG父母諮詢服務平台</h1>
         </div>
         <div class="header-menu">
           <!-- 社群 icon -->
           <ul class="header-menu-social d-flex align-items-center phone-none">
             <li>
-                <a class="d-flex align-items-center" href="https://reurl.cc/Q6mYj0" target="_blank"><img src="../assets/image/front/icon_document_header.svg">
+                <a class="d-flex align-items-center" href="https://www.sfaa.gov.tw/SFAA/Pages/Detail.aspx?nodeid=1208&pid=10314" target="_blank"><img src="../assets/image/front/icon_document_header.svg">
                   <p class="ml-10 me-0">資源下載</p>
                 </a>
             </li>
