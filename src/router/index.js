@@ -7,6 +7,10 @@ const routes = [
     redirect: '/'
   },
   {
+    path: '/test',
+    component: () => import('../views/front/Test.vue'),
+  },
+  {
     path: '/',
     name: 'layout',
     component: () => import('../views/front/Layout.vue'),

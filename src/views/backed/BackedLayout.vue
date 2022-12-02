@@ -42,7 +42,7 @@
             </h4>
             <ul v-if="userData.id !== 55">
               <li>
-                <router-link to="/chatonline">線上聊聊</router-link>
+                <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You">線上聊聊</a>
               </li>
             </ul>
 
@@ -52,7 +52,7 @@
             </h4>
             <ul v-if="userData.id == 55">
               <li>
-                <router-link to="/question">線上聊聊</router-link>
+                <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You" target="_blank">線上聊聊</a>
               </li>
             </ul>
           </div>
