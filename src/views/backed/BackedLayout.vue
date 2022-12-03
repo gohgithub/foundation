@@ -42,7 +42,8 @@
             </h4>
             <ul v-if="userData.id !== 55">
               <li>
-                <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You">線上聊聊</a>
+                <router-link to="chatonline"></router-link>
+                <!-- <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You">線上聊聊</a> -->
               </li>
             </ul>
 
@@ -52,11 +53,12 @@
             </h4>
             <ul v-if="userData.id == 55">
               <li>
-                <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You" target="_blank">線上聊聊</a>
+               <router-link to="chatonline">我想聊聊</router-link>
+                <!-- <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You" target="_blank">線上聊聊</a> -->
               </li>
             </ul>
           </div>
-          <button class="btn btn-danger d-block mt-48" @click="logout" >登出</button>
+          <button class="btn btn-danger d-block mt-48" @click="logout">登出</button>
         </section>
         <router-view></router-view>
       </div>

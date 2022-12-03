@@ -3,8 +3,10 @@
     <h2>線上聊聊</h2>
     <!-- 對話框 -->
     <div class="chatOnline-box">
+      <iframe src="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You" title=""></iframe>
+
       <!-- 自動回覆第一層 -->
-      <div class="admin">
+      <!-- <div class="admin">
         <img src="../../assets/image/backed/member_image_administrator.svg">
         <div>
           <div class="admin-box">
@@ -22,19 +24,19 @@
             <small>{{ firstData.time }}</small>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- 使用者第一層 -->
-      <div class="user" v-if="firstData.stage === 1 || firstData.isClose === true">
+      <!-- <div class="user" v-if="firstData.stage === 1 || firstData.isClose === true">
         <img src="../../assets/image/backed/member_image_user.svg">
         <div class="user-box">
           <h3>
             {{ firstData.user.select }}
           </h3>
         </div>
-      </div>
+      </div> -->
 
       <!-- 自動回覆第二層 -->
-      <div class="admin" v-if="firstData.user.select === '我想要生下來'">
+      <!-- <div class="admin" v-if="firstData.user.select === '我想要生下來'">
         <img src="../../assets/image/backed/member_image_administrator.svg">
         <div>
           <div class="admin-box">
@@ -50,20 +52,20 @@
             <small>{{ secondData.time }}</small>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- 使用者第二層 -->
-      <div class="user" v-if="secondData.stage === 2 || secondData.isClose === true">
+      <!-- <div class="user" v-if="secondData.stage === 2 || secondData.isClose === true">
         <img src="../../assets/image/backed/member_image_user.svg">
         <div class="user-box">
           <h3>
             {{ secondData.user.select }}
           </h3>
         </div>
-      </div>
+      </div> -->
 
       <!-- 自動回覆第三層 -->
-      <div class="admin" v-if="secondData.user.select === '自行撫養'">
+      <!-- <div class="admin" v-if="secondData.user.select === '自行撫養'">
         <img src="../../assets/image/backed/member_image_administrator.svg">
         <div>
           <div class="admin-box">
@@ -79,10 +81,10 @@
             <small>{{ thirdData.time }}</small>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- 留言板 -->
-      <div>
+      <!-- <div>
         <h3 class="text-center dedicated-person">--- 正在轉接專人服務 ---</h3>
         <div class="admin">
           <img src="../../assets/image/backed/member_image_administrator.svg">
@@ -152,12 +154,12 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <div class="send-input">
+    <!-- <div class="send-input">
       <input type="text" placeholder="輸入問題" v-model="newMessage">
       <button class="btn btn-black" type="button" @click="addMessage">送出</button>
-    </div>
+    </div> -->
   </section>
 </template>
 <script>
@@ -286,3 +288,12 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+.chatOnline-box {
+  padding: 15px;
+}
+iframe {
+  height: 100vh;
+}
+</style>
