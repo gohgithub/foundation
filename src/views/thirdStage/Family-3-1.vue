@@ -29,7 +29,7 @@
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜因為有你們，蝴蝶不孤單｜</h2>
+                  <h2>｜因為有你們，YOUNG父母不孤單｜</h2>
                 </div>
                 <div class="step-header">
                   <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>

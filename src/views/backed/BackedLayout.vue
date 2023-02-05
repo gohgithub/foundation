@@ -24,10 +24,10 @@
             </ul>
 
             <!-- 我的歷程 -->
-            <h4 class="d-flex align-items-center pt-15" v-if="userData.id !== 55">
+            <h4 class="d-flex d-none align-items-center pt-15" v-if="userData.id !== 55">
               <img src="../../assets/image/backed/member_icon_2.svg">我的歷程
             </h4>
-            <ul v-if="userData.id !== 55">
+            <ul class="d-none" v-if="userData.id !== 55">
               <li>
                 <router-link to="course">歷程總覽</router-link>
               </li>
@@ -42,7 +42,7 @@
             </h4>
             <ul v-if="userData.id !== 55">
               <li>
-                <router-link to="chatonline"></router-link>
+                <router-link to="chatonline">我想聊聊</router-link>
                 <!-- <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You">線上聊聊</a> -->
               </li>
             </ul>
@@ -54,7 +54,6 @@
             <ul v-if="userData.id == 55">
               <li>
                <router-link to="chatonline">我想聊聊</router-link>
-                <!-- <a href="https://webchat.botframework.com/embed/cmuhtgoh-chatbot-bot20221108/gemini?b=cmuhtgoh-chatbot-bot20221108&s=Qfqlik4yVn0.hAUQEnhRilTXhW2nZK3-MUfhMshssDXZpRBkNOqc_R4&username=You" target="_blank">線上聊聊</a> -->
               </li>
             </ul>
           </div>

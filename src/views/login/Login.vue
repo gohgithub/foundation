@@ -31,7 +31,6 @@
                   <label class="form-check-label">
                     顯示密碼
                   </label>
-                  <router-link to="/forget">我忘記密碼了</router-link>
                 </div>
               </div>
               <button data-aos="fade-up" class="login-btn">登入</button>
@@ -45,7 +44,7 @@
                 <hr class="fastLogin-rightLine">
               </div>
               <ul>
-                <li data-aos="fade-up">
+                <!-- <li data-aos="fade-up">
                   <a class="fb-item" href="#">
                     <i class="fab fa-facebook-f fa-2x fb-icon"></i>
                     <p class="pb-0 fb-text">使用Facebook登入</p>
@@ -56,19 +55,19 @@
                     <img src="../../assets/image/front/icon_google.svg">
                     <p class="pb-0">使用Google登入</p>
                   </a>
-                </li>
-                <li data-aos="fade-up">
-                  <a class="line-item" href="#">
+                </li> -->
+                <li data-aos="fade-up" class="list">
+                  <a class="line-item " @click="lineLogin">
                     <img src="../../assets/image/front/icon_line.svg">
                     <p class="pb-0 line-text">使用Line登入</p>
                   </a>
                 </li>
-                <li data-aos="fade-up" class="list">
+                <!-- <li data-aos="fade-up" class="list">
                   <a class="apple-item" href="#">
                     <i class="fab fa-apple fa-2x apple-icon"></i>
                     <p class="pb-0 apple-text">使用Apple登入</p>
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -230,6 +229,7 @@
 
 <script>
 import $ from 'jquery'
+// import Qs from 'qs'
 
 // 載入驗證規則
 import { defineRule } from 'vee-validate'
@@ -341,6 +341,28 @@ export default {
     changeSignUp () {
       $('.login-left').toggleClass('d-none')
       $('.login-right').toggleClass('d-block')
+    },
+    lineLogin () {
+      // let link = 'https://access.line.me/oauth2/v2.1/authorize?'
+      // link += 'response_type=code'
+      // link += `&client_id=${process.env.VUE_APP_LINE_CHANELL_ID}`
+      // link += `&redirect_uri=${process.env.VUE_APP_LINE_REDIRECT_URL}`
+      // link += '&state=login'
+      // link += '&scope=openid%20profile'
+      // window.location.href = link
+
+      // const option = Qs.stringify({
+      //   grant_type: 'authorization_code',
+      //   code: 'OamJBaBgh8BkUKgS1C6f',
+      //   redirect_uri: process.env.VUE_APP_LINE_REDIRECT_URL,
+      //   client_id: process.env.VUE_APP_LINE_CHANELL_ID,
+      //   client_secret: process.env.VUE_APP_LINE_CHANELL_SECRET
+      // })
+
+      // this.$http.post('https://access.line.me/oauth2/v2.1/token', option, { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } })
+      //   .then((res) => {
+      //     console.log(res)
+      //   })
     }
   },
   watch: {

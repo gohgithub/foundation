@@ -152,13 +152,11 @@ export default {
       duration: 10
     })
   },
-  methods: {
-
-  },
   components: {
     // VideoModal
   },
   created () {
+    console.log(window.location.href)
     // this.$swal('Hello Vue world!!!')
   }
 }

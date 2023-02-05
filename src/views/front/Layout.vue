@@ -10,7 +10,7 @@
       <div class="leftOutline"></div>
       <div class="leftText d-flex phone-none" data-aos="fade-right" data-aos-duration="1500">
         <div class="line"></div>
-        <p>Copyright ©2022 馨援結醫. All rights reserved.</p>
+        <p>Copyright ©2023 馨援結醫. All rights reserved.</p>
       </div>
       <Header></Header>
       <router-view></router-view>

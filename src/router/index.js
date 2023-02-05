@@ -7,10 +7,6 @@ const routes = [
     redirect: '/'
   },
   {
-    path: '/test',
-    component: () => import('../views/front/Test.vue'),
-  },
-  {
     path: '/',
     name: 'layout',
     component: () => import('../views/front/Layout.vue'),
@@ -19,6 +15,10 @@ const routes = [
         path: '/',
         name: 'home',
         component: () => import('../views/front/Home.vue')
+      },
+      {
+        path: '/test',
+        component: () => import('../views/front/Test.vue'),
       },
       {
         path: 'chat',
