@@ -9,7 +9,7 @@
               <li class="breadcrumb-item" aria-current="page"><router-link to="daughter-2">我女兒懷孕了</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3-1-1">不知道有沒有懷孕</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="act-3-1-1">法律議題</router-link></li>
-              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿16歲 或 20歲</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿16歲 或 18歲</router-link></li>
             </ol>
           </nav>
         </section>
@@ -31,7 +31,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜未滿16歲 或 20歲｜</h2>
+                  <h2>｜未滿16歲 或 18歲｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
