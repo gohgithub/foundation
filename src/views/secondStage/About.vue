@@ -21,21 +21,21 @@
             <!-- 結束 -->
             <div class="text-box">
               <p class="step-text" data-aos="fade-up">About</p>
-              <h2 class="step-title" data-aos="fade-up" >關於小蝴蝶</h2>
+              <h2 class="step-title" data-aos="fade-up" >關於我們</h2>
               <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up" >
               <p class="step-sologan" data-aos="fade-up"></p>
             </div>
             <div class="container step-box">
               <div class="select-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜小蝴蝶資源整合平台｜</h2>
+                  <h2>｜YOUNG父母諮詢服務平台｜</h2>
                 </div>
-                <div class="step-header">
+                <!-- <div class="step-header">
                   <img data-aos="fade-up" src='../../assets/image/front/paela_about.png'>
                     <p data-aos="fade-up">
                     </p>
                   <hr data-aos="fade-up">
-                </div>
+                </div> -->
                 <div class="select-menu">
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
@@ -56,7 +56,7 @@
                           勵馨也相信當青少年透過充分的資訊給予及討論，<br />
                           他們有能力可以思考、有權利可以表達意見、並在與重要他人的討論中做出適合自己的生育/養育抉擇。<br /><br />
 
-                          勵馨與中國醫藥大學附設醫院攜手打造「YOUNG父母諮詢整合平台」，<br />
+                          勵馨與中國醫藥大學附設醫院攜手打造「YOUNG父母諮詢服務平台」，<br />
                           站在服務使用者的角色立場，結合來自各界對於議題的資訊提供，<br />
                           創造出對青少年懷孕議題友善的資訊平台，<br />
                           引導使用者在隱私受到保障的前提下安心的跨過抉擇的迷惘，<br />

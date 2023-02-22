@@ -35,8 +35,8 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-4-1">未滿20歲的議題</router-link>
-                  <p class="d-block">我已經19歲了，可以自己決定要不要生嗎？</p>
+                  <router-link to="act-4-1">未滿18歲的議題</router-link>
+                  <p class="d-block">我已經17歲了，可以自己決定要不要生嗎？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
