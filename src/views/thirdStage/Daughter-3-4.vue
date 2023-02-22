@@ -33,7 +33,7 @@
                 </div>
                 <div class="step-header">
                   <img data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
-                    <p data-aos="fade-up">當面臨人生岔路中做出選擇，家人的包容與支持是小媽媽最大的動力，面對此刻的人生考題，家人所給予的也是他們經歷路程的一部分，為小媽媽指向正確的道路，家庭的關係不再疏遠。
+                    <p data-aos="fade-up">當面臨人生岔路中做出選擇，家人的包容與支持是YOUNG父母最大的動力，面對此刻的人生考題，家人所給予的也是他們經歷路程的一部分，為YOUNG父母指向正確的道路，家庭的關係不再疏遠。
                     </p>
                   <hr data-aos="fade-up">
                 </div>
