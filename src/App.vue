@@ -4,7 +4,6 @@
   </div>
 </template>
 <script>
-// 載入 aos 特效
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
