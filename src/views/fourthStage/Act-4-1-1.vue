@@ -9,7 +9,7 @@
               <li class="breadcrumb-item" aria-current="page"><router-link to="daughter-2">我女兒懷孕了</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3-1-1">不知道有沒有懷孕</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="act-3-1-1">法律議題</router-link></li>
-              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿20歲</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿18歲</router-link></li>
             </ol>
           </nav>
         </section>
@@ -39,10 +39,10 @@
                     <!-- 選項開始 -->
                     <ul class="select-item container-inner mt-60">
                       <li data-aos="fade-up">
-                        <h3>未滿20歲 (112年修正成未滿18歲)</h3>
+                        <h3>未滿18歲</h3>
                         <ul class="list mb-60">
-                          <li>1.當小孩未滿20歲(法定成年)前，有關醫療的相關決定，都必須有監護人共同面對。如果小孩尚未和父母、監護人坦承懷孕，也可以透過社工的服務，陪伴孩子面對這個家庭協商的過程。</li>
-                          <li>2.若未滿20歲時，父母是有義務負擔子女的行為責任，因為在民法上20歲以前的青少男女都是限制行為能力人，因此他們除了有義務維繫子女的經濟狀況外，也有義務照顧子女在非預期懷孕下所生的小孩。</li>
+                          <li>1.當小孩未滿18歲(法定成年)前，有關醫療的相關決定，都必須有監護人共同面對。如果小孩尚未和父母、監護人坦承懷孕，也可以透過社工的服務，陪伴孩子面對這個家庭協商的過程。</li>
+                          <li>2.若未滿18歲時，父母是有義務負擔子女的行為責任，因為在民法上18歲以前的青少男女都是限制行為能力人，因此他們除了有義務維繫子女的經濟狀況外，也有義務照顧子女在非預期懷孕下所生的小孩。</li>
                         </ul>
                       </li>
 

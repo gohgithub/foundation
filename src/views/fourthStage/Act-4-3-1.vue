@@ -9,7 +9,7 @@
               <li class="breadcrumb-item" aria-current="page"><router-link to="daughter-2">我女兒懷孕了</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="talking-3-1-1">不知道有沒有懷孕</router-link></li>
               <li class="breadcrumb-item" aria-current="page"><router-link to="act-3-1-1">法律議題</router-link></li>
-              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿16歲 或 20歲</router-link></li>
+              <li class="breadcrumb-item active" aria-current="page"><router-link to="">未滿16歲 或 18歲</router-link></li>
             </ol>
           </nav>
         </section>
@@ -31,7 +31,7 @@
             <div class="container step-box">
               <div class="step-box-inner">
                 <div class="box-title" data-aos="fade-up">
-                  <h2>｜未滿16歲 或 20歲｜</h2>
+                  <h2>｜未滿16歲 或 18歲｜</h2>
                 </div>
                 <div class="select-menu">
                   <img class="mb-60" data-aos="fade-up" src='../../assets/image/front/page02_pic3.jpg'>
@@ -45,7 +45,7 @@
                             另外，即便女兒現在未成年，但有關於生育的決定，監護人和當事人的意見都同等重要，不論要繼續懷孕或是人工流產，都必須取得共同決定。
                             法律上為了保護未滿16歲的青少年們身心健康，規範這個年齡層不適合發生性行為，因此當診所、醫院知道這個狀況，就保護青少年的立場，還是會通知社會局社工人員關懷喔。
                             <br><br>
-                            如果是年滿16歲但未滿20歲的當事人(法定成年)，有關醫療和監護權民法等相關決定，都必須有監護人共同面對。
+                            如果是年滿16歲但未滿18歲的當事人(法定成年)，有關醫療和監護權民法等相關決定，都必須有監護人共同面對。
                             如果監護人和當事人還無法取得共識，也可以透過社工的服務，陪伴您們面對這個家庭協商的過程。
                             <br> <br>
                             未成年懷孕求助網站：<a class="text-success" href="https://257085.sfaa.gov.tw" target="_blank" title="未成年懷孕求助網站">257085.sfaa.gov.tw</a>

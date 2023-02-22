@@ -37,7 +37,7 @@
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
                   <router-link to="familyRelation-4-1">會通報家長嗎？</router-link>
-                  <p class="d-block">我還沒20歲/16歲會不會通報家長？</p>
+                  <p class="d-block">我還沒18歲/16歲會不會通報家長？</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>

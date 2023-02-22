@@ -41,8 +41,8 @@
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <img src='../../assets/image/front/page02_pic1.jpg'>
-                  <router-link to="act-4-3-3">我未滿20歲</router-link>
-                  <p class="d-block">我已經19歲了，可以自己決定要不要生嗎？<br>（112年修正成未滿18歲）</p>
+                  <router-link to="act-4-3-3">我未滿18歲</router-link>
+                  <p class="d-block">我已經17歲了，可以自己決定要不要生嗎？<br>（112年修正成未滿18歲）</p>
                 </li>
               </ul>
               <hr data-aos="fade-up">
