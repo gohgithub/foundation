@@ -21,6 +21,10 @@ const routes = [
         component: () => import('../views/front/Test.vue'),
       },
       {
+        path: '/qa',
+        component: () => import('../views/front/QA.vue')
+      },
+      {
         path: 'chat',
         name: 'chat',
         component: () => import('../views/front/Chat.vue')

@@ -22,6 +22,7 @@
                   </a>
                 </li>
                 <li><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
+                <li><router-link to="/qa">Q&A</router-link></li>
               </ul>
             </div>
           </div>
@@ -35,7 +36,7 @@
         <div class="header-logo">
           <h1>
             <a href="#">
-                <img src="../assets/image/front/header_logo.svg">
+              <img src="../assets/image/front/header_logo.svg">
             </a>
           </h1>
           <hr class="header-line">
@@ -49,7 +50,9 @@
                 </a>
             </li>
             <li>
-                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_header.svg"></a>
+              <router-link to="/qa">
+                <p>Q&A</p>
+              </router-link>
             </li>
           </ul>
           <div class="d-flex align-items-center ml-20">
