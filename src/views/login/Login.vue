@@ -57,7 +57,7 @@
                   </a>
                 </li> -->
                 <li data-aos="fade-up" class="list">
-                  <a class="line-item " @click="lineLogin">
+                  <a class="line-item" @click="lineLogin">
                     <img src="../../assets/image/front/icon_line.svg">
                     <p class="pb-0 line-text">使用Line登入</p>
                   </a>
@@ -77,7 +77,7 @@
           <h3 data-aos="fade-up">會員註冊</h3>
           <p data-aos="fade-up">-Sign up-</p>
           <div class="form-box">
-            <Form v-slot="{ errors }" @submit="onSubmit" autocomplete="off">
+            <Form v-slot="{ errors }" @submit.prevent="onSubmit" autocomplete="off">
               <!-- 手機/Eamil -->
               <label data-aos="fade-up" for="信箱" class="signUp-label rwd-signUp-label">
                 <span class="signUp-span"><span class="text-danger">*</span>Email</span>
@@ -282,7 +282,8 @@ export default {
       },
       config: {
         weekNumbers: true
-      }
+      },
+      query: {}
     }
   },
   components: {
@@ -311,6 +312,7 @@ export default {
       const vm = this
       vm.$http.post('https://iecosystem-api.tomyue.cc/api/register', vm.signUpData).then((res) => {
         if (res.data.success) {
+          console.log(res)
           this.$swal.fire('帳號註冊成功')
         } else {
           console.log(res)
@@ -343,14 +345,14 @@ export default {
       $('.login-right').toggleClass('d-block')
     },
     lineLogin () {
-      // let link = 'https://access.line.me/oauth2/v2.1/authorize?'
+      const link = 'https://iecosystem-api.tomyue.cc/api/line/auth'
       // link += 'response_type=code'
       // link += `&client_id=${process.env.VUE_APP_LINE_CHANELL_ID}`
-      // link += `&redirect_uri=${process.env.VUE_APP_LINE_REDIRECT_URL}`
+      // link += '&redirect_uri=http://localhost:8080/'
       // link += '&state=login'
       // link += '&scope=openid%20profile'
-      // window.location.href = link
-
+      window.location.href = link
+      // this.$route.push({ path: 'LineLogin' })
       // const option = Qs.stringify({
       //   grant_type: 'authorization_code',
       //   code: 'OamJBaBgh8BkUKgS1C6f',
@@ -358,11 +360,6 @@ export default {
       //   client_id: process.env.VUE_APP_LINE_CHANELL_ID,
       //   client_secret: process.env.VUE_APP_LINE_CHANELL_SECRET
       // })
-
-      // this.$http.post('https://access.line.me/oauth2/v2.1/token', option, { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } })
-      //   .then((res) => {
-      //     console.log(res)
-      //   })
     }
   },
   watch: {
@@ -374,6 +371,11 @@ export default {
   },
   mounted () {
     this.window.width = window.innerWidth
+    this.query = this.$route.query
+    if (this.query.token !== '') {
+      console.log('123')
+    }
+    console.log(this.query.token)
   },
   created () {
     localStorage.removeItem('user')

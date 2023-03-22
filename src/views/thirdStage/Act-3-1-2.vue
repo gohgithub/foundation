@@ -26,7 +26,7 @@
           <h2 class="step-title" data-aos="fade-up">責任・承擔</h2>
           <img class="title-line" src="../../assets/image/front/choose_title_line.svg" data-aos="fade-up">
           <p class="step-sologan" data-aos="fade-up">面對可能懷孕的情況，你有足夠了解法律上能夠保護你的資源嗎？
-            <br>(有哪些可以保護你的法律資源？)
+            <br>(有哪些可以保護你的法律資源？？)
           </p>
           <div class="container step-box">
             <div class="step-box-inner">
@@ -36,7 +36,7 @@
               <ul class="step-menu">
                 <li data-aos="fade-up" data-aos-delay="600">
                   <img src='../../assets/image/front/page02_pic2.jpg'>
-                  <router-link to="act-4-3-2">我未滿16歲</router-link>
+                  <router-link to="act-4-3">我未滿16歲</router-link>
                   <p class="d-block">我才14歲，發生性行為後，<br>好像懷孕了怎麼辦…</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">

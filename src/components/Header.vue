@@ -17,7 +17,7 @@
               </ul>
               <ul class="d-flex justify-content-center modal-social">
                 <li>
-                  <a class="d-flex align-items-center rwd-item ps-0" target="_blank" href="https://reurl.cc/Q6mYj0"><img src="../assets/image/front/icon_document_header.svg">
+                  <a class="d-flex align-items-center rwd-item ps-0" target="_blank" href="https://www.sfaa.gov.tw/SFAA/Pages/Detail.aspx?nodeid=1208&pid=10314"><img src="../assets/image/front/icon_document_header.svg">
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
                 </li>

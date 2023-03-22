@@ -763,6 +763,11 @@ const routes = [
         component: () => import('../views/login/Login.vue')
       },
       {
+        path: 'line-login',
+        name: 'line-login',
+        component: () => import('../views/login/LineLogin.vue')
+      },
+      {
         path: 'forget',
         name: 'forget',
         component: () => import('../views/login/ForgetPassword.vue')
