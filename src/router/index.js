@@ -226,6 +226,21 @@ const routes = [
         component: () => import('../views/fourthStage/Medical-4-11.vue')
       },
       {
+        path: 'medical-4-12',
+        name: 'medical-4-12',
+        component: () => import('../views/fourthStage/Medical-4-12.vue')
+      },
+      {
+        path: 'medical-4-14',
+        name: 'medical-4-14',
+        component: () => import('../views/fourthStage/Medical-4-14.vue')
+      },
+      {
+        path: 'medical-4-13',
+        name: 'medical-4-13',
+        component: () => import('../views/fourthStage/Medical-4-13.vue')
+      },
+      {
         path: 'act-4-1',
         name: 'act-4-1',
         component: () => import('../views/fourthStage/Act-4-1.vue')

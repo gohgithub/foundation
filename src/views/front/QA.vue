@@ -85,6 +85,10 @@
                 <h2># 懷孕週數怎麼算？</h2>
                 <p>從上次的經期結束最後一天開始推算。</p>
               </li>
+              <li>
+                <h2># 了解更多避孕方式</h2>
+                <p><a href="https://www.beok.org.tw/other-method/" target="_blank">>> 避孕諮詢室</a></p>
+              </li>
             </ul>
           </div>
         </div>

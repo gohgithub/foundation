@@ -83,6 +83,16 @@
                   <router-link to="medical-4-11">假性月經是什麼？</router-link>
                   <p class="d-block">我月經都有來？這樣還會懷孕嗎？</p>
                 </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="medical-4-12">有哪些避孕方法呢？</router-link>
+                  <p class="d-block">我月經都有來？這樣還會懷孕嗎？</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <img src='../../assets/image/front/page02_pic1.jpg'>
+                  <router-link to="medical-4-13">正確使用口服避孕藥</router-link>
+                  <p class="d-block">我月經都有來？這樣還會懷孕嗎？</p>
+                </li>
               </ul>
               <hr data-aos="fade-up">
               <div data-aos="fade-up">

@@ -21,7 +21,7 @@
                     <p class="ml-10 me-0 modal-text">資源下載</p>
                   </a>
                 </li>
-                <li><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li>
+                <!-- Line機器人 <li><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=637rlwfd" target="_blank"><img src="../assets/image/front/icon_line_menu.svg"></a></li> -->
                 <li><router-link to="/qa">Q&A</router-link></li>
               </ul>
             </div>
