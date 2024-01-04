@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="组_136" data-name="组 136" transform="translate(-6708 -2659)">
+    <circle id="椭圆_54" data-name="椭圆 54" cx="60" cy="60" r="60" transform="translate(6708 2659)" fill="#fce364"/>
+    <g id="组_131" data-name="组 131" transform="translate(6743.317 2697.318)">
+      <path id="路径_563" data-name="路径 563" d="M39,118.565c.552,7.7,4.412,16.954,12.443,24.979s17.292,11.881,25,12.433c2.639.189,9.739-5.15,11.042-9,.944-2.787.65-4.673-1.918-6l-6.04-3.254c-1.471-.792-2.616-.219-3.881,1.522-2.782,3.824-4.131,4.58-7.543,2.676a36.8,36.8,0,0,1-8.324-6.745,36.759,36.759,0,0,1-6.75-8.319c-1.905-3.409-1.149-4.758,2.676-7.537,1.744-1.265,2.317-2.407,1.523-3.878l-3.256-6.035c-1.331-2.567-3.217-2.861-6.007-1.917C44.122,108.794,38.816,115.928,39,118.565Z" transform="translate(-39 -107)" fill="none" stroke="#2f3031" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="直线_198" data-name="直线 198" x2="7" y2="11" transform="translate(7.683 1.683)" fill="none" stroke="#2f3031" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="直线_199" data-name="直线 199" x2="11" y2="7" transform="translate(36.683 33.683)" fill="none" stroke="#2f3031" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

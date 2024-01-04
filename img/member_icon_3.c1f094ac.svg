@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-画板_3">
+      <rect width="34" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="画板_3" data-name="画板 – 3" clip-path="url(#clip-画板_3)">
+    <path id="路径_580" data-name="路径 580" d="M1708.322,1272h-19.864a.875.875,0,0,0-.875.875v11.809a.875.875,0,0,0,.875.875h2.807v4.374l4.374-4.374h12.684a.875.875,0,0,0,.875-.875v-11.809A.875.875,0,0,0,1708.322,1272Z" transform="translate(-1681.584 -1264)" fill="#fce38c"/>
+  </g>
+</svg>
